@@ -11,3 +11,5 @@ add_executable(SpiralMatrix SpiralMatrix.cpp)
 
 add_executable(Demo Demo.cpp)
 add_executable(Trial Trial.cpp)
+add_executable(Start Start.cpp)
+add_executable(NullifyMatrix NullifyMatrix.cpp)
