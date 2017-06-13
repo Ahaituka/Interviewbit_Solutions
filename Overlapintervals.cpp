@@ -10,14 +10,9 @@ struct Interval {
     Interval(int s, int e) : start(s), end(e) {}
 };
 
-
-
 bool myCmp(Interval a, Interval b) {
     return a.start < b.start;
 }
-
-
-
 
 vector<Interval> overlap(vector<Interval> &intervals) {
     if(intervals.size() <= 1) {
@@ -42,8 +37,6 @@ vector<Interval> overlap(vector<Interval> &intervals) {
     intervals.erase(intervals.begin() + first + 1, intervals.end());
     return intervals;
 }
-
-
 
 int main(int argc, char**argv)
 {
