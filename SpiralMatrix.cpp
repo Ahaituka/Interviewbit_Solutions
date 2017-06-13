@@ -1,47 +1,121 @@
-class Solution {
-public:
-    vector<int> spiralOrder(const vector<vector<int> > &matrix) {
-        int rows = matrix.size();
-        if (rows == 0) return vector<int> ();
-        int cols = matrix[0].size();
-        int row = 0, col = 0, layer = 0;
-        vector<int> res;
-        res.push_back(matrix[0][0]);
-        int dir = 1;
-        for (int step = 1; step < rows * cols; step++) {
-            switch(dir) { // based on dir, check and change dir, then move on
-                case 1: // supposed to go right
-                    if (col == cols - layer - 1) { // reach right bound
-                        row++;
-                        dir = 2;
-                    }
-                    else col++;
-                    break;
-                case 2: // supposed to go down
-                    if (row == rows - layer - 1) { // reach downside bound
-                        col--;
-                        dir = 3;
-                    }
-                    else row++;
-                    break;
-                case 3: // supposed to go left
-                    if (col == layer) { // reach left bound
-                        row--;
-                        dir = 4;
-                    }
-                    else col--;
-                    break;
-                case 4: // supposed to go up
-                    if (row == layer + 1) { // reach upside bound
-                        col++;
-                        dir = 1;
-                        layer++;
-                    }
-                    else row--;
-                    break;
-            }
-            res.push_back(matrix[row][col]);
+
+#include <stdio.h>
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+
+vector<int> spiralMatrix(vector<vector<int> > &matrix) {
+    int l = 0;
+    int t = 0;
+    int b = matrix.size() - 1;
+    int r = matrix[0].size() - 1;
+    vector<int> v;
+    if (r <= 0) {
+        v.push_back(matrix[0][0]);
+        return v;
+    };
+    if (b <= 0) {
+        for (int i = 0; i <= r; i++) {
+            v.push_back(matrix[0][i]);
         }
-        return res;
+
+        return v;
     }
-};
+
+    int dir = 0;
+    while (t <= b && l <= r) {
+        if (dir == 0) {
+            for (int i = l; i <= r; ++i) {
+
+                v.push_back(matrix[t][i]);
+
+
+            }
+            t++;
+            dir = 1;
+
+        }
+        if (dir == 1) {
+            for (int i = t; i <= b; ++i) {
+                v.push_back(matrix[i][r]);
+            }
+            r--;
+            dir = 2;
+
+        }
+        if (dir == 2) {
+            for (int i = r; i >= l; --i) {
+                v.push_back(matrix[b][i]);
+
+
+            }
+            b--;
+            dir = 3;
+
+        }
+        if (dir == 3) {
+            for (int i = b; i >= t; i--) {
+                v.push_back(matrix[i][l]);
+            }
+            l++;
+            dir = 0;
+        }
+    }
+    return v;
+}
+
+
+void printArray(vector<int> v) {
+    cout << "[";
+    for (int j = 0; j < v.size(); j++) {
+        printf(" %02d", v[j]);
+    }
+    cout << "]" << endl;;
+}
+
+void printMatrix(vector<vector<int> > &vv) {
+    for (int i = 0; i < vv.size(); i++) {
+        printArray(vv[i]);
+    }
+    cout << endl;
+}
+
+vector<vector<int> > createMatrix(int n, int m) {
+    vector<vector<int> > vv;
+    int strt = 1;
+    for (int i = 0; i < m; i++) {
+        vector<int> v;
+        for (int j = 0; j < n; j++) {
+            v.push_back(strt++);
+        }
+        vv.push_back(v);
+    }
+
+    return vv;
+}
+
+
+vector<vector<int> > Create2d(int m, int n) {
+    vector<vector<int> > vv;
+    for (int i = 0; i < m; ++i) {
+        vector<int> v;
+        for (int j = 0; j < n; ++j) {
+
+            v.push_back(j);
+        }
+        vv.push_back(v);
+    }
+    return vv;
+}
+
+int main() {
+    int n = 5, m = 4;
+
+    vector<vector<int> > matrix = createMatrix(n, m);
+    printMatrix(matrix);
+    vector<int> v = spiralMatrix(matrix);
+    printArray(v);
+    return 0;
+}
