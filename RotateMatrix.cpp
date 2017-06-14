@@ -37,7 +37,7 @@ Then the rotated array becomes:
 
 using namespace std;
 
-void rotate(vector<vector<int> > &matrix) {
+void rotateclock(vector<vector<int> > &matrix) {
 
     unsigned long len = matrix.size();
     for (int i = 0; i < len / 2; i++) {
@@ -53,6 +53,25 @@ void rotate(vector<vector<int> > &matrix) {
         }
     }
 }
+
+
+void rotatecounter(vector<vector<int> > &matrix) {
+    int len = matrix.size();
+    for (int i = 0; i < len / 2; i++) {
+        int x = len - i - 1;
+        int y = x;
+        for (int j = i; j < x; j++) {
+            int tmp = matrix[i][j];
+            matrix[i][j] = matrix[j][x];
+            matrix[i][x] = matrix[x][y];
+            matrix[x][y] = matrix[y][i];
+            matrix[y][i] = tmp;
+            y--;
+
+        }
+    }
+}
+
 
 
 void printArray(vector<int> v) {
@@ -121,7 +140,7 @@ int main(int argc, char **argv) {
 //    flip_rows(matrix);
     //printMatrix(matrix);
 
-    rotate(matrix); // 2nd method
+    rotateclock(matrix); // 2nd method
     printMatrix(matrix);
     return 0;
 }
