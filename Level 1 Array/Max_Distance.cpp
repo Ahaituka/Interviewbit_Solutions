@@ -13,6 +13,12 @@ int min(int x, int y) {
 }
 
 int max_distance(vector<int> arr) {
+
+    if (arr.size() == 1) {
+        return 1;
+
+    }
+
     int maxDiff;
     int i, j;
     //LMin[0] = arr[0];
