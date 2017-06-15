@@ -14,3 +14,5 @@ add_executable(firstMissingPositive firstMissingPositive.cpp)
 add_executable(Sample Sample.cpp)
 add_executable(Coverpoint Coverpoint.cpp)
 add_executable(rotate RotateMatrix.cpp)
+
+add_executable(Max_Distance Max_Distance.cpp)
