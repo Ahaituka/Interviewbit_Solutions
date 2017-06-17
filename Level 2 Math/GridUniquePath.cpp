@@ -54,7 +54,7 @@ int nCrpascal(int n, int r)
 int main()
 {
 int m =3,n=3;
-  cout<< ncr(4, 3);
+  cout<< ncr(m+n-2, n-1);
 
 }
 
