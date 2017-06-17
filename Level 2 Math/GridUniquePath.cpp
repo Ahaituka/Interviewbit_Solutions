@@ -28,15 +28,16 @@ unsigned ncr(unsigned n, unsigned k)
 {
     if (k > n) return 0;
     if (k * 2 > n)
-        return k = n-k;
+         k = n-k;
     if (k == 0) return 1;
     int result = n;
     for( int i = 2; i <= k; ++i ) {
-        result *= (n-i+1);
+        result *= (--n);
         result /= i;
     }
     return result;
 }
+
 
 int nCrpascal(int n, int r)
 {
@@ -51,9 +52,11 @@ int nCrpascal(int n, int r)
     return C[r];
 }
 
+
+
 int main()
 {
-int m =3,n=3;
+int m =9,n=10;
   cout<< ncr(m+n-2, n-1);
 
 }

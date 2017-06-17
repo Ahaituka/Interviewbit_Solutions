@@ -149,6 +149,19 @@ Coverpoint/fast:
 .PHONY : Coverpoint/fast
 
 #=============================================================================
+# Target rules for targets named GridUniquePath
+
+# Build rule for target.
+GridUniquePath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 GridUniquePath
+.PHONY : GridUniquePath
+
+# fast build rule for target.
+GridUniquePath/fast:
+	$(MAKE) -f CMakeFiles\GridUniquePath.dir\build.make CMakeFiles/GridUniquePath.dir/build
+.PHONY : GridUniquePath/fast
+
+#=============================================================================
 # Target rules for targets named GCD
 
 # Build rule for target.
@@ -282,6 +295,33 @@ Level_2_Math/GCD.cpp.s:
 	$(MAKE) -f CMakeFiles\GCD.dir\build.make CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.s
 .PHONY : Level_2_Math/GCD.cpp.s
 
+Level_2_Math/GridUniquePath.obj: Level_2_Math/GridUniquePath.cpp.obj
+
+.PHONY : Level_2_Math/GridUniquePath.obj
+
+# target to build an object file
+Level_2_Math/GridUniquePath.cpp.obj:
+	$(MAKE) -f CMakeFiles\GridUniquePath.dir\build.make CMakeFiles/GridUniquePath.dir/Level_2_Math/GridUniquePath.cpp.obj
+.PHONY : Level_2_Math/GridUniquePath.cpp.obj
+
+Level_2_Math/GridUniquePath.i: Level_2_Math/GridUniquePath.cpp.i
+
+.PHONY : Level_2_Math/GridUniquePath.i
+
+# target to preprocess a source file
+Level_2_Math/GridUniquePath.cpp.i:
+	$(MAKE) -f CMakeFiles\GridUniquePath.dir\build.make CMakeFiles/GridUniquePath.dir/Level_2_Math/GridUniquePath.cpp.i
+.PHONY : Level_2_Math/GridUniquePath.cpp.i
+
+Level_2_Math/GridUniquePath.s: Level_2_Math/GridUniquePath.cpp.s
+
+.PHONY : Level_2_Math/GridUniquePath.s
+
+# target to generate assembly for a file
+Level_2_Math/GridUniquePath.cpp.s:
+	$(MAKE) -f CMakeFiles\GridUniquePath.dir\build.make CMakeFiles/GridUniquePath.dir/Level_2_Math/GridUniquePath.cpp.s
+.PHONY : Level_2_Math/GridUniquePath.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -318,6 +358,7 @@ help:
 	@echo ... ExcelColumnNumber
 	@echo ... InterviewBit
 	@echo ... Coverpoint
+	@echo ... GridUniquePath
 	@echo ... GCD
 	@echo ... ExcelColumnTitle
 	@echo ... edit_cache
@@ -334,6 +375,9 @@ help:
 	@echo ... Level_2_Math/GCD.obj
 	@echo ... Level_2_Math/GCD.i
 	@echo ... Level_2_Math/GCD.s
+	@echo ... Level_2_Math/GridUniquePath.obj
+	@echo ... Level_2_Math/GridUniquePath.i
+	@echo ... Level_2_Math/GridUniquePath.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
