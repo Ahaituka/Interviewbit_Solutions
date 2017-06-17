@@ -1,5 +1,4 @@
-/* 
- Given a positive integer, return its corresponding column title as appear in an Excel sheet.
+/*  Given a positive integer, return its corresponding column title as appear in an Excel sheet.
 
 For example:
 
@@ -23,8 +22,10 @@ string result(int  n) {
     string x;
     while (n > 0)
     {
-        x.push_back(char((n) % 26 + 64));
-        n = n / 26;
+
+            x.push_back(char((n-1) % 26 + 65));
+            n=(n-1)/26;
+
     }
     reverse(x.begin(), x.end());
     return x;
@@ -32,6 +33,6 @@ string result(int  n) {
  int main()
 {
     string s ="AB";
-    cout<<result(28);
+    cout<<result(943566);
 
 }
