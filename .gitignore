@@ -82,3 +82,4 @@ cmake-build-debug/CMakeFiles/Makefile2
 cmake-build-debug/Makefile
 *.cbp
 *.txt
+.DS_Store
