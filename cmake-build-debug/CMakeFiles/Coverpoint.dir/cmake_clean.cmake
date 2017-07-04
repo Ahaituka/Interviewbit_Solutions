@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Coverpoint.dir/Level_2_Array/Coverpoint.cpp.obj"
+  "CMakeFiles/Coverpoint.dir/Level_2_Array/Coverpoint.cpp.o"
   "Coverpoint.pdb"
-  "Coverpoint.exe"
-  "Coverpoint.exe.manifest"
-  "libCoverpoint.dll.a"
+  "Coverpoint"
 )
 
 # Per-language clean rules from dependency scanning.

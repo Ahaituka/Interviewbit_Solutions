@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/InterviewBit.dir/main.cpp.obj"
+  "CMakeFiles/InterviewBit.dir/main.cpp.o"
   "InterviewBit.pdb"
-  "InterviewBit.exe"
-  "InterviewBit.exe.manifest"
-  "libInterviewBit.dll.a"
+  "InterviewBit"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Shubham/CLionProjects/Interviewbit_Solutions/Level 2 Array/Coverpoint.cpp" "C:/Users/Shubham/CLionProjects/Interviewbit_Solutions/cmake-build-debug/CMakeFiles/Coverpoint.dir/Level_2_Array/Coverpoint.cpp.obj"
+  "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2 Array/Coverpoint.cpp" "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles/Coverpoint.dir/Level_2_Array/Coverpoint.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

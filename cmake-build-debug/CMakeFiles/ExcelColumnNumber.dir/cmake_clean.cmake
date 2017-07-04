@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.obj"
+  "CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o"
   "ExcelColumnNumber.pdb"
-  "ExcelColumnNumber.exe"
-  "ExcelColumnNumber.exe.manifest"
-  "libExcelColumnNumber.dll.a"
+  "ExcelColumnNumber"
 )
 
 # Per-language clean rules from dependency scanning.
