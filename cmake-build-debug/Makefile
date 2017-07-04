@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Search
+
+# Build rule for target.
+Search: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Search
+.PHONY : Search
+
+# fast build rule for target.
+Search/fast:
+	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/build
+.PHONY : Search/fast
+
+#=============================================================================
 # Target rules for targets named RotatedArray
 
 # Build rule for target.
@@ -200,19 +213,6 @@ PalindromeInteger: cmake_check_build_system
 PalindromeInteger/fast:
 	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/build
 .PHONY : PalindromeInteger/fast
-
-#=============================================================================
-# Target rules for targets named HamingDistance
-
-# Build rule for target.
-HamingDistance: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HamingDistance
-.PHONY : HamingDistance
-
-# fast build rule for target.
-HamingDistance/fast:
-	$(MAKE) -f CMakeFiles/HamingDistance.dir/build.make CMakeFiles/HamingDistance.dir/build
-.PHONY : HamingDistance/fast
 
 #=============================================================================
 # Target rules for targets named ExcelColumnTitle
@@ -416,6 +416,33 @@ Level_3/Binary_Search/RotatedArray.cpp.s:
 	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/Level_3/Binary_Search/RotatedArray.cpp.s
 .PHONY : Level_3/Binary_Search/RotatedArray.cpp.s
 
+Level_3/Binary_Search/Search.o: Level_3/Binary_Search/Search.cpp.o
+
+.PHONY : Level_3/Binary_Search/Search.o
+
+# target to build an object file
+Level_3/Binary_Search/Search.cpp.o:
+	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/Level_3/Binary_Search/Search.cpp.o
+.PHONY : Level_3/Binary_Search/Search.cpp.o
+
+Level_3/Binary_Search/Search.i: Level_3/Binary_Search/Search.cpp.i
+
+.PHONY : Level_3/Binary_Search/Search.i
+
+# target to preprocess a source file
+Level_3/Binary_Search/Search.cpp.i:
+	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/Level_3/Binary_Search/Search.cpp.i
+.PHONY : Level_3/Binary_Search/Search.cpp.i
+
+Level_3/Binary_Search/Search.s: Level_3/Binary_Search/Search.cpp.s
+
+.PHONY : Level_3/Binary_Search/Search.s
+
+# target to generate assembly for a file
+Level_3/Binary_Search/Search.cpp.s:
+	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/Level_3/Binary_Search/Search.cpp.s
+.PHONY : Level_3/Binary_Search/Search.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -450,6 +477,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Search"
 	@echo "... RotatedArray"
 	@echo "... GridUniquePath"
 	@echo "... GCD"
@@ -458,7 +486,6 @@ help:
 	@echo "... ExcelColumnNumber"
 	@echo "... Coverpoint"
 	@echo "... PalindromeInteger"
-	@echo "... HamingDistance"
 	@echo "... ExcelColumnTitle"
 	@echo "... Level_2_Array/Coverpoint.o"
 	@echo "... Level_2_Array/Coverpoint.i"
@@ -481,6 +508,9 @@ help:
 	@echo "... Level_3/Binary_Search/RotatedArray.o"
 	@echo "... Level_3/Binary_Search/RotatedArray.i"
 	@echo "... Level_3/Binary_Search/RotatedArray.s"
+	@echo "... Level_3/Binary_Search/Search.o"
+	@echo "... Level_3/Binary_Search/Search.i"
+	@echo "... Level_3/Binary_Search/Search.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -19,6 +19,8 @@ Lets look at how we can calculate the number of times the array is rotated.
 
 #include <iostream>
 #include <vector>
+#include <list>
+
 
 using namespace std;
 
@@ -30,6 +32,12 @@ using namespace std;
 //    cout << "]" << endl;;
 //}
 
+
+int find(vector<int> &A, int target) {
+    auto it = std::find(A.begin(), A.end(), target);
+    auto index = std::distance(A.begin(), it);
+    return index;
+}
 
 int findMin(const vector<int> &A) {
 //    return  *min_element(A.begin(),A.end());
@@ -61,5 +69,5 @@ int main() {
                      99785, 350, 2563, 3075, 3161, 3519, 4176, 4371, 5885, 6054, 6495, 7218, 7734, 9235, 11899, 13070,
                      14002, 16258, 16309, 16461, 17338, 19141, 19526, 21256, 21507, 21945, 22753, 25029, 25524, 27311,
                      27609, 28217, 30854, 32721, 33184, 34190, 35040, 35753, 36144, 37342};
-    cout << findMin(A);
+    cout << find(A, 350);
 }
