@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named index_Search_For_A_Range
+
+# Build rule for target.
+index_Search_For_A_Range: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 index_Search_For_A_Range
+.PHONY : index_Search_For_A_Range
+
+# fast build rule for target.
+index_Search_For_A_Range/fast:
+	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/build
+.PHONY : index_Search_For_A_Range/fast
+
+#=============================================================================
 # Target rules for targets named SquareRoot
 
 # Build rule for target.
@@ -483,6 +496,33 @@ Level_3/Binary_Search/SquareRoot.cpp.s:
 	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/Level_3/Binary_Search/SquareRoot.cpp.s
 .PHONY : Level_3/Binary_Search/SquareRoot.cpp.s
 
+Level_3/Binary_Search/index_Search_For_A_Range.o: Level_3/Binary_Search/index_Search_For_A_Range.cpp.o
+
+.PHONY : Level_3/Binary_Search/index_Search_For_A_Range.o
+
+# target to build an object file
+Level_3/Binary_Search/index_Search_For_A_Range.cpp.o:
+	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/Level_3/Binary_Search/index_Search_For_A_Range.cpp.o
+.PHONY : Level_3/Binary_Search/index_Search_For_A_Range.cpp.o
+
+Level_3/Binary_Search/index_Search_For_A_Range.i: Level_3/Binary_Search/index_Search_For_A_Range.cpp.i
+
+.PHONY : Level_3/Binary_Search/index_Search_For_A_Range.i
+
+# target to preprocess a source file
+Level_3/Binary_Search/index_Search_For_A_Range.cpp.i:
+	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/Level_3/Binary_Search/index_Search_For_A_Range.cpp.i
+.PHONY : Level_3/Binary_Search/index_Search_For_A_Range.cpp.i
+
+Level_3/Binary_Search/index_Search_For_A_Range.s: Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
+
+.PHONY : Level_3/Binary_Search/index_Search_For_A_Range.s
+
+# target to generate assembly for a file
+Level_3/Binary_Search/index_Search_For_A_Range.cpp.s:
+	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
+.PHONY : Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -517,6 +557,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... index_Search_For_A_Range"
 	@echo "... SquareRoot"
 	@echo "... GridUniquePath"
 	@echo "... Search"
@@ -555,6 +596,9 @@ help:
 	@echo "... Level_3/Binary_Search/SquareRoot.o"
 	@echo "... Level_3/Binary_Search/SquareRoot.i"
 	@echo "... Level_3/Binary_Search/SquareRoot.s"
+	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.o"
+	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.i"
+	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
