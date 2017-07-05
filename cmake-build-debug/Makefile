@@ -189,6 +189,19 @@ GCD/fast:
 .PHONY : GCD/fast
 
 #=============================================================================
+# Target rules for targets named Power
+
+# Build rule for target.
+Power: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Power
+.PHONY : Power
+
+# fast build rule for target.
+Power/fast:
+	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/build
+.PHONY : Power/fast
+
+#=============================================================================
 # Target rules for targets named InterviewBit
 
 # Build rule for target.
@@ -415,6 +428,33 @@ Level_2_Math/PalindromeInteger.cpp.s:
 	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/Level_2_Math/PalindromeInteger.cpp.s
 .PHONY : Level_2_Math/PalindromeInteger.cpp.s
 
+Level_3/Binary_Search/Power.o: Level_3/Binary_Search/Power.cpp.o
+
+.PHONY : Level_3/Binary_Search/Power.o
+
+# target to build an object file
+Level_3/Binary_Search/Power.cpp.o:
+	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/Level_3/Binary_Search/Power.cpp.o
+.PHONY : Level_3/Binary_Search/Power.cpp.o
+
+Level_3/Binary_Search/Power.i: Level_3/Binary_Search/Power.cpp.i
+
+.PHONY : Level_3/Binary_Search/Power.i
+
+# target to preprocess a source file
+Level_3/Binary_Search/Power.cpp.i:
+	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/Level_3/Binary_Search/Power.cpp.i
+.PHONY : Level_3/Binary_Search/Power.cpp.i
+
+Level_3/Binary_Search/Power.s: Level_3/Binary_Search/Power.cpp.s
+
+.PHONY : Level_3/Binary_Search/Power.s
+
+# target to generate assembly for a file
+Level_3/Binary_Search/Power.cpp.s:
+	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/Level_3/Binary_Search/Power.cpp.s
+.PHONY : Level_3/Binary_Search/Power.cpp.s
+
 Level_3/Binary_Search/RotatedArray.o: Level_3/Binary_Search/RotatedArray.cpp.o
 
 .PHONY : Level_3/Binary_Search/RotatedArray.o
@@ -564,6 +604,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... RotatedArray"
 	@echo "... GCD"
+	@echo "... Power"
 	@echo "... InterviewBit"
 	@echo "... ExcelColumnNumber"
 	@echo "... Coverpoint"
@@ -587,6 +628,9 @@ help:
 	@echo "... Level_2_Math/PalindromeInteger.o"
 	@echo "... Level_2_Math/PalindromeInteger.i"
 	@echo "... Level_2_Math/PalindromeInteger.s"
+	@echo "... Level_3/Binary_Search/Power.o"
+	@echo "... Level_3/Binary_Search/Power.i"
+	@echo "... Level_3/Binary_Search/Power.s"
 	@echo "... Level_3/Binary_Search/RotatedArray.o"
 	@echo "... Level_3/Binary_Search/RotatedArray.i"
 	@echo "... Level_3/Binary_Search/RotatedArray.s"

@@ -2,17 +2,18 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="InterviewBit" targetName="InterviewBit" />
+      <config projectName="InterviewBit" targetName="Power" />
       <config projectName="InterviewBit" targetName="RotatedArray" />
-      <config projectName="InterviewBit" targetName="GridUniquePath" />
       <config projectName="InterviewBit" targetName="Search" />
       <config projectName="InterviewBit" targetName="PalindromeInteger" />
-      <config projectName="InterviewBit" targetName="GCD" />
-      <config projectName="InterviewBit" targetName="index_Search_For_A_Range" />
       <config projectName="InterviewBit" targetName="SquareRoot" />
-      <config projectName="InterviewBit" targetName="Coverpoint" />
-      <config projectName="InterviewBit" targetName="ExcelColumnNumber" />
+      <config projectName="InterviewBit" targetName="index_Search_For_A_Range" />
       <config projectName="InterviewBit" targetName="ExcelColumnTitle" />
+      <config projectName="InterviewBit" targetName="GridUniquePath" />
+      <config projectName="InterviewBit" targetName="InterviewBit" />
+      <config projectName="InterviewBit" targetName="ExcelColumnNumber" />
+      <config projectName="InterviewBit" targetName="GCD" />
+      <config projectName="InterviewBit" targetName="Coverpoint" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -21,9 +22,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd8f9077-4cc4-4ae7-9f6f-15979f802935" name="Default" comment="Square Root.cpp">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Binary Search/index_Search_For_A_Range.cpp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Level 3/Binary Search/Search For A Range.cpp" afterPath="" />
+    <list default="true" id="bd8f9077-4cc4-4ae7-9f6f-15979f802935" name="Default" comment="Power.cpp">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Binary Search/Power.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
@@ -44,14 +44,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index_Search_For_A_Range.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/index_Search_For_A_Range.cpp">
+      <file leaf-file-name="Power.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Power.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1705">
-              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-              <folding>
-                <element signature="e#352#371#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,6 +81,7 @@
         <option value="$PROJECT_DIR$/Level 3/Binary Search/Search For A Range.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Level 3/Binary Search/index_Search_For_A_Range.cpp" />
+        <option value="$PROJECT_DIR$/Level 3/Binary Search/Power.cpp" />
       </list>
     </option>
   </component>
@@ -185,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.index_Search_For_A_Range">
+  <component name="RunManager" selected="Application.Power">
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -400,6 +399,10 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Power" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="Power" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="Power">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="RotatedArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="RotatedArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="RotatedArray">
       <envs />
       <method />
@@ -420,7 +423,7 @@
       <envs />
       <method />
     </configuration>
-    <list size="13">
+    <list size="14">
       <item index="0" class="java.lang.String" itemvalue="Application.Coverpoint" />
       <item index="1" class="java.lang.String" itemvalue="Application.ExcelColumnNumber" />
       <item index="2" class="java.lang.String" itemvalue="Application.ExcelColumnTitle" />
@@ -429,11 +432,12 @@
       <item index="5" class="java.lang.String" itemvalue="Application.index_Search_For_A_Range" />
       <item index="6" class="java.lang.String" itemvalue="Application.InterviewBit" />
       <item index="7" class="java.lang.String" itemvalue="Application.PalindromeInteger" />
-      <item index="8" class="java.lang.String" itemvalue="Application.RotatedArray" />
-      <item index="9" class="java.lang.String" itemvalue="Application.Search" />
-      <item index="10" class="java.lang.String" itemvalue="Application.SquareRoot" />
-      <item index="11" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="12" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Power" />
+      <item index="9" class="java.lang.String" itemvalue="Application.RotatedArray" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Search" />
+      <item index="11" class="java.lang.String" itemvalue="Application.SquareRoot" />
+      <item index="12" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="13" class="java.lang.String" itemvalue="Application.Build All" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -452,7 +456,8 @@
       <workItem from="1497713846456" duration="2002000" />
       <workItem from="1497715973240" duration="2984000" />
       <workItem from="1499136290893" duration="20185000" />
-      <workItem from="1499196141518" duration="11962000" />
+      <workItem from="1499196141518" duration="14010000" />
+      <workItem from="1499277928974" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="Rotated Array.cpp">
       <created>1499170375378</created>
@@ -475,29 +480,36 @@
       <option name="project" value="LOCAL" />
       <updated>1499222855833</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rang.cpp">
+      <created>1499274286761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1499274286761</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37133000" />
+    <option name="totallyTimeSpent" value="39182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30081302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -513,10 +525,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Rotated Array.cpp" />
     <MESSAGE value="Rotated Sorted Array SearchBookmark Suggest Edit" />
     <MESSAGE value="Square Root.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Square Root.cpp" />
+    <MESSAGE value="Rang.cpp" />
+    <MESSAGE value="Power.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Power.cpp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -576,12 +591,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Level 3/Binary Search/index_Search_For_A_Range.cpp</url>
-          <line>133</line>
+          <line>139</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Level 3/Binary Search/index_Search_For_A_Range.cpp</url>
-          <line>34</line>
+          <line>32</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
@@ -590,6 +605,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Power.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -597,7 +620,6 @@
           <folding>
             <element signature="e#251#268#0" expanded="false" />
             <marker date="1499222854000" expanded="true" signature="1012:1381" ph="{...}" />
-            <marker date="1499222854000" expanded="true" signature="1395:1429" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -607,7 +629,7 @@
         <state relative-caret-position="375">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
           <folding>
-            <element signature="e#494#513#0" expanded="true" />
+            <element signature="e#494#513#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -732,7 +754,6 @@
           <folding>
             <element signature="e#251#268#0" expanded="false" />
             <marker date="1499222854000" expanded="true" signature="1012:1381" ph="{...}" />
-            <marker date="1499222854000" expanded="true" signature="1395:1429" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -754,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +791,7 @@
         <state relative-caret-position="303">
           <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
-            <element signature="e#494#513#0" expanded="true" />
+            <element signature="e#494#513#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -781,8 +801,23 @@
         <state relative-caret-position="-1705">
           <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
-            <element signature="e#352#371#0" expanded="true" />
+            <marker date="1499274279000" expanded="true" signature="361:389" ph="..." />
+            <marker date="1499274279000" expanded="true" signature="472:1121" ph="{...}" />
+            <marker date="1499274279000" expanded="true" signature="1183:1730" ph="{...}" />
+            <marker date="1499274279000" expanded="true" signature="1791:2503" ph="{...}" />
+            <marker date="1499274279000" expanded="true" signature="2565:3232" ph="{...}" />
+            <marker date="1499274279000" expanded="true" signature="3282:3405" ph="{...}" />
+            <marker date="1499274279000" expanded="true" signature="3439:3563" ph="{...}" />
+            <marker date="1499274279000" expanded="true" signature="3577:5478" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Power.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

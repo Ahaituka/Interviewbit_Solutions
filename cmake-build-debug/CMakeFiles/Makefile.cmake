@@ -54,6 +54,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Search.dir/DependInfo.cmake"
   "CMakeFiles/RotatedArray.dir/DependInfo.cmake"
   "CMakeFiles/GCD.dir/DependInfo.cmake"
+  "CMakeFiles/Power.dir/DependInfo.cmake"
   "CMakeFiles/InterviewBit.dir/DependInfo.cmake"
   "CMakeFiles/ExcelColumnNumber.dir/DependInfo.cmake"
   "CMakeFiles/Coverpoint.dir/DependInfo.cmake"
