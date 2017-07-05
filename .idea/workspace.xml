@@ -2,15 +2,16 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="InterviewBit" targetName="InterviewBit" />
-      <config projectName="InterviewBit" targetName="RotatedArray" />
-      <config projectName="InterviewBit" targetName="GridUniquePath" />
-      <config projectName="InterviewBit" targetName="PalindromeInteger" />
-      <config projectName="InterviewBit" targetName="Search" />
       <config projectName="InterviewBit" targetName="GCD" />
-      <config projectName="InterviewBit" targetName="Coverpoint" />
-      <config projectName="InterviewBit" targetName="ExcelColumnNumber" />
+      <config projectName="InterviewBit" targetName="RotatedArray" />
+      <config projectName="InterviewBit" targetName="Search" />
+      <config projectName="InterviewBit" targetName="PalindromeInteger" />
+      <config projectName="InterviewBit" targetName="SquareRoot" />
       <config projectName="InterviewBit" targetName="ExcelColumnTitle" />
+      <config projectName="InterviewBit" targetName="GridUniquePath" />
+      <config projectName="InterviewBit" targetName="InterviewBit" />
+      <config projectName="InterviewBit" targetName="ExcelColumnNumber" />
+      <config projectName="InterviewBit" targetName="Coverpoint" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -19,15 +20,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd8f9077-4cc4-4ae7-9f6f-15979f802935" name="Default" comment="Rotated Sorted Array SearchBookmark Suggest Edit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Binary Search/Search.cpp" />
+    <list default="true" id="bd8f9077-4cc4-4ae7-9f6f-15979f802935" name="Default" comment="Square Root.cpp">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Binary Search/Search For A Range.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Level 3/Binary Search/RotatedArray.cpp" afterPath="$PROJECT_DIR$/Level 3/Binary Search/RotatedArray.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/InterviewBit.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/InterviewBit.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
@@ -43,26 +43,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RotatedArray.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/RotatedArray.cpp">
+      <file leaf-file-name="SquareRoot.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="49" column="19" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="142">
+              <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding>
-                <element signature="e#616#635#0" expanded="true" />
+                <element signature="e#251#268#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Search.cpp">
+      <file leaf-file-name="Search For A Range.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Search For A Range.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding>
-                <element signature="e#494#513#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,6 +98,9 @@
         <option value="$PROJECT_DIR$/Level 3/Binary Search/Rotated Sorted Array Search.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Level 3/Binary Search/Search.cpp" />
+        <option value="$PROJECT_DIR$/Level 3/SquareRoot.cpp" />
+        <option value="$PROJECT_DIR$/Level 3/Binary Search/Search For A Range.cpp" />
+        <option value="$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp" />
       </list>
     </option>
   </component>
@@ -173,6 +184,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Level 3/Binary Search" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shubham\CLionProjects\InterviewBit" />
     </key>
@@ -189,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Search">
+  <component name="RunManager" selected="Application.SquareRoot">
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -408,6 +422,10 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="SquareRoot" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="SquareRoot" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="SquareRoot">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="InterviewBit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="InterviewBit">
       <envs />
       <method />
@@ -416,7 +434,7 @@
       <envs />
       <method />
     </configuration>
-    <list size="11">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Application.Coverpoint" />
       <item index="1" class="java.lang.String" itemvalue="Application.ExcelColumnNumber" />
       <item index="2" class="java.lang.String" itemvalue="Application.ExcelColumnTitle" />
@@ -426,8 +444,9 @@
       <item index="6" class="java.lang.String" itemvalue="Application.PalindromeInteger" />
       <item index="7" class="java.lang.String" itemvalue="Application.RotatedArray" />
       <item index="8" class="java.lang.String" itemvalue="Application.Search" />
-      <item index="9" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="10" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="9" class="java.lang.String" itemvalue="Application.SquareRoot" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Build All" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -445,7 +464,8 @@
       <updated>1497713844606</updated>
       <workItem from="1497713846456" duration="2002000" />
       <workItem from="1497715973240" duration="2984000" />
-      <workItem from="1499136290893" duration="18150000" />
+      <workItem from="1499136290893" duration="20185000" />
+      <workItem from="1499196141518" duration="2793000" />
     </task>
     <task id="LOCAL-00001" summary="Rotated Array.cpp">
       <created>1499170375378</created>
@@ -454,14 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1499170375378</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rotated Sorted Array SearchBookmark Suggest Edit">
+      <created>1499192939820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499192939820</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23136000" />
+    <option name="totallyTimeSpent" value="27964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -469,12 +496,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30122116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -494,7 +521,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rotated Array.cpp" />
     <MESSAGE value="Rotated Sorted Array SearchBookmark Suggest Edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rotated Sorted Array SearchBookmark Suggest Edit" />
+    <MESSAGE value="Square Root.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Square Root.cpp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -532,12 +560,60 @@
           <line>15</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp</url>
+          <line>53</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#251#268#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Search.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#494#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Level 2 Math/ExcelColumnTitle.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -558,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +712,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="75" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/RotatedArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="49" column="19" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <marker date="1499192858000" expanded="true" signature="625:669" ph="..." />
+            <marker date="1499192858000" expanded="true" signature="903:1024" ph="{...}" />
+            <marker date="1499192858000" expanded="true" signature="1060:1490" ph="{...}" />
+            <marker date="1499192858000" expanded="true" signature="1504:2459" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Search.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#494#513#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -655,22 +746,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/RotatedArray.cpp">
+    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Search For A Range.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="49" column="19" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="e#616#635#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Search.cpp">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding>
-            <element signature="e#494#513#0" expanded="true" />
+            <element signature="e#251#268#0" expanded="false" />
           </folding>
         </state>
       </provider>

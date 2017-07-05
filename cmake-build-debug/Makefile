@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named SquareRoot
+
+# Build rule for target.
+SquareRoot: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SquareRoot
+.PHONY : SquareRoot
+
+# fast build rule for target.
+SquareRoot/fast:
+	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/build
+.PHONY : SquareRoot/fast
+
+#=============================================================================
+# Target rules for targets named GridUniquePath
+
+# Build rule for target.
+GridUniquePath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GridUniquePath
+.PHONY : GridUniquePath
+
+# fast build rule for target.
+GridUniquePath/fast:
+	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/build
+.PHONY : GridUniquePath/fast
+
+#=============================================================================
 # Target rules for targets named Search
 
 # Build rule for target.
@@ -135,19 +161,6 @@ RotatedArray: cmake_check_build_system
 RotatedArray/fast:
 	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/build
 .PHONY : RotatedArray/fast
-
-#=============================================================================
-# Target rules for targets named GridUniquePath
-
-# Build rule for target.
-GridUniquePath: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 GridUniquePath
-.PHONY : GridUniquePath
-
-# fast build rule for target.
-GridUniquePath/fast:
-	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/build
-.PHONY : GridUniquePath/fast
 
 #=============================================================================
 # Target rules for targets named GCD
@@ -443,6 +456,33 @@ Level_3/Binary_Search/Search.cpp.s:
 	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/Level_3/Binary_Search/Search.cpp.s
 .PHONY : Level_3/Binary_Search/Search.cpp.s
 
+Level_3/Binary_Search/SquareRoot.o: Level_3/Binary_Search/SquareRoot.cpp.o
+
+.PHONY : Level_3/Binary_Search/SquareRoot.o
+
+# target to build an object file
+Level_3/Binary_Search/SquareRoot.cpp.o:
+	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/Level_3/Binary_Search/SquareRoot.cpp.o
+.PHONY : Level_3/Binary_Search/SquareRoot.cpp.o
+
+Level_3/Binary_Search/SquareRoot.i: Level_3/Binary_Search/SquareRoot.cpp.i
+
+.PHONY : Level_3/Binary_Search/SquareRoot.i
+
+# target to preprocess a source file
+Level_3/Binary_Search/SquareRoot.cpp.i:
+	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/Level_3/Binary_Search/SquareRoot.cpp.i
+.PHONY : Level_3/Binary_Search/SquareRoot.cpp.i
+
+Level_3/Binary_Search/SquareRoot.s: Level_3/Binary_Search/SquareRoot.cpp.s
+
+.PHONY : Level_3/Binary_Search/SquareRoot.s
+
+# target to generate assembly for a file
+Level_3/Binary_Search/SquareRoot.cpp.s:
+	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/Level_3/Binary_Search/SquareRoot.cpp.s
+.PHONY : Level_3/Binary_Search/SquareRoot.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -477,11 +517,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Search"
-	@echo "... RotatedArray"
+	@echo "... SquareRoot"
 	@echo "... GridUniquePath"
-	@echo "... GCD"
+	@echo "... Search"
 	@echo "... edit_cache"
+	@echo "... RotatedArray"
+	@echo "... GCD"
 	@echo "... InterviewBit"
 	@echo "... ExcelColumnNumber"
 	@echo "... Coverpoint"
@@ -511,6 +552,9 @@ help:
 	@echo "... Level_3/Binary_Search/Search.o"
 	@echo "... Level_3/Binary_Search/Search.i"
 	@echo "... Level_3/Binary_Search/Search.s"
+	@echo "... Level_3/Binary_Search/SquareRoot.o"
+	@echo "... Level_3/Binary_Search/SquareRoot.i"
+	@echo "... Level_3/Binary_Search/SquareRoot.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

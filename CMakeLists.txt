@@ -17,3 +17,4 @@ add_executable(RotatedArray "Level 3/Binary Search/RotatedArray.cpp")
 
 
 add_executable(Search "Level 3/Binary Search/Search.cpp")
+add_executable(SquareRoot "Level 3/Binary Search/SquareRoot.cpp")
