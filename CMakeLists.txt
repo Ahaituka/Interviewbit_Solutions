@@ -20,3 +20,8 @@ add_executable(Search "Level 3/Binary Search/Search.cpp")
 add_executable(SquareRoot "Level 3/Binary Search/SquareRoot.cpp")
 add_executable(index_Search_For_A_Range "Level 3/Binary Search/index_Search_For_A_Range.cpp")
 add_executable(Power "Level 3/Binary Search/Power.cpp")
+add_executable(ReverseTheString "Level 3/Strings/ReverseTheString.cpp")
+
+
+add_executable(Roman_To_Integer "Level 3/Strings/Roman_To_Integer.cpp")
+add_executable(Integer_to_roman "Level 3/Strings/Integer_to_roman.cpp")

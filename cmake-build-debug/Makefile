@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Roman_To_Integer
+
+# Build rule for target.
+Roman_To_Integer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Roman_To_Integer
+.PHONY : Roman_To_Integer
+
+# fast build rule for target.
+Roman_To_Integer/fast:
+	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/build
+.PHONY : Roman_To_Integer/fast
+
+#=============================================================================
 # Target rules for targets named index_Search_For_A_Range
 
 # Build rule for target.
@@ -122,6 +135,19 @@ index_Search_For_A_Range: cmake_check_build_system
 index_Search_For_A_Range/fast:
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/build
 .PHONY : index_Search_For_A_Range/fast
+
+#=============================================================================
+# Target rules for targets named Integer_to_roman
+
+# Build rule for target.
+Integer_to_roman: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Integer_to_roman
+.PHONY : Integer_to_roman
+
+# fast build rule for target.
+Integer_to_roman/fast:
+	$(MAKE) -f CMakeFiles/Integer_to_roman.dir/build.make CMakeFiles/Integer_to_roman.dir/build
+.PHONY : Integer_to_roman/fast
 
 #=============================================================================
 # Target rules for targets named SquareRoot
@@ -226,6 +252,19 @@ ExcelColumnNumber: cmake_check_build_system
 ExcelColumnNumber/fast:
 	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/build
 .PHONY : ExcelColumnNumber/fast
+
+#=============================================================================
+# Target rules for targets named ReverseTheString
+
+# Build rule for target.
+ReverseTheString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ReverseTheString
+.PHONY : ReverseTheString
+
+# fast build rule for target.
+ReverseTheString/fast:
+	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/build
+.PHONY : ReverseTheString/fast
 
 #=============================================================================
 # Target rules for targets named Coverpoint
@@ -563,6 +602,87 @@ Level_3/Binary_Search/index_Search_For_A_Range.cpp.s:
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
 .PHONY : Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
 
+Level_3/Strings/Integer_to_roman.o: Level_3/Strings/Integer_to_roman.cpp.o
+
+.PHONY : Level_3/Strings/Integer_to_roman.o
+
+# target to build an object file
+Level_3/Strings/Integer_to_roman.cpp.o:
+	$(MAKE) -f CMakeFiles/Integer_to_roman.dir/build.make CMakeFiles/Integer_to_roman.dir/Level_3/Strings/Integer_to_roman.cpp.o
+.PHONY : Level_3/Strings/Integer_to_roman.cpp.o
+
+Level_3/Strings/Integer_to_roman.i: Level_3/Strings/Integer_to_roman.cpp.i
+
+.PHONY : Level_3/Strings/Integer_to_roman.i
+
+# target to preprocess a source file
+Level_3/Strings/Integer_to_roman.cpp.i:
+	$(MAKE) -f CMakeFiles/Integer_to_roman.dir/build.make CMakeFiles/Integer_to_roman.dir/Level_3/Strings/Integer_to_roman.cpp.i
+.PHONY : Level_3/Strings/Integer_to_roman.cpp.i
+
+Level_3/Strings/Integer_to_roman.s: Level_3/Strings/Integer_to_roman.cpp.s
+
+.PHONY : Level_3/Strings/Integer_to_roman.s
+
+# target to generate assembly for a file
+Level_3/Strings/Integer_to_roman.cpp.s:
+	$(MAKE) -f CMakeFiles/Integer_to_roman.dir/build.make CMakeFiles/Integer_to_roman.dir/Level_3/Strings/Integer_to_roman.cpp.s
+.PHONY : Level_3/Strings/Integer_to_roman.cpp.s
+
+Level_3/Strings/ReverseTheString.o: Level_3/Strings/ReverseTheString.cpp.o
+
+.PHONY : Level_3/Strings/ReverseTheString.o
+
+# target to build an object file
+Level_3/Strings/ReverseTheString.cpp.o:
+	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/Level_3/Strings/ReverseTheString.cpp.o
+.PHONY : Level_3/Strings/ReverseTheString.cpp.o
+
+Level_3/Strings/ReverseTheString.i: Level_3/Strings/ReverseTheString.cpp.i
+
+.PHONY : Level_3/Strings/ReverseTheString.i
+
+# target to preprocess a source file
+Level_3/Strings/ReverseTheString.cpp.i:
+	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/Level_3/Strings/ReverseTheString.cpp.i
+.PHONY : Level_3/Strings/ReverseTheString.cpp.i
+
+Level_3/Strings/ReverseTheString.s: Level_3/Strings/ReverseTheString.cpp.s
+
+.PHONY : Level_3/Strings/ReverseTheString.s
+
+# target to generate assembly for a file
+Level_3/Strings/ReverseTheString.cpp.s:
+	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/Level_3/Strings/ReverseTheString.cpp.s
+.PHONY : Level_3/Strings/ReverseTheString.cpp.s
+
+Level_3/Strings/Roman_To_Integer.o: Level_3/Strings/Roman_To_Integer.cpp.o
+
+.PHONY : Level_3/Strings/Roman_To_Integer.o
+
+# target to build an object file
+Level_3/Strings/Roman_To_Integer.cpp.o:
+	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/Level_3/Strings/Roman_To_Integer.cpp.o
+.PHONY : Level_3/Strings/Roman_To_Integer.cpp.o
+
+Level_3/Strings/Roman_To_Integer.i: Level_3/Strings/Roman_To_Integer.cpp.i
+
+.PHONY : Level_3/Strings/Roman_To_Integer.i
+
+# target to preprocess a source file
+Level_3/Strings/Roman_To_Integer.cpp.i:
+	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/Level_3/Strings/Roman_To_Integer.cpp.i
+.PHONY : Level_3/Strings/Roman_To_Integer.cpp.i
+
+Level_3/Strings/Roman_To_Integer.s: Level_3/Strings/Roman_To_Integer.cpp.s
+
+.PHONY : Level_3/Strings/Roman_To_Integer.s
+
+# target to generate assembly for a file
+Level_3/Strings/Roman_To_Integer.cpp.s:
+	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/Level_3/Strings/Roman_To_Integer.cpp.s
+.PHONY : Level_3/Strings/Roman_To_Integer.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -597,7 +717,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Roman_To_Integer"
 	@echo "... index_Search_For_A_Range"
+	@echo "... Integer_to_roman"
 	@echo "... SquareRoot"
 	@echo "... GridUniquePath"
 	@echo "... Search"
@@ -607,6 +729,7 @@ help:
 	@echo "... Power"
 	@echo "... InterviewBit"
 	@echo "... ExcelColumnNumber"
+	@echo "... ReverseTheString"
 	@echo "... Coverpoint"
 	@echo "... PalindromeInteger"
 	@echo "... ExcelColumnTitle"
@@ -643,6 +766,15 @@ help:
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.o"
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.i"
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.s"
+	@echo "... Level_3/Strings/Integer_to_roman.o"
+	@echo "... Level_3/Strings/Integer_to_roman.i"
+	@echo "... Level_3/Strings/Integer_to_roman.s"
+	@echo "... Level_3/Strings/ReverseTheString.o"
+	@echo "... Level_3/Strings/ReverseTheString.i"
+	@echo "... Level_3/Strings/ReverseTheString.s"
+	@echo "... Level_3/Strings/Roman_To_Integer.o"
+	@echo "... Level_3/Strings/Roman_To_Integer.i"
+	@echo "... Level_3/Strings/Roman_To_Integer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

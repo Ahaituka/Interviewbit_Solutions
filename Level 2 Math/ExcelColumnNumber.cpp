@@ -29,6 +29,7 @@ int result(string s)
     for (const auto &c :s)
     {
 
+        cout << c;
         result = result*26 +(c -'A'+1) ;
 
 
