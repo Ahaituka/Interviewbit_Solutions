@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
 # Target rules for targets named Roman_To_Integer
 
 # Build rule for target.
@@ -689,6 +702,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/InterviewBit.dir/build.make CMakeFiles/InterviewBit.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -698,6 +712,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/InterviewBit.dir/build.make CMakeFiles/InterviewBit.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -707,6 +722,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/InterviewBit.dir/build.make CMakeFiles/InterviewBit.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -717,6 +733,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... main"
 	@echo "... Roman_To_Integer"
 	@echo "... index_Search_For_A_Range"
 	@echo "... Integer_to_roman"
