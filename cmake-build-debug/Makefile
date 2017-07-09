@@ -202,6 +202,19 @@ SquareRoot/fast:
 .PHONY : SquareRoot/fast
 
 #=============================================================================
+# Target rules for targets named SingleNumber
+
+# Build rule for target.
+SingleNumber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SingleNumber
+.PHONY : SingleNumber
+
+# fast build rule for target.
+SingleNumber/fast:
+	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/build
+.PHONY : SingleNumber/fast
+
+#=============================================================================
 # Target rules for targets named GridUniquePath
 
 # Build rule for target.
@@ -654,6 +667,33 @@ Level_3/Binary_Search/index_Search_For_A_Range.cpp.s:
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
 .PHONY : Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
 
+Level_3/Bit_Manipulation/SingleNumber.o: Level_3/Bit_Manipulation/SingleNumber.cpp.o
+
+.PHONY : Level_3/Bit_Manipulation/SingleNumber.o
+
+# target to build an object file
+Level_3/Bit_Manipulation/SingleNumber.cpp.o:
+	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/Level_3/Bit_Manipulation/SingleNumber.cpp.o
+.PHONY : Level_3/Bit_Manipulation/SingleNumber.cpp.o
+
+Level_3/Bit_Manipulation/SingleNumber.i: Level_3/Bit_Manipulation/SingleNumber.cpp.i
+
+.PHONY : Level_3/Bit_Manipulation/SingleNumber.i
+
+# target to preprocess a source file
+Level_3/Bit_Manipulation/SingleNumber.cpp.i:
+	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/Level_3/Bit_Manipulation/SingleNumber.cpp.i
+.PHONY : Level_3/Bit_Manipulation/SingleNumber.cpp.i
+
+Level_3/Bit_Manipulation/SingleNumber.s: Level_3/Bit_Manipulation/SingleNumber.cpp.s
+
+.PHONY : Level_3/Bit_Manipulation/SingleNumber.s
+
+# target to generate assembly for a file
+Level_3/Bit_Manipulation/SingleNumber.cpp.s:
+	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/Level_3/Bit_Manipulation/SingleNumber.cpp.s
+.PHONY : Level_3/Bit_Manipulation/SingleNumber.cpp.s
+
 Level_3/Strings/Atoi.o: Level_3/Strings/Atoi.cpp.o
 
 .PHONY : Level_3/Strings/Atoi.o
@@ -860,6 +900,7 @@ help:
 	@echo "... index_Search_For_A_Range"
 	@echo "... Integer_to_roman"
 	@echo "... SquareRoot"
+	@echo "... SingleNumber"
 	@echo "... GridUniquePath"
 	@echo "... Search"
 	@echo "... edit_cache"
@@ -906,6 +947,9 @@ help:
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.o"
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.i"
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.s"
+	@echo "... Level_3/Bit_Manipulation/SingleNumber.o"
+	@echo "... Level_3/Bit_Manipulation/SingleNumber.i"
+	@echo "... Level_3/Bit_Manipulation/SingleNumber.s"
 	@echo "... Level_3/Strings/Atoi.o"
 	@echo "... Level_3/Strings/Atoi.i"
 	@echo "... Level_3/Strings/Atoi.s"

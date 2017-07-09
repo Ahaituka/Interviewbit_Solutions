@@ -6,6 +6,7 @@
 /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles/index_Search_For_A_Range.dir
 /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles/Integer_to_roman.dir
 /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles/SquareRoot.dir
+/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles/SingleNumber.dir
 /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles/GridUniquePath.dir
 /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles/Search.dir
 /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles/edit_cache.dir

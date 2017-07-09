@@ -140,7 +140,7 @@ clean: CMakeFiles/Palindrome_String.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Include target in all.
@@ -214,7 +214,7 @@ clean: CMakeFiles/Roman_To_Integer.dir/clean
 CMakeFiles/index_Search_For_A_Range.dir/all:
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/depend
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target index_Search_For_A_Range"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target index_Search_For_A_Range"
 .PHONY : CMakeFiles/index_Search_For_A_Range.dir/all
 
 # Include target in all.
@@ -288,7 +288,7 @@ clean: CMakeFiles/Integer_to_roman.dir/clean
 CMakeFiles/SquareRoot.dir/all:
 	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/depend
 	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target SquareRoot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target SquareRoot"
 .PHONY : CMakeFiles/SquareRoot.dir/all
 
 # Include target in all.
@@ -315,6 +315,43 @@ CMakeFiles/SquareRoot.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/SquareRoot.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SingleNumber.dir
+
+# All Build rule for target.
+CMakeFiles/SingleNumber.dir/all:
+	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/depend
+	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target SingleNumber"
+.PHONY : CMakeFiles/SingleNumber.dir/all
+
+# Include target in all.
+all: CMakeFiles/SingleNumber.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SingleNumber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SingleNumber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/SingleNumber.dir/rule
+
+# Convenience name for target.
+SingleNumber: CMakeFiles/SingleNumber.dir/rule
+
+.PHONY : SingleNumber
+
+# clean rule for target.
+CMakeFiles/SingleNumber.dir/clean:
+	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/clean
+.PHONY : CMakeFiles/SingleNumber.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/SingleNumber.dir/clean
 
 .PHONY : clean
 

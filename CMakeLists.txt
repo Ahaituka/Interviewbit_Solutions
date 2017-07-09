@@ -30,3 +30,4 @@ add_executable(Palindrome_String "Level 3/Strings/Palindrome_String.cpp")
 add_executable(LongestPalindromicSequence "Level 3/Strings/LongestPalindromicSequence.cpp")
 
 add_executable(Atoi "Level 3/Strings/Atoi.cpp")
+add_executable(SingleNumber "Level 3/Bit Manipulation/SingleNumber.cpp")

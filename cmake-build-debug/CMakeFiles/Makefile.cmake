@@ -55,6 +55,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/index_Search_For_A_Range.dir/DependInfo.cmake"
   "CMakeFiles/Integer_to_roman.dir/DependInfo.cmake"
   "CMakeFiles/SquareRoot.dir/DependInfo.cmake"
+  "CMakeFiles/SingleNumber.dir/DependInfo.cmake"
   "CMakeFiles/GridUniquePath.dir/DependInfo.cmake"
   "CMakeFiles/Search.dir/DependInfo.cmake"
   "CMakeFiles/RotatedArray.dir/DependInfo.cmake"
