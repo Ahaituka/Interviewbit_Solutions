@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named LongestPalindromicSequence
+
+# Build rule for target.
+LongestPalindromicSequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LongestPalindromicSequence
+.PHONY : LongestPalindromicSequence
+
+# fast build rule for target.
+LongestPalindromicSequence/fast:
+	$(MAKE) -f CMakeFiles/LongestPalindromicSequence.dir/build.make CMakeFiles/LongestPalindromicSequence.dir/build
+.PHONY : LongestPalindromicSequence/fast
+
+#=============================================================================
+# Target rules for targets named Palindrome_String
+
+# Build rule for target.
+Palindrome_String: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Palindrome_String
+.PHONY : Palindrome_String
+
+# fast build rule for target.
+Palindrome_String/fast:
+	$(MAKE) -f CMakeFiles/Palindrome_String.dir/build.make CMakeFiles/Palindrome_String.dir/build
+.PHONY : Palindrome_String/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -304,6 +330,19 @@ PalindromeInteger: cmake_check_build_system
 PalindromeInteger/fast:
 	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/build
 .PHONY : PalindromeInteger/fast
+
+#=============================================================================
+# Target rules for targets named Atoi
+
+# Build rule for target.
+Atoi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Atoi
+.PHONY : Atoi
+
+# fast build rule for target.
+Atoi/fast:
+	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/build
+.PHONY : Atoi/fast
 
 #=============================================================================
 # Target rules for targets named ExcelColumnTitle
@@ -615,6 +654,33 @@ Level_3/Binary_Search/index_Search_For_A_Range.cpp.s:
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
 .PHONY : Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
 
+Level_3/Strings/Atoi.o: Level_3/Strings/Atoi.cpp.o
+
+.PHONY : Level_3/Strings/Atoi.o
+
+# target to build an object file
+Level_3/Strings/Atoi.cpp.o:
+	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/Level_3/Strings/Atoi.cpp.o
+.PHONY : Level_3/Strings/Atoi.cpp.o
+
+Level_3/Strings/Atoi.i: Level_3/Strings/Atoi.cpp.i
+
+.PHONY : Level_3/Strings/Atoi.i
+
+# target to preprocess a source file
+Level_3/Strings/Atoi.cpp.i:
+	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/Level_3/Strings/Atoi.cpp.i
+.PHONY : Level_3/Strings/Atoi.cpp.i
+
+Level_3/Strings/Atoi.s: Level_3/Strings/Atoi.cpp.s
+
+.PHONY : Level_3/Strings/Atoi.s
+
+# target to generate assembly for a file
+Level_3/Strings/Atoi.cpp.s:
+	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/Level_3/Strings/Atoi.cpp.s
+.PHONY : Level_3/Strings/Atoi.cpp.s
+
 Level_3/Strings/Integer_to_roman.o: Level_3/Strings/Integer_to_roman.cpp.o
 
 .PHONY : Level_3/Strings/Integer_to_roman.o
@@ -641,6 +707,60 @@ Level_3/Strings/Integer_to_roman.s: Level_3/Strings/Integer_to_roman.cpp.s
 Level_3/Strings/Integer_to_roman.cpp.s:
 	$(MAKE) -f CMakeFiles/Integer_to_roman.dir/build.make CMakeFiles/Integer_to_roman.dir/Level_3/Strings/Integer_to_roman.cpp.s
 .PHONY : Level_3/Strings/Integer_to_roman.cpp.s
+
+Level_3/Strings/LongestPalindromicSequence.o: Level_3/Strings/LongestPalindromicSequence.cpp.o
+
+.PHONY : Level_3/Strings/LongestPalindromicSequence.o
+
+# target to build an object file
+Level_3/Strings/LongestPalindromicSequence.cpp.o:
+	$(MAKE) -f CMakeFiles/LongestPalindromicSequence.dir/build.make CMakeFiles/LongestPalindromicSequence.dir/Level_3/Strings/LongestPalindromicSequence.cpp.o
+.PHONY : Level_3/Strings/LongestPalindromicSequence.cpp.o
+
+Level_3/Strings/LongestPalindromicSequence.i: Level_3/Strings/LongestPalindromicSequence.cpp.i
+
+.PHONY : Level_3/Strings/LongestPalindromicSequence.i
+
+# target to preprocess a source file
+Level_3/Strings/LongestPalindromicSequence.cpp.i:
+	$(MAKE) -f CMakeFiles/LongestPalindromicSequence.dir/build.make CMakeFiles/LongestPalindromicSequence.dir/Level_3/Strings/LongestPalindromicSequence.cpp.i
+.PHONY : Level_3/Strings/LongestPalindromicSequence.cpp.i
+
+Level_3/Strings/LongestPalindromicSequence.s: Level_3/Strings/LongestPalindromicSequence.cpp.s
+
+.PHONY : Level_3/Strings/LongestPalindromicSequence.s
+
+# target to generate assembly for a file
+Level_3/Strings/LongestPalindromicSequence.cpp.s:
+	$(MAKE) -f CMakeFiles/LongestPalindromicSequence.dir/build.make CMakeFiles/LongestPalindromicSequence.dir/Level_3/Strings/LongestPalindromicSequence.cpp.s
+.PHONY : Level_3/Strings/LongestPalindromicSequence.cpp.s
+
+Level_3/Strings/Palindrome_String.o: Level_3/Strings/Palindrome_String.cpp.o
+
+.PHONY : Level_3/Strings/Palindrome_String.o
+
+# target to build an object file
+Level_3/Strings/Palindrome_String.cpp.o:
+	$(MAKE) -f CMakeFiles/Palindrome_String.dir/build.make CMakeFiles/Palindrome_String.dir/Level_3/Strings/Palindrome_String.cpp.o
+.PHONY : Level_3/Strings/Palindrome_String.cpp.o
+
+Level_3/Strings/Palindrome_String.i: Level_3/Strings/Palindrome_String.cpp.i
+
+.PHONY : Level_3/Strings/Palindrome_String.i
+
+# target to preprocess a source file
+Level_3/Strings/Palindrome_String.cpp.i:
+	$(MAKE) -f CMakeFiles/Palindrome_String.dir/build.make CMakeFiles/Palindrome_String.dir/Level_3/Strings/Palindrome_String.cpp.i
+.PHONY : Level_3/Strings/Palindrome_String.cpp.i
+
+Level_3/Strings/Palindrome_String.s: Level_3/Strings/Palindrome_String.cpp.s
+
+.PHONY : Level_3/Strings/Palindrome_String.s
+
+# target to generate assembly for a file
+Level_3/Strings/Palindrome_String.cpp.s:
+	$(MAKE) -f CMakeFiles/Palindrome_String.dir/build.make CMakeFiles/Palindrome_String.dir/Level_3/Strings/Palindrome_String.cpp.s
+.PHONY : Level_3/Strings/Palindrome_String.cpp.s
 
 Level_3/Strings/ReverseTheString.o: Level_3/Strings/ReverseTheString.cpp.o
 
@@ -733,6 +853,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... LongestPalindromicSequence"
+	@echo "... Palindrome_String"
 	@echo "... main"
 	@echo "... Roman_To_Integer"
 	@echo "... index_Search_For_A_Range"
@@ -749,6 +871,7 @@ help:
 	@echo "... ReverseTheString"
 	@echo "... Coverpoint"
 	@echo "... PalindromeInteger"
+	@echo "... Atoi"
 	@echo "... ExcelColumnTitle"
 	@echo "... Level_2_Array/Coverpoint.o"
 	@echo "... Level_2_Array/Coverpoint.i"
@@ -783,9 +906,18 @@ help:
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.o"
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.i"
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.s"
+	@echo "... Level_3/Strings/Atoi.o"
+	@echo "... Level_3/Strings/Atoi.i"
+	@echo "... Level_3/Strings/Atoi.s"
 	@echo "... Level_3/Strings/Integer_to_roman.o"
 	@echo "... Level_3/Strings/Integer_to_roman.i"
 	@echo "... Level_3/Strings/Integer_to_roman.s"
+	@echo "... Level_3/Strings/LongestPalindromicSequence.o"
+	@echo "... Level_3/Strings/LongestPalindromicSequence.i"
+	@echo "... Level_3/Strings/LongestPalindromicSequence.s"
+	@echo "... Level_3/Strings/Palindrome_String.o"
+	@echo "... Level_3/Strings/Palindrome_String.i"
+	@echo "... Level_3/Strings/Palindrome_String.s"
 	@echo "... Level_3/Strings/ReverseTheString.o"
 	@echo "... Level_3/Strings/ReverseTheString.i"
 	@echo "... Level_3/Strings/ReverseTheString.s"

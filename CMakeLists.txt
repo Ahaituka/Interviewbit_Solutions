@@ -26,3 +26,7 @@ add_executable(ReverseTheString "Level 3/Strings/ReverseTheString.cpp")
 add_executable(Roman_To_Integer "Level 3/Strings/Roman_To_Integer.cpp")
 add_executable(Integer_to_roman "Level 3/Strings/Integer_to_roman.cpp")
 add_executable(main main.cpp)
+add_executable(Palindrome_String "Level 3/Strings/Palindrome_String.cpp")
+add_executable(LongestPalindromicSequence "Level 3/Strings/LongestPalindromicSequence.cpp")
+
+add_executable(Atoi "Level 3/Strings/Atoi.cpp")

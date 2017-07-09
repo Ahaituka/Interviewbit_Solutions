@@ -3,6 +3,9 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
       <config projectName="InterviewBit" targetName="GridUniquePath" />
+      <config projectName="InterviewBit" targetName="Atoi" />
+      <config projectName="InterviewBit" targetName="LongestPalindromicSequence" />
+      <config projectName="InterviewBit" targetName="Palindrome_String" />
       <config projectName="InterviewBit" targetName="PalindromeInteger" />
       <config projectName="InterviewBit" targetName="ExcelColumnNumber" />
       <config projectName="InterviewBit" targetName="InterviewBit" />
@@ -26,17 +29,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd8f9077-4cc4-4ae7-9f6f-15979f802935" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Strings/Palindrome_String.cpp" />
+    <list default="true" id="bd8f9077-4cc4-4ae7-9f6f-15979f802935" name="Default" comment="Atoi.cpp">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Bit Manipulation/SingleNumber.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Strings/Atoi.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 3/Strings/LongestPalindromicSequence.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Coverpoint.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Coverpoint.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Coverpoint.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Coverpoint.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnNumber.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnNumber.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnTitle.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnTitle.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GCD.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GCD.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterviewBit.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterviewBit.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/InterviewBit.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/InterviewBit.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,12 +59,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Palindrome_String.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Level 3/Strings/Palindrome_String.cpp">
+      <file leaf-file-name="Atoi.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Level 3/Strings/Atoi.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="149">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestPalindromicSequence.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Level 3/Strings/LongestPalindromicSequence.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding>
+                <element signature="e#16#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +108,6 @@
         <option value="$PROJECT_DIR$/Level 3/Binary Search/index_Search_For_A_Range.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Binary Search/Power.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/ReverseTheString.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Level 3/Strings/Roman To Integer.cpp" />
         <option value="$PROJECT_DIR$/Level 2 Math/ExcelColumnNumber.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/Roman_To_Integer.cpp" />
@@ -94,6 +115,11 @@
         <option value="$PROJECT_DIR$/Level 3/Strings/Str_Str.py" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/Palindrome_String.cpp" />
+        <option value="$PROJECT_DIR$/Level 3/Strings/Atori.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Level 3/Bit Manipulation/SingleNumber.cpp" />
+        <option value="$PROJECT_DIR$/Level 3/Strings/Atoi.cpp" />
+        <option value="$PROJECT_DIR$/Level 3/Strings/LongestPalindromicSequence.cpp" />
       </list>
     </option>
   </component>
@@ -106,7 +132,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -166,6 +192,38 @@
               <option name="myItemId" value="Level 3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bit Manipulation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterviewBit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interviewbit_Solutions_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Level 3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterviewBit" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interviewbit_Solutions_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Level 2 Math" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -177,11 +235,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Level 3/Binary Search" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Shubham\CLionProjects\InterviewBit" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Level 3/Bit Manipulation" />
+      <recent name="$PROJECT_DIR$/Level 3/Binary Search" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -196,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.Atoi">
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -379,6 +438,10 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration default="false" name="Atoi" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="Atoi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="Atoi">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Coverpoint" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="Coverpoint" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="Coverpoint">
       <envs />
       <method />
@@ -411,7 +474,15 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="LongestPalindromicSequence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="LongestPalindromicSequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="LongestPalindromicSequence">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="main">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Palindrome_String" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="Palindrome_String" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="Palindrome_String">
       <envs />
       <method />
     </configuration>
@@ -451,25 +522,28 @@
       <envs />
       <method />
     </configuration>
-    <list size="18">
-      <item index="0" class="java.lang.String" itemvalue="Application.Coverpoint" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ExcelColumnNumber" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ExcelColumnTitle" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GCD" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GridUniquePath" />
-      <item index="5" class="java.lang.String" itemvalue="Application.index_Search_For_A_Range" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Integer_to_roman" />
-      <item index="7" class="java.lang.String" itemvalue="Application.InterviewBit" />
-      <item index="8" class="java.lang.String" itemvalue="Application.main" />
-      <item index="9" class="java.lang.String" itemvalue="Application.PalindromeInteger" />
-      <item index="10" class="java.lang.String" itemvalue="Application.Power" />
-      <item index="11" class="java.lang.String" itemvalue="Application.ReverseTheString" />
-      <item index="12" class="java.lang.String" itemvalue="Application.Roman_To_Integer" />
-      <item index="13" class="java.lang.String" itemvalue="Application.RotatedArray" />
-      <item index="14" class="java.lang.String" itemvalue="Application.Search" />
-      <item index="15" class="java.lang.String" itemvalue="Application.SquareRoot" />
-      <item index="16" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="17" class="java.lang.String" itemvalue="Application.Build All" />
+    <list size="21">
+      <item index="0" class="java.lang.String" itemvalue="Application.Atoi" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Coverpoint" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ExcelColumnNumber" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ExcelColumnTitle" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GCD" />
+      <item index="5" class="java.lang.String" itemvalue="Application.GridUniquePath" />
+      <item index="6" class="java.lang.String" itemvalue="Application.index_Search_For_A_Range" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Integer_to_roman" />
+      <item index="8" class="java.lang.String" itemvalue="Application.InterviewBit" />
+      <item index="9" class="java.lang.String" itemvalue="Application.LongestPalindromicSequence" />
+      <item index="10" class="java.lang.String" itemvalue="Application.main" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Palindrome_String" />
+      <item index="12" class="java.lang.String" itemvalue="Application.PalindromeInteger" />
+      <item index="13" class="java.lang.String" itemvalue="Application.Power" />
+      <item index="14" class="java.lang.String" itemvalue="Application.ReverseTheString" />
+      <item index="15" class="java.lang.String" itemvalue="Application.Roman_To_Integer" />
+      <item index="16" class="java.lang.String" itemvalue="Application.RotatedArray" />
+      <item index="17" class="java.lang.String" itemvalue="Application.Search" />
+      <item index="18" class="java.lang.String" itemvalue="Application.SquareRoot" />
+      <item index="19" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="20" class="java.lang.String" itemvalue="Application.Build All" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -490,7 +564,8 @@
       <workItem from="1499136290893" duration="20185000" />
       <workItem from="1499196141518" duration="14010000" />
       <workItem from="1499277928974" duration="9200000" />
-      <workItem from="1499372791507" duration="2062000" />
+      <workItem from="1499372791507" duration="12128000" />
+      <workItem from="1499594955823" duration="8607000" />
     </task>
     <task id="LOCAL-00001" summary="Rotated Array.cpp">
       <created>1499170375378</created>
@@ -541,26 +616,33 @@
       <option name="project" value="LOCAL" />
       <updated>1499374670418</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Palindrome String.cpp">
+      <created>1499530987147</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1499530987148</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50443000" />
+    <option name="totallyTimeSpent" value="69116000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270525" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32793522" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30081302" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30081302" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3270525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32523617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39703903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39676112" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -623,7 +705,8 @@
     <MESSAGE value="Power.cpp" />
     <MESSAGE value="Integer_to_roman.cpp" />
     <MESSAGE value="strStr.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="strStr.py" />
+    <MESSAGE value="Palindrome String.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palindrome String.cpp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -713,15 +796,69 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 3/Strings/LongestPalindromicSequence.cpp</url>
+          <line>63</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 3/Strings/LongestPalindromicSequence.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 3/Strings/LongestPalindromicSequence.cpp</url>
+          <line>56</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 3/Strings/Atoi.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="54" />
+      <option name="time" value="96" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Level 3/Strings/Palindrome_String.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Strings/LongestPalindromicSequence.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="e#16#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21675">
+          <caret line="1445" column="0" lean-forward="false" selection-start-line="1445" selection-start-column="0" selection-end-line="1445" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23940">
+          <caret line="1596" column="0" lean-forward="false" selection-start-line="1596" selection-start-column="0" selection-end-line="1596" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Level 3/Strings/Integer_to_roman.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -850,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Level 2 Math/BinaryRepresentation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Level 2 Array/SpiralMatrix.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -915,21 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Power.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="2353" column="0" lean-forward="false" selection-start-line="2353" selection-start-column="0" selection-end-line="2353" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Level 2 Math/ExcelColumnNumber.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -938,43 +1053,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="1357" column="0" lean-forward="false" selection-start-line="1357" selection-start-column="0" selection-end-line="1357" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level 3/Strings/ReverseTheString.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level 3/Strings/Roman_To_Integer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding>
-            <element signature="e#45#520#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,31 +1080,707 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Strings/ReverseTheString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Level 3/Strings/Integer_to_roman.cpp">
+    <entry file="file://$PROJECT_DIR$/Level 3/Strings/Roman_To_Integer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding>
+            <element signature="e#45#520#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Strings/Palindrome_String.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/iterator">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21675">
+          <caret line="1445" column="0" lean-forward="false" selection-start-line="1445" selection-start-column="0" selection-end-line="1445" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2024" column="0" lean-forward="false" selection-start-line="2024" selection-start-column="0" selection-end-line="2024" selection-end-column="0" />
+        <state relative-caret-position="26940">
+          <caret line="1796" column="0" lean-forward="false" selection-start-line="1796" selection-start-column="0" selection-end-line="1796" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Level 3/Strings/Palindrome_String.cpp">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="23940">
+          <caret line="1596" column="0" lean-forward="false" selection-start-line="1596" selection-start-column="0" selection-end-line="1596" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/ctype.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4395">
+          <caret line="293" column="0" lean-forward="false" selection-start-line="293" selection-start-column="0" selection-end-line="293" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2 Math/BinaryRepresentation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2 Math/Numbers of length N and value less than K.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Power.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="4049" column="0" lean-forward="false" selection-start-line="4049" selection-start-column="0" selection-end-line="4049" selection-end-column="0" />
+          <folding>
+            <marker date="1487207607000" expanded="false" signature="24159:24315" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="24341:24373" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="24433:24467" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="24485:24522" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="24808:24845" ph="&lt;_T1,_T2=_T1&gt;" />
+            <marker date="1487207607000" expanded="true" signature="24864:25287" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="25290:25310" ph="&lt;_T1&gt;" />
+            <marker date="1487207607000" expanded="true" signature="25339:25481" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="25484:25504" ph="&lt;_T1&gt;" />
+            <marker date="1487207607000" expanded="true" signature="25539:25681" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="25684:25704" ph="&lt;_T1&gt;" />
+            <marker date="1487207607000" expanded="true" signature="25739:25881" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="25884:25921" ph="&lt;_T1,_T2=_T1&gt;" />
+            <marker date="1487207607000" expanded="true" signature="25936:26495" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="26498:26518" ph="&lt;_T1&gt;" />
+            <marker date="1487207607000" expanded="true" signature="26543:26684" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="26687:26707" ph="&lt;_T1&gt;" />
+            <marker date="1487207607000" expanded="true" signature="26738:26879" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="26882:26902" ph="&lt;_T1&gt;" />
+            <marker date="1487207607000" expanded="true" signature="26933:27074" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="27077:27104" ph="&lt;_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="27120:27547" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="27293:27313" ph="&lt;_T1&gt;" />
+            <marker date="1487207607000" expanded="false" signature="27406:27437" ph="&lt;_T1,_T2&gt;" />
+            <marker date="1487207607000" expanded="false" signature="27572:27970" ph="..." />
+            <marker date="1487207607000" expanded="true" signature="28087:28144" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="28218:28281" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="28365:28434" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="28525:28582" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="28656:28720" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="28804:28873" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="29214:29263" ph="&lt;_InputIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="29375:29493" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="29506:29555" ph="&lt;_InputIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="29667:29784" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="29798:29847" ph="&lt;_InputIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="29960:30077" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="30092:30140" ph="&lt;_InputIterator,_Function&gt;" />
+            <marker date="1487207607000" expanded="true" signature="30255:30393" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="30404:30446" ph="&lt;_InputIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="30568:30685" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="30699:30748" ph="&lt;_InputIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="30871:30984" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="31002:31050" ph="&lt;_InputIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="31177:31291" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="31306:31389" ph="&lt;_BinaryPredicate,_ForwardIterator1,_ForwardIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="31620:32862" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="32864:32959" ph="&lt;_BinaryPredicate,_BidirectionalIterator1,_BidirectionalIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="33232:34472" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="34474:34567" ph="&lt;_BinaryPredicate,_RandomAccessIterator1,_RandomAccessIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="34865:36069" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="36071:36154" ph="&lt;_ForwardIterator1,_ForwardIterator2,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="36359:36703" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="36705:36764" ph="&lt;_ForwardIterator1,_ForwardIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="36944:37187" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="37207:37290" ph="&lt;_ForwardIterator1,_ForwardIterator2,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="37507:37718" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="37721:37804" ph="&lt;_ForwardIterator1,_ForwardIterator2,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="38019:38106" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="38108:38167" ph="&lt;_ForwardIterator1,_ForwardIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="38357:38610" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="38630:38687" ph="&lt;_ForwardIterator,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="38828:39080" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="39082:39115" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="39231:39375" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="39387:39429" ph="&lt;_InputIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="39595:39778" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="39793:39842" ph="&lt;_InputIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="40009:40188" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="40203:40282" ph="&lt;_InputIterator1,_InputIterator2,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="40475:40674" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="40676:40731" ph="&lt;_InputIterator1,_InputIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="40890:41120" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="41147:42164" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="42183:42262" ph="&lt;_InputIterator1,_InputIterator2,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="42409:42561" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="42563:42618" ph="&lt;_InputIterator1,_InputIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="42740:42967" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="42994:45348" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="45376:45458" ph="&lt;_ForwardIterator1,_ForwardIterator2,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="45602:47154" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="47156:47214" ph="&lt;_ForwardIterator1,_ForwardIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="47366:47606" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="47633:51644" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="51664:51747" ph="&lt;_BinaryPredicate,_ForwardIterator1,_ForwardIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="51972:53134" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="53136:53229" ph="&lt;_BinaryPredicate,_RandomAccessIterator1,_RandomAccessIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="53525:56737" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="54380:55233" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="55775:56696" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="56739:56822" ph="&lt;_ForwardIterator1,_ForwardIterator2,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="57023:57375" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="57377:57436" ph="&lt;_ForwardIterator1,_ForwardIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="57612:57863" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="57878:57959" ph="&lt;_BinaryPredicate,_ForwardIterator,_Size,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="58133:59234" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="59236:59322" ph="&lt;_BinaryPredicate,_RandomAccessIterator,_Size,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="59517:60825" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="60827:60908" ph="&lt;_ForwardIterator,_Size,_Tp,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="61089:61332" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="61334:61391" ph="&lt;_ForwardIterator,_Size,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="61538:61751" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="61762:61784" ph="&lt;_Iter&gt;" />
+            <marker date="1487207607000" expanded="true" signature="61821:61880" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="61883:61905" ph="&lt;_Iter&gt;" />
+            <marker date="1487207607000" expanded="true" signature="61965:62024" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="62027:62049" ph="&lt;_Iter&gt;" />
+            <marker date="1487207607000" expanded="true" signature="62107:62166" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="62169:62191" ph="&lt;_Iter&gt;" />
+            <marker date="1487207607000" expanded="true" signature="62256:62275" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="62277:62297" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="62350:62408" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="62454:62480" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="62511:62531" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="62584:62642" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="62686:62712" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="62750:62804" ph="&lt;_InputIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="62934:63048" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="63050:63081" ph="&lt;_Tp,_Up&gt;" />
+            <marker date="1487207607000" expanded="true" signature="63134:63253" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="63309:63480" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="63482:63536" ph="&lt;_InputIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="63664:63765" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="63785:63847" ph="&lt;_BidirectionalIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="64002:64089" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="64091:64122" ph="&lt;_Tp,_Up&gt;" />
+            <marker date="1487207607000" expanded="true" signature="64175:64294" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="64359:64561" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="64563:64634" ph="&lt;_BidirectionalIterator1,_BidirectionalIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="64819:64929" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="64943:65014" ph="&lt;_InputIterator,_OutputIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="65172:65357" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="65370:65436" ph="&lt;_InputIterator,_Size,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="65489:65618" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="65698:66041" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="66043:66109" ph="&lt;_InputIterator,_Size,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="66162:66241" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="66321:66485" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="66496:66550" ph="&lt;_InputIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="66680:66807" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="66809:66840" ph="&lt;_Tp,_Up&gt;" />
+            <marker date="1487207607000" expanded="true" signature="66893:67012" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="67068:67239" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="67241:67295" ph="&lt;_InputIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="67423:67524" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="67544:67598" ph="&lt;_InputIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="67737:67837" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="67839:67870" ph="&lt;_Tp,_Up&gt;" />
+            <marker date="1487207607000" expanded="true" signature="67923:68042" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="68107:68309" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="68311:68382" ph="&lt;_BidirectionalIterator1,_BidirectionalIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="68567:68677" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="68769:68846" ph="&lt;_InputIterator,_OutputIterator,_UnaryOperation&gt;" />
+            <marker date="1487207607000" expanded="true" signature="69001:69121" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="69123:69225" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator,_BinaryOperation&gt;" />
+            <marker date="1487207607000" expanded="true" signature="69428:69582" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="69596:69640" ph="&lt;_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="69786:69903" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="69920:69982" ph="&lt;_ForwardIterator,_Predicate,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="70126:70236" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="70255:70320" ph="&lt;_InputIterator,_OutputIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="70517:70722" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="70744:70827" ph="&lt;_InputIterator,_OutputIterator,_Predicate,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="71025:71223" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="71236:71292" ph="&lt;_OutputIterator,_Size,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="71408:71505" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="71507:71551" ph="&lt;_Tp,_Size,_Up&gt;" />
+            <marker date="1487207607000" expanded="true" signature="71604:71750" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="71804:71922" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="71924:71980" ph="&lt;_OutputIterator,_Size,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="72094:72171" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="72182:72226" ph="&lt;_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="72366:72439" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="72441:72490" ph="&lt;_RandomAccessIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="72646:72705" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="72707:72751" ph="&lt;_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="72867:72981" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="72996:73047" ph="&lt;_ForwardIterator,_Generator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="73164:73236" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="73253:73316" ph="&lt;_OutputIterator,_Size,_Generator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="73436:73635" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="73648:73692" ph="&lt;_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="73789:74135" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="74151:74202" ph="&lt;_ForwardIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="74300:74736" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="74754:74819" ph="&lt;_InputIterator,_OutputIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="74975:75167" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="75188:75260" ph="&lt;_InputIterator,_OutputIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="75417:75603" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="75616:75673" ph="&lt;_ForwardIterator,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="75774:76243" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="76245:76278" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="76387:76524" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="76542:76620" ph="&lt;_BinaryPredicate,_InputIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="76804:77205" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="77207:77287" ph="&lt;_BinaryPredicate,_ForwardIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="77477:77848" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="77850:77929" ph="&lt;_BinaryPredicate,_InputIterator,_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="78116:78351" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="78353:78431" ph="&lt;_InputIterator,_OutputIterator,_BinaryPredicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="78591:78937" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="78939:78993" ph="&lt;_InputIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="79128:79278" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="79292:79331" ph="&lt;_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="79471:79620" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="79622:79660" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="79798:79911" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="79913:79952" ph="&lt;_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="80062:80175" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="80194:80256" ph="&lt;_BidirectionalIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="80408:80505" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="80518:80551" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="80634:80894" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="80896:80935" ph="&lt;_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="81037:81359" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="81361:81394" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="81507:82184" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="82186:82214" ph="&lt;_Integral&gt;" />
+            <marker date="1487207607000" expanded="true" signature="82294:82418" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="82420:82460" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="82589:83623" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="83625:83658" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="83834:84166" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="84168:84207" ph="&lt;_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="84413:84855" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="84857:84895" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="85097:85601" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="85603:85636" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="85772:86033" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="86051:86107" ph="&lt;_ForwardIterator,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="86273:86360" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="86378:86427" ph="&lt;_ForwardIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="86588:86793" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="86795:86828" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="86972:87103" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="87113:87149" ph="&lt;_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="87277:87321" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="87323:87343" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="87454:87505" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="87556:87591" ph="&lt;_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="87707:87774" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="87776:87795" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="87894:87968" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="88038:88087" ph="&lt;_ForwardIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="88248:88453" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="88456:88489" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="88633:88764" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="88774:88810" ph="&lt;_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="88938:88982" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="88984:89004" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="89115:89166" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="89217:89252" ph="&lt;_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="89368:89435" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="89437:89456" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="89555:89629" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="89702:89751" ph="&lt;_ForwardIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="89911:91282" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="91284:91317" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="91493:91627" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="91640:91675" ph="&lt;_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="91824:91968" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="91970:91989" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="92121:92175" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="92226:92261" ph="&lt;_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="92391:93328" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="93330:93349" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="93462:93511" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="93614:93659" ph="&lt;unsigned long long _Xp,size_t _Rp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="93678:93836" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="93839:93872" ph="&lt;unsigned long long _Xp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="93899:93937" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="93940:93961" ph="&lt;size_t _Rp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="93988:94032" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="94035:94064" ph="&lt;_UI,_UI _Xp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="94079:94211" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="94123:94201" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="false" signature="94214:94254" ph="&lt;_Engine,_UIntType&gt;" />
+            <marker date="1487207607000" expanded="true" signature="94287:95795" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="94459:94599" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="false" signature="95036:95206" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="95798:95838" ph="&lt;_Engine,_UIntType&gt;" />
+            <marker date="1487207607000" expanded="true" signature="95984:96821" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="96823:96863" ph="&lt;_Engine,_UIntType&gt;" />
+            <marker date="1487207607000" expanded="true" signature="96947:97006" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="97008:97048" ph="&lt;_Engine,_UIntType&gt;" />
+            <marker date="1487207607000" expanded="true" signature="97124:97787" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="97818:97848" ph="&lt;_IntType=int&gt;" />
+            <marker date="1487207607000" expanded="true" signature="97880:99826" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="97963:98613" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="99015:99036" ph="&lt;_URNG&gt;" />
+            <marker date="1487207607000" expanded="false" signature="99113:99134" ph="&lt;_URNG&gt;" />
+            <marker date="1487207607000" expanded="false" signature="99829:99853" ph="&lt;_IntType&gt;" />
+            <marker date="1487207607000" expanded="false" signature="99854:99875" ph="&lt;_URNG&gt;" />
+            <marker date="1487207607000" expanded="true" signature="100015:100758" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="100049:100154" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="100877:101333" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="101379:101417" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="101499:102060" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="102062:102130" ph="&lt;_RandomAccessIterator,_RandomNumberGenerator&gt;" />
+            <marker date="1487207607000" expanded="false" signature="102322:102353" ph="..." />
+            <marker date="1487207607000" expanded="true" signature="102361:102703" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="102705:102779" ph="&lt;_RandomAccessIterator,_UniformRandomNumberGenerator&gt;" />
+            <marker date="1487207607000" expanded="false" signature="102976:103011" ph="..." />
+            <marker date="1487207607000" expanded="true" signature="103019:103541" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="103543:103592" ph="&lt;_InputIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="103679:103952" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="103968:104019" ph="&lt;_Predicate,_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="104141:104495" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="104497:104554" ph="&lt;_Predicate,_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="104712:105111" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="105113:105164" ph="&lt;_ForwardIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="105295:105497" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="105518:105625" ph="&lt;_InputIterator,_OutputIterator1,_OutputIterator2,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="105837:106180" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="106202:106252" ph="&lt;_ForwardIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="106356:106827" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="106850:106931" ph="&lt;_Predicate,_ForwardIterator,_Distance,_Pair&gt;" />
+            <marker date="1487207607000" expanded="true" signature="107113:109982" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="110017:110146" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="110023:110043" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="false" signature="110149:110200" ph="&lt;_Predicate,_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="110348:111409" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="111411:111498" ph="&lt;_Predicate,_BidirectionalIterator,_Distance,_Pair&gt;" />
+            <marker date="1487207607000" expanded="true" signature="111704:115205" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="115207:115264" ph="&lt;_Predicate,_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="115436:116867" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="116869:116920" ph="&lt;_ForwardIterator,_Predicate&gt;" />
+            <marker date="1487207607000" expanded="true" signature="117058:117261" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="117283:117332" ph="&lt;_ForwardIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="117434:117682" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="117684:117716" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="117834:117955" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="117971:118020" ph="&lt;_ForwardIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="118137:118210" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="118212:118244" ph="&lt;_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="118344:118459" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="118506:118555" ph="&lt;_Compare,_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="118653:119572" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="119663:119712" ph="&lt;_Compare,_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="119848:120234" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="120273:120322" ph="&lt;_Compare,_ForwardIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="120481:121015" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="121037:121093" ph="&lt;_Compare,_BirdirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="121198:121633" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="121353:121481" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="false" signature="121635:121691" ph="&lt;_Compare,_BirdirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="121796:122305" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="122307:122361" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="122464:123110" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="123112:123166" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="123278:124623" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="124625:124681" ph="&lt;_Compare,_BirdirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="124888:125937" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="125939:125993" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="126084:133094" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="133216:133270" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="133392:133751" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="133419:133583" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="133753:133791" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="133896:134004" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="134006:134026" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="134099:134172" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="134174:134194" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="134291:134342" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="134344:134380" ph="&lt;_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="134494:134639" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="134661:134716" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="139124:139146" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="139188:139248" ph="&lt;_Compare,_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="139369:139850" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="139852:139912" ph="&lt;_ForwardIterator,_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="140064:140471" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="140091:140279" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="140473:140517" ph="&lt;_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="140652:140813" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="140831:140891" ph="&lt;_Compare,_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="141012:141493" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="141495:141555" ph="&lt;_ForwardIterator,_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="141707:142114" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="141734:141922" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="142116:142160" ph="&lt;_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="142295:142456" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="142474:142534" ph="&lt;_Compare,_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="142679:143623" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="143625:143685" ph="&lt;_ForwardIterator,_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="143861:144268" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="143888:144076" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="144270:144314" ph="&lt;_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="144473:144634" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="144654:144714" ph="&lt;_Compare,_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="144858:144996" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="144998:145058" ph="&lt;_ForwardIterator,_Tp,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="145200:145611" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="145227:145417" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="145613:145657" ph="&lt;_ForwardIterator,_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="145782:145945" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="145957:146051" ph="&lt;_Compare,_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="146229:146648" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="146650:146744" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="146951:147402" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="146978:147188" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="147404:147482" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="147672:147907" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="147927:148031" ph="&lt;_Compare,_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="148255:148744" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="148746:148801" ph="&lt;_Compare,_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="149228:150247" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="150249:150304" ph="&lt;_Compare,_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="150745:154321" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="154323:154378" ph="&lt;_BidirectionalIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="154558:155694" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="155122:155406" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="155696:155735" ph="&lt;_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="155884:156036" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="156054:156125" ph="&lt;_Compare,_InputIterator1,_InputIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="156354:157438" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="157440:157534" ph="&lt;_Compare,_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="157721:158308" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="158310:158364" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="false" signature="158656:158710" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="158996:160373" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="160375:160395" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="160424:160507" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="160510:160564" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="160854:162645" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="162647:162701" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="162830:163795" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="163381:163586" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="163797:163835" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="163947:164062" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="164082:164136" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="164251:164868" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="164870:164907" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="165038:165162" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="165176:165230" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="165355:165426" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="165428:165465" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="165573:165691" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="165707:165761" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="165937:166584" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="166586:166640" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="166767:167168" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="166794:166979" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="167170:167208" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="167318:167431" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="167446:167500" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="167723:169270" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="169272:169326" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="169537:169682" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="169684:169738" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="169864:170267" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="169891:170077" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="170269:170307" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="170416:170528" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="170544:170598" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="170694:171125" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="171127:171181" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="171308:171677" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="171335:171504" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="171679:171717" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="171827:171940" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="171956:172010" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="172106:172338" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="172340:172394" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="172521:172890" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="172548:172717" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="172892:172930" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="173040:173153" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="173172:173226" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="173370:173827" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="173829:173883" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="174058:174453" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="174085:174267" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="174455:174493" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="174638:174787" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="174811:174887" ph="&lt;_Compare,_InputIterator,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="175089:175792" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="175794:175870" ph="&lt;_InputIterator,_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="176101:176562" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="176128:176343" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="176564:176624" ph="&lt;_InputIterator,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="176838:177032" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="177050:177104" ph="&lt;_Compare,_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="177231:183795" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="183797:183851" ph="&lt;_RandomAccessIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="184009:184396" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="184036:184214" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="184398:184436" ph="&lt;_RandomAccessIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="184577:184699" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="184714:184785" ph="&lt;_Compare,_InputIterator1,_InputIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="184932:185166" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="185168:185239" ph="&lt;_InputIterator1,_InputIterator2,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="185415:185838" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="185442:185638" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="185840:185895" ph="&lt;_InputIterator1,_InputIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="186045:186293" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="186144:186287" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="false" signature="186309:186403" ph="&lt;_Compare,_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="186589:187083" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="187085:187179" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="187394:187839" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="187421:187628" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="187841:187919" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="188117:188376" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="188227:188370" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="false" signature="188399:188493" ph="&lt;_Compare,_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="188693:189077" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="189079:189173" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="189402:189861" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="189429:189643" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="189863:189941" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="190153:190435" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="190278:190429" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="false" signature="190456:190550" ph="&lt;_Compare,_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="190746:191185" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="191187:191281" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="191506:191961" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="191533:191745" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="191963:192041" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="192249:192525" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="192370:192519" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="false" signature="192556:192650" ph="&lt;_Compare,_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="192866:193448" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="193450:193544" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="193789:194264" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="193816:194038" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="194266:194344" ph="&lt;_InputIterator1,_InputIterator2,_OutputIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="194572:194878" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="194713:194872" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="false" signature="194908:194979" ph="&lt;_Compare,_InputIterator1,_InputIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="195156:195410" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="195412:195483" ph="&lt;_InputIterator1,_InputIterator2,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="195689:196142" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="195716:195927" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="196144:196199" ph="&lt;_InputIterator1,_InputIterator2&gt;" />
+            <marker date="1487207607000" expanded="true" signature="196388:196681" ph="{...}" />
+            <marker date="1487207607000" expanded="true" signature="196517:196675" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="false" signature="196704:196759" ph="&lt;_Compare,_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="196864:197432" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="197434:197489" ph="&lt;_BidirectionalIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="197625:198022" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="197652:197835" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="198024:198063" ph="&lt;_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="198182:198344" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="198367:198422" ph="&lt;_Compare,_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="198527:199095" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="199097:199152" ph="&lt;_BidirectionalIterator,_Compare&gt;" />
+            <marker date="1487207607000" expanded="true" signature="199288:199685" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="199315:199498" ph="..." />
+            <marker date="1487207607000" expanded="false" signature="199687:199726" ph="&lt;_BidirectionalIterator&gt;" />
+            <marker date="1487207607000" expanded="true" signature="199845:200007" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="200009:200029" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="200082:200122" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="200165:200387" ph="{...}" />
+            <marker date="1487207607000" expanded="false" signature="200389:200409" ph="&lt;_Tp&gt;" />
+            <marker date="1487207607000" expanded="true" signature="200462:200502" ph="&lt;~&gt;" />
+            <marker date="1487207607000" expanded="true" signature="200546:200768" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2 Math/PalindromeInteger.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1499136279000" expanded="true" signature="411:718" ph="{...}" />
+            <marker date="1499136279000" expanded="true" signature="731:770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Bit Manipulation/SingleNumber.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Strings/Integer_to_roman.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Strings/Atoi.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Strings/LongestPalindromicSequence.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="e#16#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

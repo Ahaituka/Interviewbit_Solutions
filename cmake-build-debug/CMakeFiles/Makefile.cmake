@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/LongestPalindromicSequence.dir/DependInfo.cmake"
+  "CMakeFiles/Palindrome_String.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
   "CMakeFiles/Roman_To_Integer.dir/DependInfo.cmake"
   "CMakeFiles/index_Search_For_A_Range.dir/DependInfo.cmake"
@@ -63,5 +65,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ReverseTheString.dir/DependInfo.cmake"
   "CMakeFiles/Coverpoint.dir/DependInfo.cmake"
   "CMakeFiles/PalindromeInteger.dir/DependInfo.cmake"
+  "CMakeFiles/Atoi.dir/DependInfo.cmake"
   "CMakeFiles/ExcelColumnTitle.dir/DependInfo.cmake"
   )
