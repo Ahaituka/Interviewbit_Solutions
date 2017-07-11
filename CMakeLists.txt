@@ -31,3 +31,7 @@ add_executable(LongestPalindromicSequence "Level 3/Strings/LongestPalindromicSeq
 
 add_executable(Atoi "Level 3/Strings/Atoi.cpp")
 add_executable(SingleNumber "Level 3/Bit Manipulation/SingleNumber.cpp")
+
+add_executable(Single_Number_II "Level 3/Bit Manipulation/Single_Number_II.cpp")
+add_executable(Min_XOR_Value "Level 3/Bit Manipulation/Min_XOR_Value.cpp")
+add_executable(Remove_Duplicates "Level 3/Two Pointers/Remove_Duplicates.cpp")

@@ -60,6 +60,80 @@ CMAKE_SOURCE_DIR = /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2
 CMAKE_BINARY_DIR = /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/SquareRoot.dir
+
+# All Build rule for target.
+CMakeFiles/SquareRoot.dir/all:
+	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/depend
+	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target SquareRoot"
+.PHONY : CMakeFiles/SquareRoot.dir/all
+
+# Include target in all.
+all: CMakeFiles/SquareRoot.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SquareRoot.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SquareRoot.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/SquareRoot.dir/rule
+
+# Convenience name for target.
+SquareRoot: CMakeFiles/SquareRoot.dir/rule
+
+.PHONY : SquareRoot
+
+# clean rule for target.
+CMakeFiles/SquareRoot.dir/clean:
+	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/clean
+.PHONY : CMakeFiles/SquareRoot.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/SquareRoot.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Min_XOR_Value.dir
+
+# All Build rule for target.
+CMakeFiles/Min_XOR_Value.dir/all:
+	$(MAKE) -f CMakeFiles/Min_XOR_Value.dir/build.make CMakeFiles/Min_XOR_Value.dir/depend
+	$(MAKE) -f CMakeFiles/Min_XOR_Value.dir/build.make CMakeFiles/Min_XOR_Value.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target Min_XOR_Value"
+.PHONY : CMakeFiles/Min_XOR_Value.dir/all
+
+# Include target in all.
+all: CMakeFiles/Min_XOR_Value.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Min_XOR_Value.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Min_XOR_Value.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Min_XOR_Value.dir/rule
+
+# Convenience name for target.
+Min_XOR_Value: CMakeFiles/Min_XOR_Value.dir/rule
+
+.PHONY : Min_XOR_Value
+
+# clean rule for target.
+CMakeFiles/Min_XOR_Value.dir/clean:
+	$(MAKE) -f CMakeFiles/Min_XOR_Value.dir/build.make CMakeFiles/Min_XOR_Value.dir/clean
+.PHONY : CMakeFiles/Min_XOR_Value.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Min_XOR_Value.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/LongestPalindromicSequence.dir
 
 # All Build rule for target.
@@ -97,13 +171,87 @@ clean: CMakeFiles/LongestPalindromicSequence.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ExcelColumnNumber.dir
+
+# All Build rule for target.
+CMakeFiles/ExcelColumnNumber.dir/all:
+	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/depend
+	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target ExcelColumnNumber"
+.PHONY : CMakeFiles/ExcelColumnNumber.dir/all
+
+# Include target in all.
+all: CMakeFiles/ExcelColumnNumber.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ExcelColumnNumber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ExcelColumnNumber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ExcelColumnNumber.dir/rule
+
+# Convenience name for target.
+ExcelColumnNumber: CMakeFiles/ExcelColumnNumber.dir/rule
+
+.PHONY : ExcelColumnNumber
+
+# clean rule for target.
+CMakeFiles/ExcelColumnNumber.dir/clean:
+	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/clean
+.PHONY : CMakeFiles/ExcelColumnNumber.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ExcelColumnNumber.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Roman_To_Integer.dir
+
+# All Build rule for target.
+CMakeFiles/Roman_To_Integer.dir/all:
+	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/depend
+	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target Roman_To_Integer"
+.PHONY : CMakeFiles/Roman_To_Integer.dir/all
+
+# Include target in all.
+all: CMakeFiles/Roman_To_Integer.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Roman_To_Integer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Roman_To_Integer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Roman_To_Integer.dir/rule
+
+# Convenience name for target.
+Roman_To_Integer: CMakeFiles/Roman_To_Integer.dir/rule
+
+.PHONY : Roman_To_Integer
+
+# clean rule for target.
+CMakeFiles/Roman_To_Integer.dir/clean:
+	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/clean
+.PHONY : CMakeFiles/Roman_To_Integer.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Roman_To_Integer.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Palindrome_String.dir
 
 # All Build rule for target.
 CMakeFiles/Palindrome_String.dir/all:
 	$(MAKE) -f CMakeFiles/Palindrome_String.dir/build.make CMakeFiles/Palindrome_String.dir/depend
 	$(MAKE) -f CMakeFiles/Palindrome_String.dir/build.make CMakeFiles/Palindrome_String.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target Palindrome_String"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target Palindrome_String"
 .PHONY : CMakeFiles/Palindrome_String.dir/all
 
 # Include target in all.
@@ -140,7 +288,7 @@ clean: CMakeFiles/Palindrome_String.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Include target in all.
@@ -171,39 +319,76 @@ clean: CMakeFiles/main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Roman_To_Integer.dir
+# Target rules for target CMakeFiles/RotatedArray.dir
 
 # All Build rule for target.
-CMakeFiles/Roman_To_Integer.dir/all:
-	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/depend
-	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target Roman_To_Integer"
-.PHONY : CMakeFiles/Roman_To_Integer.dir/all
+CMakeFiles/RotatedArray.dir/all:
+	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/depend
+	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target RotatedArray"
+.PHONY : CMakeFiles/RotatedArray.dir/all
 
 # Include target in all.
-all: CMakeFiles/Roman_To_Integer.dir/all
+all: CMakeFiles/RotatedArray.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Roman_To_Integer.dir/rule: cmake_check_build_system
+CMakeFiles/RotatedArray.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Roman_To_Integer.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RotatedArray.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Roman_To_Integer.dir/rule
+.PHONY : CMakeFiles/RotatedArray.dir/rule
 
 # Convenience name for target.
-Roman_To_Integer: CMakeFiles/Roman_To_Integer.dir/rule
+RotatedArray: CMakeFiles/RotatedArray.dir/rule
 
-.PHONY : Roman_To_Integer
-
-# clean rule for target.
-CMakeFiles/Roman_To_Integer.dir/clean:
-	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/clean
-.PHONY : CMakeFiles/Roman_To_Integer.dir/clean
+.PHONY : RotatedArray
 
 # clean rule for target.
-clean: CMakeFiles/Roman_To_Integer.dir/clean
+CMakeFiles/RotatedArray.dir/clean:
+	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/clean
+.PHONY : CMakeFiles/RotatedArray.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/RotatedArray.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Remove_Duplicates.dir
+
+# All Build rule for target.
+CMakeFiles/Remove_Duplicates.dir/all:
+	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/depend
+	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target Remove_Duplicates"
+.PHONY : CMakeFiles/Remove_Duplicates.dir/all
+
+# Include target in all.
+all: CMakeFiles/Remove_Duplicates.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Remove_Duplicates.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Remove_Duplicates.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Remove_Duplicates.dir/rule
+
+# Convenience name for target.
+Remove_Duplicates: CMakeFiles/Remove_Duplicates.dir/rule
+
+.PHONY : Remove_Duplicates
+
+# clean rule for target.
+CMakeFiles/Remove_Duplicates.dir/clean:
+	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/clean
+.PHONY : CMakeFiles/Remove_Duplicates.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Remove_Duplicates.dir/clean
 
 .PHONY : clean
 
@@ -214,7 +399,7 @@ clean: CMakeFiles/Roman_To_Integer.dir/clean
 CMakeFiles/index_Search_For_A_Range.dir/all:
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/depend
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target index_Search_For_A_Range"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target index_Search_For_A_Range"
 .PHONY : CMakeFiles/index_Search_For_A_Range.dir/all
 
 # Include target in all.
@@ -241,6 +426,43 @@ CMakeFiles/index_Search_For_A_Range.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/index_Search_For_A_Range.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ReverseTheString.dir
+
+# All Build rule for target.
+CMakeFiles/ReverseTheString.dir/all:
+	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/depend
+	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target ReverseTheString"
+.PHONY : CMakeFiles/ReverseTheString.dir/all
+
+# Include target in all.
+all: CMakeFiles/ReverseTheString.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ReverseTheString.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ReverseTheString.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ReverseTheString.dir/rule
+
+# Convenience name for target.
+ReverseTheString: CMakeFiles/ReverseTheString.dir/rule
+
+.PHONY : ReverseTheString
+
+# clean rule for target.
+CMakeFiles/ReverseTheString.dir/clean:
+	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/clean
+.PHONY : CMakeFiles/ReverseTheString.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ReverseTheString.dir/clean
 
 .PHONY : clean
 
@@ -282,39 +504,76 @@ clean: CMakeFiles/Integer_to_roman.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SquareRoot.dir
+# Target rules for target CMakeFiles/Coverpoint.dir
 
 # All Build rule for target.
-CMakeFiles/SquareRoot.dir/all:
-	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/depend
-	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target SquareRoot"
-.PHONY : CMakeFiles/SquareRoot.dir/all
+CMakeFiles/Coverpoint.dir/all:
+	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/depend
+	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Coverpoint"
+.PHONY : CMakeFiles/Coverpoint.dir/all
 
 # Include target in all.
-all: CMakeFiles/SquareRoot.dir/all
+all: CMakeFiles/Coverpoint.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SquareRoot.dir/rule: cmake_check_build_system
+CMakeFiles/Coverpoint.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SquareRoot.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Coverpoint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/SquareRoot.dir/rule
+.PHONY : CMakeFiles/Coverpoint.dir/rule
 
 # Convenience name for target.
-SquareRoot: CMakeFiles/SquareRoot.dir/rule
+Coverpoint: CMakeFiles/Coverpoint.dir/rule
 
-.PHONY : SquareRoot
-
-# clean rule for target.
-CMakeFiles/SquareRoot.dir/clean:
-	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/clean
-.PHONY : CMakeFiles/SquareRoot.dir/clean
+.PHONY : Coverpoint
 
 # clean rule for target.
-clean: CMakeFiles/SquareRoot.dir/clean
+CMakeFiles/Coverpoint.dir/clean:
+	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/clean
+.PHONY : CMakeFiles/Coverpoint.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Coverpoint.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Single_Number_II.dir
+
+# All Build rule for target.
+CMakeFiles/Single_Number_II.dir/all:
+	$(MAKE) -f CMakeFiles/Single_Number_II.dir/build.make CMakeFiles/Single_Number_II.dir/depend
+	$(MAKE) -f CMakeFiles/Single_Number_II.dir/build.make CMakeFiles/Single_Number_II.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target Single_Number_II"
+.PHONY : CMakeFiles/Single_Number_II.dir/all
+
+# Include target in all.
+all: CMakeFiles/Single_Number_II.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Single_Number_II.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Single_Number_II.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Single_Number_II.dir/rule
+
+# Convenience name for target.
+Single_Number_II: CMakeFiles/Single_Number_II.dir/rule
+
+.PHONY : Single_Number_II
+
+# clean rule for target.
+CMakeFiles/Single_Number_II.dir/clean:
+	$(MAKE) -f CMakeFiles/Single_Number_II.dir/build.make CMakeFiles/Single_Number_II.dir/clean
+.PHONY : CMakeFiles/Single_Number_II.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Single_Number_II.dir/clean
 
 .PHONY : clean
 
@@ -325,7 +584,7 @@ clean: CMakeFiles/SquareRoot.dir/clean
 CMakeFiles/SingleNumber.dir/all:
 	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/depend
 	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target SingleNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target SingleNumber"
 .PHONY : CMakeFiles/SingleNumber.dir/all
 
 # Include target in all.
@@ -393,13 +652,50 @@ clean: CMakeFiles/GridUniquePath.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Atoi.dir
+
+# All Build rule for target.
+CMakeFiles/Atoi.dir/all:
+	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/depend
+	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Atoi"
+.PHONY : CMakeFiles/Atoi.dir/all
+
+# Include target in all.
+all: CMakeFiles/Atoi.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Atoi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Atoi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Atoi.dir/rule
+
+# Convenience name for target.
+Atoi: CMakeFiles/Atoi.dir/rule
+
+.PHONY : Atoi
+
+# clean rule for target.
+CMakeFiles/Atoi.dir/clean:
+	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/clean
+.PHONY : CMakeFiles/Atoi.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Atoi.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Search.dir
 
 # All Build rule for target.
 CMakeFiles/Search.dir/all:
 	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/depend
 	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target Search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target Search"
 .PHONY : CMakeFiles/Search.dir/all
 
 # Include target in all.
@@ -426,43 +722,6 @@ CMakeFiles/Search.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Search.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/RotatedArray.dir
-
-# All Build rule for target.
-CMakeFiles/RotatedArray.dir/all:
-	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/depend
-	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target RotatedArray"
-.PHONY : CMakeFiles/RotatedArray.dir/all
-
-# Include target in all.
-all: CMakeFiles/RotatedArray.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/RotatedArray.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RotatedArray.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/RotatedArray.dir/rule
-
-# Convenience name for target.
-RotatedArray: CMakeFiles/RotatedArray.dir/rule
-
-.PHONY : RotatedArray
-
-# clean rule for target.
-CMakeFiles/RotatedArray.dir/clean:
-	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/clean
-.PHONY : CMakeFiles/RotatedArray.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/RotatedArray.dir/clean
 
 .PHONY : clean
 
@@ -510,7 +769,7 @@ clean: CMakeFiles/GCD.dir/clean
 CMakeFiles/Power.dir/all:
 	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/depend
 	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target Power"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target Power"
 .PHONY : CMakeFiles/Power.dir/all
 
 # Include target in all.
@@ -578,124 +837,13 @@ clean: CMakeFiles/InterviewBit.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ExcelColumnNumber.dir
-
-# All Build rule for target.
-CMakeFiles/ExcelColumnNumber.dir/all:
-	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/depend
-	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target ExcelColumnNumber"
-.PHONY : CMakeFiles/ExcelColumnNumber.dir/all
-
-# Include target in all.
-all: CMakeFiles/ExcelColumnNumber.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ExcelColumnNumber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ExcelColumnNumber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ExcelColumnNumber.dir/rule
-
-# Convenience name for target.
-ExcelColumnNumber: CMakeFiles/ExcelColumnNumber.dir/rule
-
-.PHONY : ExcelColumnNumber
-
-# clean rule for target.
-CMakeFiles/ExcelColumnNumber.dir/clean:
-	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/clean
-.PHONY : CMakeFiles/ExcelColumnNumber.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/ExcelColumnNumber.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ReverseTheString.dir
-
-# All Build rule for target.
-CMakeFiles/ReverseTheString.dir/all:
-	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/depend
-	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target ReverseTheString"
-.PHONY : CMakeFiles/ReverseTheString.dir/all
-
-# Include target in all.
-all: CMakeFiles/ReverseTheString.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ReverseTheString.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ReverseTheString.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/ReverseTheString.dir/rule
-
-# Convenience name for target.
-ReverseTheString: CMakeFiles/ReverseTheString.dir/rule
-
-.PHONY : ReverseTheString
-
-# clean rule for target.
-CMakeFiles/ReverseTheString.dir/clean:
-	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/clean
-.PHONY : CMakeFiles/ReverseTheString.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/ReverseTheString.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Coverpoint.dir
-
-# All Build rule for target.
-CMakeFiles/Coverpoint.dir/all:
-	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/depend
-	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Coverpoint"
-.PHONY : CMakeFiles/Coverpoint.dir/all
-
-# Include target in all.
-all: CMakeFiles/Coverpoint.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Coverpoint.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Coverpoint.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Coverpoint.dir/rule
-
-# Convenience name for target.
-Coverpoint: CMakeFiles/Coverpoint.dir/rule
-
-.PHONY : Coverpoint
-
-# clean rule for target.
-CMakeFiles/Coverpoint.dir/clean:
-	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/clean
-.PHONY : CMakeFiles/Coverpoint.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Coverpoint.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/PalindromeInteger.dir
 
 # All Build rule for target.
 CMakeFiles/PalindromeInteger.dir/all:
 	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/depend
 	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target PalindromeInteger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target PalindromeInteger"
 .PHONY : CMakeFiles/PalindromeInteger.dir/all
 
 # Include target in all.
@@ -722,43 +870,6 @@ CMakeFiles/PalindromeInteger.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/PalindromeInteger.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Atoi.dir
-
-# All Build rule for target.
-CMakeFiles/Atoi.dir/all:
-	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/depend
-	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Atoi"
-.PHONY : CMakeFiles/Atoi.dir/all
-
-# Include target in all.
-all: CMakeFiles/Atoi.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Atoi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Atoi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Atoi.dir/rule
-
-# Convenience name for target.
-Atoi: CMakeFiles/Atoi.dir/rule
-
-.PHONY : Atoi
-
-# clean rule for target.
-CMakeFiles/Atoi.dir/clean:
-	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/clean
-.PHONY : CMakeFiles/Atoi.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/Atoi.dir/clean
 
 .PHONY : clean
 

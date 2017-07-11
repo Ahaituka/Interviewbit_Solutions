@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named SquareRoot
+
+# Build rule for target.
+SquareRoot: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SquareRoot
+.PHONY : SquareRoot
+
+# fast build rule for target.
+SquareRoot/fast:
+	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/build
+.PHONY : SquareRoot/fast
+
+#=============================================================================
+# Target rules for targets named Min_XOR_Value
+
+# Build rule for target.
+Min_XOR_Value: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Min_XOR_Value
+.PHONY : Min_XOR_Value
+
+# fast build rule for target.
+Min_XOR_Value/fast:
+	$(MAKE) -f CMakeFiles/Min_XOR_Value.dir/build.make CMakeFiles/Min_XOR_Value.dir/build
+.PHONY : Min_XOR_Value/fast
+
+#=============================================================================
 # Target rules for targets named LongestPalindromicSequence
 
 # Build rule for target.
@@ -122,6 +148,32 @@ LongestPalindromicSequence: cmake_check_build_system
 LongestPalindromicSequence/fast:
 	$(MAKE) -f CMakeFiles/LongestPalindromicSequence.dir/build.make CMakeFiles/LongestPalindromicSequence.dir/build
 .PHONY : LongestPalindromicSequence/fast
+
+#=============================================================================
+# Target rules for targets named ExcelColumnNumber
+
+# Build rule for target.
+ExcelColumnNumber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ExcelColumnNumber
+.PHONY : ExcelColumnNumber
+
+# fast build rule for target.
+ExcelColumnNumber/fast:
+	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/build
+.PHONY : ExcelColumnNumber/fast
+
+#=============================================================================
+# Target rules for targets named Roman_To_Integer
+
+# Build rule for target.
+Roman_To_Integer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Roman_To_Integer
+.PHONY : Roman_To_Integer
+
+# fast build rule for target.
+Roman_To_Integer/fast:
+	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/build
+.PHONY : Roman_To_Integer/fast
 
 #=============================================================================
 # Target rules for targets named Palindrome_String
@@ -150,17 +202,30 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Roman_To_Integer
+# Target rules for targets named RotatedArray
 
 # Build rule for target.
-Roman_To_Integer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Roman_To_Integer
-.PHONY : Roman_To_Integer
+RotatedArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RotatedArray
+.PHONY : RotatedArray
 
 # fast build rule for target.
-Roman_To_Integer/fast:
-	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/build
-.PHONY : Roman_To_Integer/fast
+RotatedArray/fast:
+	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/build
+.PHONY : RotatedArray/fast
+
+#=============================================================================
+# Target rules for targets named Remove_Duplicates
+
+# Build rule for target.
+Remove_Duplicates: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Remove_Duplicates
+.PHONY : Remove_Duplicates
+
+# fast build rule for target.
+Remove_Duplicates/fast:
+	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/build
+.PHONY : Remove_Duplicates/fast
 
 #=============================================================================
 # Target rules for targets named index_Search_For_A_Range
@@ -176,6 +241,19 @@ index_Search_For_A_Range/fast:
 .PHONY : index_Search_For_A_Range/fast
 
 #=============================================================================
+# Target rules for targets named ReverseTheString
+
+# Build rule for target.
+ReverseTheString: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ReverseTheString
+.PHONY : ReverseTheString
+
+# fast build rule for target.
+ReverseTheString/fast:
+	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/build
+.PHONY : ReverseTheString/fast
+
+#=============================================================================
 # Target rules for targets named Integer_to_roman
 
 # Build rule for target.
@@ -189,17 +267,30 @@ Integer_to_roman/fast:
 .PHONY : Integer_to_roman/fast
 
 #=============================================================================
-# Target rules for targets named SquareRoot
+# Target rules for targets named Coverpoint
 
 # Build rule for target.
-SquareRoot: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SquareRoot
-.PHONY : SquareRoot
+Coverpoint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Coverpoint
+.PHONY : Coverpoint
 
 # fast build rule for target.
-SquareRoot/fast:
-	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/build
-.PHONY : SquareRoot/fast
+Coverpoint/fast:
+	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/build
+.PHONY : Coverpoint/fast
+
+#=============================================================================
+# Target rules for targets named Single_Number_II
+
+# Build rule for target.
+Single_Number_II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Single_Number_II
+.PHONY : Single_Number_II
+
+# fast build rule for target.
+Single_Number_II/fast:
+	$(MAKE) -f CMakeFiles/Single_Number_II.dir/build.make CMakeFiles/Single_Number_II.dir/build
+.PHONY : Single_Number_II/fast
 
 #=============================================================================
 # Target rules for targets named SingleNumber
@@ -228,6 +319,19 @@ GridUniquePath/fast:
 .PHONY : GridUniquePath/fast
 
 #=============================================================================
+# Target rules for targets named Atoi
+
+# Build rule for target.
+Atoi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Atoi
+.PHONY : Atoi
+
+# fast build rule for target.
+Atoi/fast:
+	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/build
+.PHONY : Atoi/fast
+
+#=============================================================================
 # Target rules for targets named Search
 
 # Build rule for target.
@@ -239,19 +343,6 @@ Search: cmake_check_build_system
 Search/fast:
 	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/build
 .PHONY : Search/fast
-
-#=============================================================================
-# Target rules for targets named RotatedArray
-
-# Build rule for target.
-RotatedArray: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 RotatedArray
-.PHONY : RotatedArray
-
-# fast build rule for target.
-RotatedArray/fast:
-	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/build
-.PHONY : RotatedArray/fast
 
 #=============================================================================
 # Target rules for targets named GCD
@@ -293,45 +384,6 @@ InterviewBit/fast:
 .PHONY : InterviewBit/fast
 
 #=============================================================================
-# Target rules for targets named ExcelColumnNumber
-
-# Build rule for target.
-ExcelColumnNumber: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ExcelColumnNumber
-.PHONY : ExcelColumnNumber
-
-# fast build rule for target.
-ExcelColumnNumber/fast:
-	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/build
-.PHONY : ExcelColumnNumber/fast
-
-#=============================================================================
-# Target rules for targets named ReverseTheString
-
-# Build rule for target.
-ReverseTheString: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ReverseTheString
-.PHONY : ReverseTheString
-
-# fast build rule for target.
-ReverseTheString/fast:
-	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/build
-.PHONY : ReverseTheString/fast
-
-#=============================================================================
-# Target rules for targets named Coverpoint
-
-# Build rule for target.
-Coverpoint: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Coverpoint
-.PHONY : Coverpoint
-
-# fast build rule for target.
-Coverpoint/fast:
-	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/build
-.PHONY : Coverpoint/fast
-
-#=============================================================================
 # Target rules for targets named PalindromeInteger
 
 # Build rule for target.
@@ -343,19 +395,6 @@ PalindromeInteger: cmake_check_build_system
 PalindromeInteger/fast:
 	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/build
 .PHONY : PalindromeInteger/fast
-
-#=============================================================================
-# Target rules for targets named Atoi
-
-# Build rule for target.
-Atoi: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Atoi
-.PHONY : Atoi
-
-# fast build rule for target.
-Atoi/fast:
-	$(MAKE) -f CMakeFiles/Atoi.dir/build.make CMakeFiles/Atoi.dir/build
-.PHONY : Atoi/fast
 
 #=============================================================================
 # Target rules for targets named ExcelColumnTitle
@@ -667,6 +706,33 @@ Level_3/Binary_Search/index_Search_For_A_Range.cpp.s:
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
 .PHONY : Level_3/Binary_Search/index_Search_For_A_Range.cpp.s
 
+Level_3/Bit_Manipulation/Min_XOR_Value.o: Level_3/Bit_Manipulation/Min_XOR_Value.cpp.o
+
+.PHONY : Level_3/Bit_Manipulation/Min_XOR_Value.o
+
+# target to build an object file
+Level_3/Bit_Manipulation/Min_XOR_Value.cpp.o:
+	$(MAKE) -f CMakeFiles/Min_XOR_Value.dir/build.make CMakeFiles/Min_XOR_Value.dir/Level_3/Bit_Manipulation/Min_XOR_Value.cpp.o
+.PHONY : Level_3/Bit_Manipulation/Min_XOR_Value.cpp.o
+
+Level_3/Bit_Manipulation/Min_XOR_Value.i: Level_3/Bit_Manipulation/Min_XOR_Value.cpp.i
+
+.PHONY : Level_3/Bit_Manipulation/Min_XOR_Value.i
+
+# target to preprocess a source file
+Level_3/Bit_Manipulation/Min_XOR_Value.cpp.i:
+	$(MAKE) -f CMakeFiles/Min_XOR_Value.dir/build.make CMakeFiles/Min_XOR_Value.dir/Level_3/Bit_Manipulation/Min_XOR_Value.cpp.i
+.PHONY : Level_3/Bit_Manipulation/Min_XOR_Value.cpp.i
+
+Level_3/Bit_Manipulation/Min_XOR_Value.s: Level_3/Bit_Manipulation/Min_XOR_Value.cpp.s
+
+.PHONY : Level_3/Bit_Manipulation/Min_XOR_Value.s
+
+# target to generate assembly for a file
+Level_3/Bit_Manipulation/Min_XOR_Value.cpp.s:
+	$(MAKE) -f CMakeFiles/Min_XOR_Value.dir/build.make CMakeFiles/Min_XOR_Value.dir/Level_3/Bit_Manipulation/Min_XOR_Value.cpp.s
+.PHONY : Level_3/Bit_Manipulation/Min_XOR_Value.cpp.s
+
 Level_3/Bit_Manipulation/SingleNumber.o: Level_3/Bit_Manipulation/SingleNumber.cpp.o
 
 .PHONY : Level_3/Bit_Manipulation/SingleNumber.o
@@ -693,6 +759,33 @@ Level_3/Bit_Manipulation/SingleNumber.s: Level_3/Bit_Manipulation/SingleNumber.c
 Level_3/Bit_Manipulation/SingleNumber.cpp.s:
 	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/Level_3/Bit_Manipulation/SingleNumber.cpp.s
 .PHONY : Level_3/Bit_Manipulation/SingleNumber.cpp.s
+
+Level_3/Bit_Manipulation/Single_Number_II.o: Level_3/Bit_Manipulation/Single_Number_II.cpp.o
+
+.PHONY : Level_3/Bit_Manipulation/Single_Number_II.o
+
+# target to build an object file
+Level_3/Bit_Manipulation/Single_Number_II.cpp.o:
+	$(MAKE) -f CMakeFiles/Single_Number_II.dir/build.make CMakeFiles/Single_Number_II.dir/Level_3/Bit_Manipulation/Single_Number_II.cpp.o
+.PHONY : Level_3/Bit_Manipulation/Single_Number_II.cpp.o
+
+Level_3/Bit_Manipulation/Single_Number_II.i: Level_3/Bit_Manipulation/Single_Number_II.cpp.i
+
+.PHONY : Level_3/Bit_Manipulation/Single_Number_II.i
+
+# target to preprocess a source file
+Level_3/Bit_Manipulation/Single_Number_II.cpp.i:
+	$(MAKE) -f CMakeFiles/Single_Number_II.dir/build.make CMakeFiles/Single_Number_II.dir/Level_3/Bit_Manipulation/Single_Number_II.cpp.i
+.PHONY : Level_3/Bit_Manipulation/Single_Number_II.cpp.i
+
+Level_3/Bit_Manipulation/Single_Number_II.s: Level_3/Bit_Manipulation/Single_Number_II.cpp.s
+
+.PHONY : Level_3/Bit_Manipulation/Single_Number_II.s
+
+# target to generate assembly for a file
+Level_3/Bit_Manipulation/Single_Number_II.cpp.s:
+	$(MAKE) -f CMakeFiles/Single_Number_II.dir/build.make CMakeFiles/Single_Number_II.dir/Level_3/Bit_Manipulation/Single_Number_II.cpp.s
+.PHONY : Level_3/Bit_Manipulation/Single_Number_II.cpp.s
 
 Level_3/Strings/Atoi.o: Level_3/Strings/Atoi.cpp.o
 
@@ -856,6 +949,33 @@ Level_3/Strings/Roman_To_Integer.cpp.s:
 	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/Level_3/Strings/Roman_To_Integer.cpp.s
 .PHONY : Level_3/Strings/Roman_To_Integer.cpp.s
 
+Level_3/Two_Pointers/Remove_Duplicates.o: Level_3/Two_Pointers/Remove_Duplicates.cpp.o
+
+.PHONY : Level_3/Two_Pointers/Remove_Duplicates.o
+
+# target to build an object file
+Level_3/Two_Pointers/Remove_Duplicates.cpp.o:
+	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/Level_3/Two_Pointers/Remove_Duplicates.cpp.o
+.PHONY : Level_3/Two_Pointers/Remove_Duplicates.cpp.o
+
+Level_3/Two_Pointers/Remove_Duplicates.i: Level_3/Two_Pointers/Remove_Duplicates.cpp.i
+
+.PHONY : Level_3/Two_Pointers/Remove_Duplicates.i
+
+# target to preprocess a source file
+Level_3/Two_Pointers/Remove_Duplicates.cpp.i:
+	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/Level_3/Two_Pointers/Remove_Duplicates.cpp.i
+.PHONY : Level_3/Two_Pointers/Remove_Duplicates.cpp.i
+
+Level_3/Two_Pointers/Remove_Duplicates.s: Level_3/Two_Pointers/Remove_Duplicates.cpp.s
+
+.PHONY : Level_3/Two_Pointers/Remove_Duplicates.s
+
+# target to generate assembly for a file
+Level_3/Two_Pointers/Remove_Duplicates.cpp.s:
+	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/Level_3/Two_Pointers/Remove_Duplicates.cpp.s
+.PHONY : Level_3/Two_Pointers/Remove_Duplicates.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -893,26 +1013,29 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... SquareRoot"
+	@echo "... Min_XOR_Value"
 	@echo "... LongestPalindromicSequence"
+	@echo "... ExcelColumnNumber"
+	@echo "... Roman_To_Integer"
 	@echo "... Palindrome_String"
 	@echo "... main"
-	@echo "... Roman_To_Integer"
+	@echo "... RotatedArray"
+	@echo "... Remove_Duplicates"
 	@echo "... index_Search_For_A_Range"
+	@echo "... ReverseTheString"
 	@echo "... Integer_to_roman"
-	@echo "... SquareRoot"
+	@echo "... Coverpoint"
+	@echo "... Single_Number_II"
 	@echo "... SingleNumber"
 	@echo "... GridUniquePath"
+	@echo "... Atoi"
 	@echo "... Search"
-	@echo "... edit_cache"
-	@echo "... RotatedArray"
 	@echo "... GCD"
 	@echo "... Power"
 	@echo "... InterviewBit"
-	@echo "... ExcelColumnNumber"
-	@echo "... ReverseTheString"
-	@echo "... Coverpoint"
 	@echo "... PalindromeInteger"
-	@echo "... Atoi"
 	@echo "... ExcelColumnTitle"
 	@echo "... Level_2_Array/Coverpoint.o"
 	@echo "... Level_2_Array/Coverpoint.i"
@@ -947,9 +1070,15 @@ help:
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.o"
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.i"
 	@echo "... Level_3/Binary_Search/index_Search_For_A_Range.s"
+	@echo "... Level_3/Bit_Manipulation/Min_XOR_Value.o"
+	@echo "... Level_3/Bit_Manipulation/Min_XOR_Value.i"
+	@echo "... Level_3/Bit_Manipulation/Min_XOR_Value.s"
 	@echo "... Level_3/Bit_Manipulation/SingleNumber.o"
 	@echo "... Level_3/Bit_Manipulation/SingleNumber.i"
 	@echo "... Level_3/Bit_Manipulation/SingleNumber.s"
+	@echo "... Level_3/Bit_Manipulation/Single_Number_II.o"
+	@echo "... Level_3/Bit_Manipulation/Single_Number_II.i"
+	@echo "... Level_3/Bit_Manipulation/Single_Number_II.s"
 	@echo "... Level_3/Strings/Atoi.o"
 	@echo "... Level_3/Strings/Atoi.i"
 	@echo "... Level_3/Strings/Atoi.s"
@@ -968,6 +1097,9 @@ help:
 	@echo "... Level_3/Strings/Roman_To_Integer.o"
 	@echo "... Level_3/Strings/Roman_To_Integer.i"
 	@echo "... Level_3/Strings/Roman_To_Integer.s"
+	@echo "... Level_3/Two_Pointers/Remove_Duplicates.o"
+	@echo "... Level_3/Two_Pointers/Remove_Duplicates.i"
+	@echo "... Level_3/Two_Pointers/Remove_Duplicates.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
