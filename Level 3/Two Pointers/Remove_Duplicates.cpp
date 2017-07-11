@@ -23,7 +23,6 @@ int remove(vector<int> &A) {
     for (int i = 0; i < A.size(); ++i) {
         if (A[i] == A[i + 1] && (i < A.size() - 1)) {
             continue;
-
         } else {
             A[count] = A[i];
             count++;
