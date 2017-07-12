@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ARRAY_3_POINTERS.dir/DependInfo.cmake"
+  "CMakeFiles/Merge_Two_Sorted_List.dir/DependInfo.cmake"
   "CMakeFiles/Remove_Duplicates_From_Array_2.dir/DependInfo.cmake"
   "CMakeFiles/SquareRoot.dir/DependInfo.cmake"
   "CMakeFiles/Min_XOR_Value.dir/DependInfo.cmake"

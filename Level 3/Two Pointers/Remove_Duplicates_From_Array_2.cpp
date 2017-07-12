@@ -15,6 +15,9 @@
 using namespace std;
 
 int RemoveDuplicates(vector<int> &A) {
+    if (A.size() <= 2) {
+        return A.size();
+    }
     int count = 0;
     for (int i = 0; i < A.size(); ++i) {
         if (A[i] == A[i + 1] && A[i] == A[i + 2] and i < A.size()) {//i++;
@@ -33,7 +36,7 @@ int RemoveDuplicates(vector<int> &A) {
 }
 
 int main() {
-    vector<int> A = {1, 2, 2, 3, 3, 4, 4, 4};
+    vector<int> A = {0};
     cout << RemoveDuplicates(A);
     for (int i = 0; i < A.size(); ++i) {
         cout << A[i];

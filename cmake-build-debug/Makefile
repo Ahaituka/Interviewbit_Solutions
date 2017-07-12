@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ARRAY_3_POINTERS
+
+# Build rule for target.
+ARRAY_3_POINTERS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ARRAY_3_POINTERS
+.PHONY : ARRAY_3_POINTERS
+
+# fast build rule for target.
+ARRAY_3_POINTERS/fast:
+	$(MAKE) -f CMakeFiles/ARRAY_3_POINTERS.dir/build.make CMakeFiles/ARRAY_3_POINTERS.dir/build
+.PHONY : ARRAY_3_POINTERS/fast
+
+#=============================================================================
+# Target rules for targets named Merge_Two_Sorted_List
+
+# Build rule for target.
+Merge_Two_Sorted_List: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Merge_Two_Sorted_List
+.PHONY : Merge_Two_Sorted_List
+
+# fast build rule for target.
+Merge_Two_Sorted_List/fast:
+	$(MAKE) -f CMakeFiles/Merge_Two_Sorted_List.dir/build.make CMakeFiles/Merge_Two_Sorted_List.dir/build
+.PHONY : Merge_Two_Sorted_List/fast
+
+#=============================================================================
 # Target rules for targets named Remove_Duplicates_From_Array_2
 
 # Build rule for target.
@@ -962,6 +988,60 @@ Level_3/Strings/Roman_To_Integer.cpp.s:
 	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/Level_3/Strings/Roman_To_Integer.cpp.s
 .PHONY : Level_3/Strings/Roman_To_Integer.cpp.s
 
+Level_3/Two_Pointers/ARRAY_3_POINTERS.o: Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.o
+
+.PHONY : Level_3/Two_Pointers/ARRAY_3_POINTERS.o
+
+# target to build an object file
+Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.o:
+	$(MAKE) -f CMakeFiles/ARRAY_3_POINTERS.dir/build.make CMakeFiles/ARRAY_3_POINTERS.dir/Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.o
+.PHONY : Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.o
+
+Level_3/Two_Pointers/ARRAY_3_POINTERS.i: Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.i
+
+.PHONY : Level_3/Two_Pointers/ARRAY_3_POINTERS.i
+
+# target to preprocess a source file
+Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.i:
+	$(MAKE) -f CMakeFiles/ARRAY_3_POINTERS.dir/build.make CMakeFiles/ARRAY_3_POINTERS.dir/Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.i
+.PHONY : Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.i
+
+Level_3/Two_Pointers/ARRAY_3_POINTERS.s: Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.s
+
+.PHONY : Level_3/Two_Pointers/ARRAY_3_POINTERS.s
+
+# target to generate assembly for a file
+Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.s:
+	$(MAKE) -f CMakeFiles/ARRAY_3_POINTERS.dir/build.make CMakeFiles/ARRAY_3_POINTERS.dir/Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.s
+.PHONY : Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.s
+
+Level_3/Two_Pointers/Merge_Two_Sorted_List.o: Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.o
+
+.PHONY : Level_3/Two_Pointers/Merge_Two_Sorted_List.o
+
+# target to build an object file
+Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.o:
+	$(MAKE) -f CMakeFiles/Merge_Two_Sorted_List.dir/build.make CMakeFiles/Merge_Two_Sorted_List.dir/Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.o
+.PHONY : Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.o
+
+Level_3/Two_Pointers/Merge_Two_Sorted_List.i: Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.i
+
+.PHONY : Level_3/Two_Pointers/Merge_Two_Sorted_List.i
+
+# target to preprocess a source file
+Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.i:
+	$(MAKE) -f CMakeFiles/Merge_Two_Sorted_List.dir/build.make CMakeFiles/Merge_Two_Sorted_List.dir/Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.i
+.PHONY : Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.i
+
+Level_3/Two_Pointers/Merge_Two_Sorted_List.s: Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.s
+
+.PHONY : Level_3/Two_Pointers/Merge_Two_Sorted_List.s
+
+# target to generate assembly for a file
+Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.s:
+	$(MAKE) -f CMakeFiles/Merge_Two_Sorted_List.dir/build.make CMakeFiles/Merge_Two_Sorted_List.dir/Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.s
+.PHONY : Level_3/Two_Pointers/Merge_Two_Sorted_List.cpp.s
+
 Level_3/Two_Pointers/Remove_Duplicates.o: Level_3/Two_Pointers/Remove_Duplicates.cpp.o
 
 .PHONY : Level_3/Two_Pointers/Remove_Duplicates.o
@@ -1054,6 +1134,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... ARRAY_3_POINTERS"
+	@echo "... Merge_Two_Sorted_List"
 	@echo "... Remove_Duplicates_From_Array_2"
 	@echo "... SquareRoot"
 	@echo "... Min_XOR_Value"
@@ -1138,6 +1220,12 @@ help:
 	@echo "... Level_3/Strings/Roman_To_Integer.o"
 	@echo "... Level_3/Strings/Roman_To_Integer.i"
 	@echo "... Level_3/Strings/Roman_To_Integer.s"
+	@echo "... Level_3/Two_Pointers/ARRAY_3_POINTERS.o"
+	@echo "... Level_3/Two_Pointers/ARRAY_3_POINTERS.i"
+	@echo "... Level_3/Two_Pointers/ARRAY_3_POINTERS.s"
+	@echo "... Level_3/Two_Pointers/Merge_Two_Sorted_List.o"
+	@echo "... Level_3/Two_Pointers/Merge_Two_Sorted_List.i"
+	@echo "... Level_3/Two_Pointers/Merge_Two_Sorted_List.s"
 	@echo "... Level_3/Two_Pointers/Remove_Duplicates.o"
 	@echo "... Level_3/Two_Pointers/Remove_Duplicates.i"
 	@echo "... Level_3/Two_Pointers/Remove_Duplicates.s"
