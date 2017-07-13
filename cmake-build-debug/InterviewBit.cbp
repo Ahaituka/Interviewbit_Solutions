@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="3_sum">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/3_sum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 3_sum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3_sum/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/3_sum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 3_sum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ARRAY_3_POINTERS">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/ARRAY_3_POINTERS" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -1189,6 +1231,9 @@
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 3/Strings/Roman_To_Integer.cpp">
 			<Option target="Roman_To_Integer"/>
+		</Unit>
+		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 3/Two Pointers/3_sum.cpp">
+			<Option target="3_sum"/>
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 3/Two Pointers/ARRAY_3_POINTERS.cpp">
 			<Option target="ARRAY_3_POINTERS"/>

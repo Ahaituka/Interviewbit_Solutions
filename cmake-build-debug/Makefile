@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 3_sum
+
+# Build rule for target.
+3_sum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 3_sum
+.PHONY : 3_sum
+
+# fast build rule for target.
+3_sum/fast:
+	$(MAKE) -f CMakeFiles/3_sum.dir/build.make CMakeFiles/3_sum.dir/build
+.PHONY : 3_sum/fast
+
+#=============================================================================
 # Target rules for targets named ARRAY_3_POINTERS
 
 # Build rule for target.
@@ -988,6 +1001,33 @@ Level_3/Strings/Roman_To_Integer.cpp.s:
 	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/Level_3/Strings/Roman_To_Integer.cpp.s
 .PHONY : Level_3/Strings/Roman_To_Integer.cpp.s
 
+Level_3/Two_Pointers/3_sum.o: Level_3/Two_Pointers/3_sum.cpp.o
+
+.PHONY : Level_3/Two_Pointers/3_sum.o
+
+# target to build an object file
+Level_3/Two_Pointers/3_sum.cpp.o:
+	$(MAKE) -f CMakeFiles/3_sum.dir/build.make CMakeFiles/3_sum.dir/Level_3/Two_Pointers/3_sum.cpp.o
+.PHONY : Level_3/Two_Pointers/3_sum.cpp.o
+
+Level_3/Two_Pointers/3_sum.i: Level_3/Two_Pointers/3_sum.cpp.i
+
+.PHONY : Level_3/Two_Pointers/3_sum.i
+
+# target to preprocess a source file
+Level_3/Two_Pointers/3_sum.cpp.i:
+	$(MAKE) -f CMakeFiles/3_sum.dir/build.make CMakeFiles/3_sum.dir/Level_3/Two_Pointers/3_sum.cpp.i
+.PHONY : Level_3/Two_Pointers/3_sum.cpp.i
+
+Level_3/Two_Pointers/3_sum.s: Level_3/Two_Pointers/3_sum.cpp.s
+
+.PHONY : Level_3/Two_Pointers/3_sum.s
+
+# target to generate assembly for a file
+Level_3/Two_Pointers/3_sum.cpp.s:
+	$(MAKE) -f CMakeFiles/3_sum.dir/build.make CMakeFiles/3_sum.dir/Level_3/Two_Pointers/3_sum.cpp.s
+.PHONY : Level_3/Two_Pointers/3_sum.cpp.s
+
 Level_3/Two_Pointers/ARRAY_3_POINTERS.o: Level_3/Two_Pointers/ARRAY_3_POINTERS.cpp.o
 
 .PHONY : Level_3/Two_Pointers/ARRAY_3_POINTERS.o
@@ -1134,6 +1174,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... 3_sum"
 	@echo "... ARRAY_3_POINTERS"
 	@echo "... Merge_Two_Sorted_List"
 	@echo "... Remove_Duplicates_From_Array_2"
@@ -1220,6 +1261,9 @@ help:
 	@echo "... Level_3/Strings/Roman_To_Integer.o"
 	@echo "... Level_3/Strings/Roman_To_Integer.i"
 	@echo "... Level_3/Strings/Roman_To_Integer.s"
+	@echo "... Level_3/Two_Pointers/3_sum.o"
+	@echo "... Level_3/Two_Pointers/3_sum.i"
+	@echo "... Level_3/Two_Pointers/3_sum.s"
 	@echo "... Level_3/Two_Pointers/ARRAY_3_POINTERS.o"
 	@echo "... Level_3/Two_Pointers/ARRAY_3_POINTERS.i"
 	@echo "... Level_3/Two_Pointers/ARRAY_3_POINTERS.s"
