@@ -39,3 +39,5 @@ add_executable(Remove_Duplicates_From_Array_2 "Level 3/Two Pointers/Remove_Dupli
 add_executable(Merge_Two_Sorted_List "Level 3/Two Pointers/Merge_Two_Sorted_List.cpp")
 add_executable(ARRAY_3_POINTERS "Level 3/Two Pointers/ARRAY_3_POINTERS.cpp")
 add_executable(3_sum "Level 3/Two Pointers/3_sum.cpp")
+add_executable(PalindromeList "Level 4/Linked List/PalindromeList.cpp")
+add_executable(Add_Two_Numbers_As_Lists "Level 4/Linked List/Add_Two_Numbers_As_Lists.cpp")

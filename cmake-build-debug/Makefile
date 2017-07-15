@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PalindromeList
+
+# Build rule for target.
+PalindromeList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PalindromeList
+.PHONY : PalindromeList
+
+# fast build rule for target.
+PalindromeList/fast:
+	$(MAKE) -f CMakeFiles/PalindromeList.dir/build.make CMakeFiles/PalindromeList.dir/build
+.PHONY : PalindromeList/fast
+
+#=============================================================================
 # Target rules for targets named 3_sum
 
 # Build rule for target.
@@ -434,6 +447,19 @@ InterviewBit: cmake_check_build_system
 InterviewBit/fast:
 	$(MAKE) -f CMakeFiles/InterviewBit.dir/build.make CMakeFiles/InterviewBit.dir/build
 .PHONY : InterviewBit/fast
+
+#=============================================================================
+# Target rules for targets named Add_Two_Numbers_As_Lists
+
+# Build rule for target.
+Add_Two_Numbers_As_Lists: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Add_Two_Numbers_As_Lists
+.PHONY : Add_Two_Numbers_As_Lists
+
+# fast build rule for target.
+Add_Two_Numbers_As_Lists/fast:
+	$(MAKE) -f CMakeFiles/Add_Two_Numbers_As_Lists.dir/build.make CMakeFiles/Add_Two_Numbers_As_Lists.dir/build
+.PHONY : Add_Two_Numbers_As_Lists/fast
 
 #=============================================================================
 # Target rules for targets named PalindromeInteger
@@ -1136,6 +1162,60 @@ Level_3/Two_Pointers/Remove_Duplicates_From_Array_2.cpp.s:
 	$(MAKE) -f CMakeFiles/Remove_Duplicates_From_Array_2.dir/build.make CMakeFiles/Remove_Duplicates_From_Array_2.dir/Level_3/Two_Pointers/Remove_Duplicates_From_Array_2.cpp.s
 .PHONY : Level_3/Two_Pointers/Remove_Duplicates_From_Array_2.cpp.s
 
+Level_4/Linked_List/Add_Two_Numbers_As_Lists.o: Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.o
+
+.PHONY : Level_4/Linked_List/Add_Two_Numbers_As_Lists.o
+
+# target to build an object file
+Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.o:
+	$(MAKE) -f CMakeFiles/Add_Two_Numbers_As_Lists.dir/build.make CMakeFiles/Add_Two_Numbers_As_Lists.dir/Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.o
+.PHONY : Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.o
+
+Level_4/Linked_List/Add_Two_Numbers_As_Lists.i: Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.i
+
+.PHONY : Level_4/Linked_List/Add_Two_Numbers_As_Lists.i
+
+# target to preprocess a source file
+Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.i:
+	$(MAKE) -f CMakeFiles/Add_Two_Numbers_As_Lists.dir/build.make CMakeFiles/Add_Two_Numbers_As_Lists.dir/Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.i
+.PHONY : Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.i
+
+Level_4/Linked_List/Add_Two_Numbers_As_Lists.s: Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.s
+
+.PHONY : Level_4/Linked_List/Add_Two_Numbers_As_Lists.s
+
+# target to generate assembly for a file
+Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.s:
+	$(MAKE) -f CMakeFiles/Add_Two_Numbers_As_Lists.dir/build.make CMakeFiles/Add_Two_Numbers_As_Lists.dir/Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.s
+.PHONY : Level_4/Linked_List/Add_Two_Numbers_As_Lists.cpp.s
+
+Level_4/Linked_List/PalindromeList.o: Level_4/Linked_List/PalindromeList.cpp.o
+
+.PHONY : Level_4/Linked_List/PalindromeList.o
+
+# target to build an object file
+Level_4/Linked_List/PalindromeList.cpp.o:
+	$(MAKE) -f CMakeFiles/PalindromeList.dir/build.make CMakeFiles/PalindromeList.dir/Level_4/Linked_List/PalindromeList.cpp.o
+.PHONY : Level_4/Linked_List/PalindromeList.cpp.o
+
+Level_4/Linked_List/PalindromeList.i: Level_4/Linked_List/PalindromeList.cpp.i
+
+.PHONY : Level_4/Linked_List/PalindromeList.i
+
+# target to preprocess a source file
+Level_4/Linked_List/PalindromeList.cpp.i:
+	$(MAKE) -f CMakeFiles/PalindromeList.dir/build.make CMakeFiles/PalindromeList.dir/Level_4/Linked_List/PalindromeList.cpp.i
+.PHONY : Level_4/Linked_List/PalindromeList.cpp.i
+
+Level_4/Linked_List/PalindromeList.s: Level_4/Linked_List/PalindromeList.cpp.s
+
+.PHONY : Level_4/Linked_List/PalindromeList.s
+
+# target to generate assembly for a file
+Level_4/Linked_List/PalindromeList.cpp.s:
+	$(MAKE) -f CMakeFiles/PalindromeList.dir/build.make CMakeFiles/PalindromeList.dir/Level_4/Linked_List/PalindromeList.cpp.s
+.PHONY : Level_4/Linked_List/PalindromeList.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -1173,6 +1253,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... PalindromeList"
 	@echo "... edit_cache"
 	@echo "... 3_sum"
 	@echo "... ARRAY_3_POINTERS"
@@ -1199,6 +1280,7 @@ help:
 	@echo "... GCD"
 	@echo "... Power"
 	@echo "... InterviewBit"
+	@echo "... Add_Two_Numbers_As_Lists"
 	@echo "... PalindromeInteger"
 	@echo "... ExcelColumnTitle"
 	@echo "... Level_2_Array/Coverpoint.o"
@@ -1276,6 +1358,12 @@ help:
 	@echo "... Level_3/Two_Pointers/Remove_Duplicates_From_Array_2.o"
 	@echo "... Level_3/Two_Pointers/Remove_Duplicates_From_Array_2.i"
 	@echo "... Level_3/Two_Pointers/Remove_Duplicates_From_Array_2.s"
+	@echo "... Level_4/Linked_List/Add_Two_Numbers_As_Lists.o"
+	@echo "... Level_4/Linked_List/Add_Two_Numbers_As_Lists.i"
+	@echo "... Level_4/Linked_List/Add_Two_Numbers_As_Lists.s"
+	@echo "... Level_4/Linked_List/PalindromeList.o"
+	@echo "... Level_4/Linked_List/PalindromeList.i"
+	@echo "... Level_4/Linked_List/PalindromeList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
