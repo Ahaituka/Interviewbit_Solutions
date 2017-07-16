@@ -40,7 +40,11 @@ GCD(m, n) : 3
 
 using namespace std;
 
+
 int gcd(int x, int y) {
+    if (x == 0)
+        return y;
+
     if (y == 0)
         return x;
     if (x > y)
@@ -50,7 +54,7 @@ int gcd(int x, int y) {
 }
 
 int main() {
-    cout << gcd(4, 6);
+    cout << gcd(111, 6);
 }
 
 

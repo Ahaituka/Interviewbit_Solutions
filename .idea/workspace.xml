@@ -23,6 +23,7 @@
       <config projectName="InterviewBit" targetName="Atoi" />
       <config projectName="InterviewBit" targetName="SingleNumber" />
       <config projectName="InterviewBit" targetName="RotatedArray" />
+      <config projectName="InterviewBit" targetName="Reverse_Link_list_II" />
       <config projectName="InterviewBit" targetName="Search" />
       <config projectName="InterviewBit" targetName="GCD" />
       <config projectName="InterviewBit" targetName="main" />
@@ -40,21 +41,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd8f9077-4cc4-4ae7-9f6f-15979f802935" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 4/Linked List/Add_Two_Numbers_As_Lists.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 4/Linked List/PalindromeList.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 4/Linked List/Reverse_Link_list_II.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 5/Points_on_the_straight_line.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Coverpoint.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Coverpoint.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnNumber.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnNumber.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnTitle.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnTitle.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GCD.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GCD.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterviewBit.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterviewBit.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Level 2 Math/GCD.cpp" afterPath="$PROJECT_DIR$/Level 2 Math/GCD.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/InterviewBit.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/InterviewBit.cbp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,21 +65,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PalindromeList.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Level 4/Linked List/PalindromeList.cpp">
+      <file leaf-file-name="Reverse_Link_list_II.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Level 4/Linked List/Reverse_Link_list_II.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="36" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+            <state relative-caret-position="1665">
+              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Add_Two_Numbers_As_Lists.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Level 4/Linked List/Add_Two_Numbers_As_Lists.cpp">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="466">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GCD.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Level 2 Math/GCD.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Points_on_the_straight_line.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Level 5/Points_on_the_straight_line.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,7 +140,6 @@
         <option value="$PROJECT_DIR$/Level 3/Strings/Roman_To_Integer.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/Integer_to_roman.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/Str_Str.py" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/Palindrome_String.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/Atori.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/Atoi.cpp" />
@@ -130,7 +147,6 @@
         <option value="$PROJECT_DIR$/Level 3/Bit Manipulation/singleNumberPythonSolution.py" />
         <option value="$PROJECT_DIR$/Level 3/Bit Manipulation/Single Number II .cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Level 3/Bit Manipulation/Single_Number_II.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Bit Manipulation/SingleNumber.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Bit Manipulation/Min_XOR_Value.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Two Pointers/Remove_Duplicates.cpp" />
@@ -140,6 +156,10 @@
         <option value="$PROJECT_DIR$/Level 3/Two Pointers/3_sum.cpp" />
         <option value="$PROJECT_DIR$/Level 4/Linked List/PalindromeList.cpp" />
         <option value="$PROJECT_DIR$/Level 4/Linked List/Add_Two_Numbers_As_Lists.cpp" />
+        <option value="$PROJECT_DIR$/Level 3/Bit Manipulation/Single_Number_II.cpp" />
+        <option value="$PROJECT_DIR$/Level 4/Linked List/Reverse_Link_list_II.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Level 2 Math/GCD.cpp" />
       </list>
     </option>
   </component>
@@ -191,11 +211,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Level 4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Linked List" />
+              <option name="myItemId" value="Level 2 Math" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Add_Two_Numbers_As_Lists">
+  <component name="RunManager" selected="Application.GCD">
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -500,6 +516,10 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Reverse_Link_list_II" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="Reverse_Link_list_II" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="Reverse_Link_list_II">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="ReverseTheString" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="ReverseTheString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="ReverseTheString">
       <envs />
       <method />
@@ -536,7 +556,7 @@
       <envs />
       <method />
     </configuration>
-    <list size="31">
+    <list size="32">
       <item index="0" class="java.lang.String" itemvalue="Application.3_sum" />
       <item index="1" class="java.lang.String" itemvalue="Application.Add_Two_Numbers_As_Lists" />
       <item index="2" class="java.lang.String" itemvalue="Application.ARRAY_3_POINTERS" />
@@ -559,15 +579,16 @@
       <item index="19" class="java.lang.String" itemvalue="Application.Power" />
       <item index="20" class="java.lang.String" itemvalue="Application.Remove_Duplicates" />
       <item index="21" class="java.lang.String" itemvalue="Application.Remove_Duplicates_From_Array_2" />
-      <item index="22" class="java.lang.String" itemvalue="Application.ReverseTheString" />
-      <item index="23" class="java.lang.String" itemvalue="Application.Roman_To_Integer" />
-      <item index="24" class="java.lang.String" itemvalue="Application.RotatedArray" />
-      <item index="25" class="java.lang.String" itemvalue="Application.Search" />
-      <item index="26" class="java.lang.String" itemvalue="Application.Single_Number_II" />
-      <item index="27" class="java.lang.String" itemvalue="Application.SingleNumber" />
-      <item index="28" class="java.lang.String" itemvalue="Application.SquareRoot" />
-      <item index="29" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="30" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="22" class="java.lang.String" itemvalue="Application.Reverse_Link_list_II" />
+      <item index="23" class="java.lang.String" itemvalue="Application.ReverseTheString" />
+      <item index="24" class="java.lang.String" itemvalue="Application.Roman_To_Integer" />
+      <item index="25" class="java.lang.String" itemvalue="Application.RotatedArray" />
+      <item index="26" class="java.lang.String" itemvalue="Application.Search" />
+      <item index="27" class="java.lang.String" itemvalue="Application.Single_Number_II" />
+      <item index="28" class="java.lang.String" itemvalue="Application.SingleNumber" />
+      <item index="29" class="java.lang.String" itemvalue="Application.SquareRoot" />
+      <item index="30" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="31" class="java.lang.String" itemvalue="Application.Build All" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -590,7 +611,7 @@
       <workItem from="1499277928974" duration="9200000" />
       <workItem from="1499372791507" duration="12128000" />
       <workItem from="1499594955823" duration="19243000" />
-      <workItem from="1499671531709" duration="35504000" />
+      <workItem from="1499671531709" duration="47374000" />
     </task>
     <task id="LOCAL-00001" summary="Rotated Array.cpp">
       <created>1499170375378</created>
@@ -690,22 +711,29 @@
       <option name="project" value="LOCAL" />
       <updated>1499939115485</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="LinkedList">
+      <created>1500107190536</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1500107190536</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115256000" />
+    <option name="totallyTimeSpent" value="127126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30094466" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30081302" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32655826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2696477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -777,7 +805,8 @@
     <MESSAGE value="SingleNumber.cpp" />
     <MESSAGE value="Remove_Duplicates_From_Array_2.cpp" />
     <MESSAGE value="3 Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 Sum" />
+    <MESSAGE value="LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -867,7 +896,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>6</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -894,11 +922,6 @@
           <url>file://$PROJECT_DIR$/Level 3/Bit Manipulation/SingleNumber.cpp</url>
           <line>18</line>
           <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Level 3/Bit Manipulation/Single_Number_II.cpp</url>
-          <line>34</line>
-          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Level 3/Bit Manipulation/Min_XOR_Value.cpp</url>
@@ -946,21 +969,6 @@
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Level 4/Linked List/PalindromeList.cpp</url>
-          <line>41</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Level 4/Linked List/PalindromeList.cpp</url>
-          <line>55</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Level 4/Linked List/PalindromeList.cpp</url>
-          <line>57</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Level 4/Linked List/Add_Two_Numbers_As_Lists.cpp</url>
           <line>35</line>
           <option name="timeStamp" value="141" />
@@ -970,27 +978,32 @@
           <line>51</line>
           <option name="timeStamp" value="143" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 4/Linked List/Reverse_Link_list_II.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 4/Linked List/PalindromeList.cpp</url>
+          <line>30</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 4/Linked List/Reverse_Link_list_II.cpp</url>
+          <line>51</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 3/Bit Manipulation/Single_Number_II.cpp</url>
+          <line>3</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="144" />
+      <option name="time" value="158" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level 2 Math/BinaryRepresentation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Level 2 Math/GCD.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1026,14 +1039,6 @@
     <entry file="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include/c++/bits/stl_iterator.h" />
     <entry file="file://$PROJECT_DIR$/Level 2 Math/Excel Column Title.cpp" />
     <entry file="file://$PROJECT_DIR$/Level 2 Math/Rearranging array.cpp" />
-    <entry file="file://$PROJECT_DIR$/Level 2 Math/GCD.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include/c++/bits/basic_string.tcc" />
     <entry file="file://$PROJECT_DIR$/Level 2 Math/ExcelColumnTitle.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1116,14 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Level 3/Strings/Str_Str.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1169,6 +1166,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26940">
           <caret line="1796" column="0" lean-forward="false" selection-start-line="1796" selection-start-column="0" selection-end-line="1796" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,14 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level 3/Bit Manipulation/Single_Number_II.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1365,18 +1355,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Level 4/Linked List/PalindromeList.cpp">
+    <entry file="file://$PROJECT_DIR$/Level 4/Linked List/Add_Two_Numbers_As_Lists.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Level 4/Linked List/Add_Two_Numbers_As_Lists.cpp">
+    <entry file="file://$PROJECT_DIR$/Level 5/Points_on_the_straight_line.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 3/Bit Manipulation/Single_Number_II.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 4/Linked List/PalindromeList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 4/Linked List/Reverse_Link_list_II.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2 Math/GCD.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding />
         </state>
       </provider>
