@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Stairs
+
+# Build rule for target.
+Stairs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Stairs
+.PHONY : Stairs
+
+# fast build rule for target.
+Stairs/fast:
+	$(MAKE) -f CMakeFiles/Stairs.dir/build.make CMakeFiles/Stairs.dir/build
+.PHONY : Stairs/fast
+
+#=============================================================================
 # Target rules for targets named PalindromeList
 
 # Build rule for target.
@@ -148,6 +161,19 @@ ARRAY_3_POINTERS: cmake_check_build_system
 ARRAY_3_POINTERS/fast:
 	$(MAKE) -f CMakeFiles/ARRAY_3_POINTERS.dir/build.make CMakeFiles/ARRAY_3_POINTERS.dir/build
 .PHONY : ARRAY_3_POINTERS/fast
+
+#=============================================================================
+# Target rules for targets named Points_on_the_straight_line
+
+# Build rule for target.
+Points_on_the_straight_line: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Points_on_the_straight_line
+.PHONY : Points_on_the_straight_line
+
+# fast build rule for target.
+Points_on_the_straight_line/fast:
+	$(MAKE) -f CMakeFiles/Points_on_the_straight_line.dir/build.make CMakeFiles/Points_on_the_straight_line.dir/build
+.PHONY : Points_on_the_straight_line/fast
 
 #=============================================================================
 # Target rules for targets named Merge_Two_Sorted_List
@@ -1256,6 +1282,60 @@ Level_4/Linked_List/Reverse_Link_list_II.cpp.s:
 	$(MAKE) -f CMakeFiles/Reverse_Link_list_II.dir/build.make CMakeFiles/Reverse_Link_list_II.dir/Level_4/Linked_List/Reverse_Link_list_II.cpp.s
 .PHONY : Level_4/Linked_List/Reverse_Link_list_II.cpp.s
 
+Level_5/Points_on_the_straight_line.o: Level_5/Points_on_the_straight_line.cpp.o
+
+.PHONY : Level_5/Points_on_the_straight_line.o
+
+# target to build an object file
+Level_5/Points_on_the_straight_line.cpp.o:
+	$(MAKE) -f CMakeFiles/Points_on_the_straight_line.dir/build.make CMakeFiles/Points_on_the_straight_line.dir/Level_5/Points_on_the_straight_line.cpp.o
+.PHONY : Level_5/Points_on_the_straight_line.cpp.o
+
+Level_5/Points_on_the_straight_line.i: Level_5/Points_on_the_straight_line.cpp.i
+
+.PHONY : Level_5/Points_on_the_straight_line.i
+
+# target to preprocess a source file
+Level_5/Points_on_the_straight_line.cpp.i:
+	$(MAKE) -f CMakeFiles/Points_on_the_straight_line.dir/build.make CMakeFiles/Points_on_the_straight_line.dir/Level_5/Points_on_the_straight_line.cpp.i
+.PHONY : Level_5/Points_on_the_straight_line.cpp.i
+
+Level_5/Points_on_the_straight_line.s: Level_5/Points_on_the_straight_line.cpp.s
+
+.PHONY : Level_5/Points_on_the_straight_line.s
+
+# target to generate assembly for a file
+Level_5/Points_on_the_straight_line.cpp.s:
+	$(MAKE) -f CMakeFiles/Points_on_the_straight_line.dir/build.make CMakeFiles/Points_on_the_straight_line.dir/Level_5/Points_on_the_straight_line.cpp.s
+.PHONY : Level_5/Points_on_the_straight_line.cpp.s
+
+Level_7/Dynamic_Programming/Stairs.o: Level_7/Dynamic_Programming/Stairs.cpp.o
+
+.PHONY : Level_7/Dynamic_Programming/Stairs.o
+
+# target to build an object file
+Level_7/Dynamic_Programming/Stairs.cpp.o:
+	$(MAKE) -f CMakeFiles/Stairs.dir/build.make CMakeFiles/Stairs.dir/Level_7/Dynamic_Programming/Stairs.cpp.o
+.PHONY : Level_7/Dynamic_Programming/Stairs.cpp.o
+
+Level_7/Dynamic_Programming/Stairs.i: Level_7/Dynamic_Programming/Stairs.cpp.i
+
+.PHONY : Level_7/Dynamic_Programming/Stairs.i
+
+# target to preprocess a source file
+Level_7/Dynamic_Programming/Stairs.cpp.i:
+	$(MAKE) -f CMakeFiles/Stairs.dir/build.make CMakeFiles/Stairs.dir/Level_7/Dynamic_Programming/Stairs.cpp.i
+.PHONY : Level_7/Dynamic_Programming/Stairs.cpp.i
+
+Level_7/Dynamic_Programming/Stairs.s: Level_7/Dynamic_Programming/Stairs.cpp.s
+
+.PHONY : Level_7/Dynamic_Programming/Stairs.s
+
+# target to generate assembly for a file
+Level_7/Dynamic_Programming/Stairs.cpp.s:
+	$(MAKE) -f CMakeFiles/Stairs.dir/build.make CMakeFiles/Stairs.dir/Level_7/Dynamic_Programming/Stairs.cpp.s
+.PHONY : Level_7/Dynamic_Programming/Stairs.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -1293,10 +1373,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Stairs"
 	@echo "... PalindromeList"
 	@echo "... edit_cache"
 	@echo "... 3_sum"
 	@echo "... ARRAY_3_POINTERS"
+	@echo "... Points_on_the_straight_line"
 	@echo "... Merge_Two_Sorted_List"
 	@echo "... Remove_Duplicates_From_Array_2"
 	@echo "... SquareRoot"
@@ -1408,6 +1490,12 @@ help:
 	@echo "... Level_4/Linked_List/Reverse_Link_list_II.o"
 	@echo "... Level_4/Linked_List/Reverse_Link_list_II.i"
 	@echo "... Level_4/Linked_List/Reverse_Link_list_II.s"
+	@echo "... Level_5/Points_on_the_straight_line.o"
+	@echo "... Level_5/Points_on_the_straight_line.i"
+	@echo "... Level_5/Points_on_the_straight_line.s"
+	@echo "... Level_7/Dynamic_Programming/Stairs.o"
+	@echo "... Level_7/Dynamic_Programming/Stairs.i"
+	@echo "... Level_7/Dynamic_Programming/Stairs.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

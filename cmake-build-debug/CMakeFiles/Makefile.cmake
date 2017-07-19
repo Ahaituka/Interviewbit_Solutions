@@ -48,9 +48,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Stairs.dir/DependInfo.cmake"
   "CMakeFiles/PalindromeList.dir/DependInfo.cmake"
   "CMakeFiles/3_sum.dir/DependInfo.cmake"
   "CMakeFiles/ARRAY_3_POINTERS.dir/DependInfo.cmake"
+  "CMakeFiles/Points_on_the_straight_line.dir/DependInfo.cmake"
   "CMakeFiles/Merge_Two_Sorted_List.dir/DependInfo.cmake"
   "CMakeFiles/Remove_Duplicates_From_Array_2.dir/DependInfo.cmake"
   "CMakeFiles/SquareRoot.dir/DependInfo.cmake"
