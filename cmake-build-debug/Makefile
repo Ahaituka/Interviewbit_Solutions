@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Jump_Game_Array
+
+# Build rule for target.
+Jump_Game_Array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Jump_Game_Array
+.PHONY : Jump_Game_Array
+
+# fast build rule for target.
+Jump_Game_Array/fast:
+	$(MAKE) -f CMakeFiles/Jump_Game_Array.dir/build.make CMakeFiles/Jump_Game_Array.dir/build
+.PHONY : Jump_Game_Array/fast
+
+#=============================================================================
 # Target rules for targets named Stairs
 
 # Build rule for target.
@@ -291,6 +304,19 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named Best_Time_To_Buy_And_Sell_Stocks_II
+
+# Build rule for target.
+Best_Time_To_Buy_And_Sell_Stocks_II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Best_Time_To_Buy_And_Sell_Stocks_II
+.PHONY : Best_Time_To_Buy_And_Sell_Stocks_II
+
+# fast build rule for target.
+Best_Time_To_Buy_And_Sell_Stocks_II/fast:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build
+.PHONY : Best_Time_To_Buy_And_Sell_Stocks_II/fast
 
 #=============================================================================
 # Target rules for targets named RotatedArray
@@ -1309,6 +1335,60 @@ Level_5/Points_on_the_straight_line.cpp.s:
 	$(MAKE) -f CMakeFiles/Points_on_the_straight_line.dir/build.make CMakeFiles/Points_on_the_straight_line.dir/Level_5/Points_on_the_straight_line.cpp.s
 .PHONY : Level_5/Points_on_the_straight_line.cpp.s
 
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o: Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.o
+
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o
+
+# target to build an object file
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.o:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.o
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.o
+
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.i: Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.i
+
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.i
+
+# target to preprocess a source file
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.i:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.i
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.i
+
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.s: Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.s
+
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.s
+
+# target to generate assembly for a file
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.s:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.s
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.s
+
+Level_7/Dynamic_Programming/Jump_Game_Array.o: Level_7/Dynamic_Programming/Jump_Game_Array.cpp.o
+
+.PHONY : Level_7/Dynamic_Programming/Jump_Game_Array.o
+
+# target to build an object file
+Level_7/Dynamic_Programming/Jump_Game_Array.cpp.o:
+	$(MAKE) -f CMakeFiles/Jump_Game_Array.dir/build.make CMakeFiles/Jump_Game_Array.dir/Level_7/Dynamic_Programming/Jump_Game_Array.cpp.o
+.PHONY : Level_7/Dynamic_Programming/Jump_Game_Array.cpp.o
+
+Level_7/Dynamic_Programming/Jump_Game_Array.i: Level_7/Dynamic_Programming/Jump_Game_Array.cpp.i
+
+.PHONY : Level_7/Dynamic_Programming/Jump_Game_Array.i
+
+# target to preprocess a source file
+Level_7/Dynamic_Programming/Jump_Game_Array.cpp.i:
+	$(MAKE) -f CMakeFiles/Jump_Game_Array.dir/build.make CMakeFiles/Jump_Game_Array.dir/Level_7/Dynamic_Programming/Jump_Game_Array.cpp.i
+.PHONY : Level_7/Dynamic_Programming/Jump_Game_Array.cpp.i
+
+Level_7/Dynamic_Programming/Jump_Game_Array.s: Level_7/Dynamic_Programming/Jump_Game_Array.cpp.s
+
+.PHONY : Level_7/Dynamic_Programming/Jump_Game_Array.s
+
+# target to generate assembly for a file
+Level_7/Dynamic_Programming/Jump_Game_Array.cpp.s:
+	$(MAKE) -f CMakeFiles/Jump_Game_Array.dir/build.make CMakeFiles/Jump_Game_Array.dir/Level_7/Dynamic_Programming/Jump_Game_Array.cpp.s
+.PHONY : Level_7/Dynamic_Programming/Jump_Game_Array.cpp.s
+
 Level_7/Dynamic_Programming/Stairs.o: Level_7/Dynamic_Programming/Stairs.cpp.o
 
 .PHONY : Level_7/Dynamic_Programming/Stairs.o
@@ -1373,6 +1453,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Jump_Game_Array"
 	@echo "... Stairs"
 	@echo "... PalindromeList"
 	@echo "... edit_cache"
@@ -1388,6 +1469,7 @@ help:
 	@echo "... Roman_To_Integer"
 	@echo "... Palindrome_String"
 	@echo "... main"
+	@echo "... Best_Time_To_Buy_And_Sell_Stocks_II"
 	@echo "... RotatedArray"
 	@echo "... Remove_Duplicates"
 	@echo "... index_Search_For_A_Range"
@@ -1493,6 +1575,12 @@ help:
 	@echo "... Level_5/Points_on_the_straight_line.o"
 	@echo "... Level_5/Points_on_the_straight_line.i"
 	@echo "... Level_5/Points_on_the_straight_line.s"
+	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o"
+	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.i"
+	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.s"
+	@echo "... Level_7/Dynamic_Programming/Jump_Game_Array.o"
+	@echo "... Level_7/Dynamic_Programming/Jump_Game_Array.i"
+	@echo "... Level_7/Dynamic_Programming/Jump_Game_Array.s"
 	@echo "... Level_7/Dynamic_Programming/Stairs.o"
 	@echo "... Level_7/Dynamic_Programming/Stairs.i"
 	@echo "... Level_7/Dynamic_Programming/Stairs.s"

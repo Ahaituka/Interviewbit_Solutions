@@ -44,3 +44,5 @@ add_executable(Add_Two_Numbers_As_Lists "Level 4/Linked List/Add_Two_Numbers_As_
 add_executable(Reverse_Link_list_II "Level 4/Linked List/Reverse_Link_list_II.cpp")
 add_executable(Points_on_the_straight_line "Level 5/Points_on_the_straight_line.cpp")
 add_executable(Stairs "Level 7/Dynamic Programming/Stairs.cpp")
+add_executable(Jump_Game_Array "Level 7/Dynamic Programming/Jump_Game_Array.cpp")
+add_executable(Best_Time_To_Buy_And_Sell_Stocks_II "Level 7/Dynamic Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp")

@@ -54,7 +54,7 @@ int gcd(int x, int y) {
 }
 
 int main() {
-    cout << gcd(111, 6);
+    cout << 5 % 1;
 }
 
 

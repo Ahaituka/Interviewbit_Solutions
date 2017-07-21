@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2
 CMAKE_BINARY_DIR = /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/Jump_Game_Array.dir
+
+# All Build rule for target.
+CMakeFiles/Jump_Game_Array.dir/all:
+	$(MAKE) -f CMakeFiles/Jump_Game_Array.dir/build.make CMakeFiles/Jump_Game_Array.dir/depend
+	$(MAKE) -f CMakeFiles/Jump_Game_Array.dir/build.make CMakeFiles/Jump_Game_Array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target Jump_Game_Array"
+.PHONY : CMakeFiles/Jump_Game_Array.dir/all
+
+# Include target in all.
+all: CMakeFiles/Jump_Game_Array.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Jump_Game_Array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Jump_Game_Array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Jump_Game_Array.dir/rule
+
+# Convenience name for target.
+Jump_Game_Array: CMakeFiles/Jump_Game_Array.dir/rule
+
+.PHONY : Jump_Game_Array
+
+# clean rule for target.
+CMakeFiles/Jump_Game_Array.dir/clean:
+	$(MAKE) -f CMakeFiles/Jump_Game_Array.dir/build.make CMakeFiles/Jump_Game_Array.dir/clean
+.PHONY : CMakeFiles/Jump_Game_Array.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Jump_Game_Array.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Stairs.dir
 
 # All Build rule for target.
 CMakeFiles/Stairs.dir/all:
 	$(MAKE) -f CMakeFiles/Stairs.dir/build.make CMakeFiles/Stairs.dir/depend
 	$(MAKE) -f CMakeFiles/Stairs.dir/build.make CMakeFiles/Stairs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target Stairs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target Stairs"
 .PHONY : CMakeFiles/Stairs.dir/all
 
 # Include target in all.
@@ -103,7 +140,7 @@ clean: CMakeFiles/Stairs.dir/clean
 CMakeFiles/PalindromeList.dir/all:
 	$(MAKE) -f CMakeFiles/PalindromeList.dir/build.make CMakeFiles/PalindromeList.dir/depend
 	$(MAKE) -f CMakeFiles/PalindromeList.dir/build.make CMakeFiles/PalindromeList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target PalindromeList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target PalindromeList"
 .PHONY : CMakeFiles/PalindromeList.dir/all
 
 # Include target in all.
@@ -214,7 +251,7 @@ clean: CMakeFiles/ARRAY_3_POINTERS.dir/clean
 CMakeFiles/Points_on_the_straight_line.dir/all:
 	$(MAKE) -f CMakeFiles/Points_on_the_straight_line.dir/build.make CMakeFiles/Points_on_the_straight_line.dir/depend
 	$(MAKE) -f CMakeFiles/Points_on_the_straight_line.dir/build.make CMakeFiles/Points_on_the_straight_line.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target Points_on_the_straight_line"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target Points_on_the_straight_line"
 .PHONY : CMakeFiles/Points_on_the_straight_line.dir/all
 
 # Include target in all.
@@ -251,7 +288,7 @@ clean: CMakeFiles/Points_on_the_straight_line.dir/clean
 CMakeFiles/Merge_Two_Sorted_List.dir/all:
 	$(MAKE) -f CMakeFiles/Merge_Two_Sorted_List.dir/build.make CMakeFiles/Merge_Two_Sorted_List.dir/depend
 	$(MAKE) -f CMakeFiles/Merge_Two_Sorted_List.dir/build.make CMakeFiles/Merge_Two_Sorted_List.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target Merge_Two_Sorted_List"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target Merge_Two_Sorted_List"
 .PHONY : CMakeFiles/Merge_Two_Sorted_List.dir/all
 
 # Include target in all.
@@ -288,7 +325,7 @@ clean: CMakeFiles/Merge_Two_Sorted_List.dir/clean
 CMakeFiles/Remove_Duplicates_From_Array_2.dir/all:
 	$(MAKE) -f CMakeFiles/Remove_Duplicates_From_Array_2.dir/build.make CMakeFiles/Remove_Duplicates_From_Array_2.dir/depend
 	$(MAKE) -f CMakeFiles/Remove_Duplicates_From_Array_2.dir/build.make CMakeFiles/Remove_Duplicates_From_Array_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target Remove_Duplicates_From_Array_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target Remove_Duplicates_From_Array_2"
 .PHONY : CMakeFiles/Remove_Duplicates_From_Array_2.dir/all
 
 # Include target in all.
@@ -325,7 +362,7 @@ clean: CMakeFiles/Remove_Duplicates_From_Array_2.dir/clean
 CMakeFiles/SquareRoot.dir/all:
 	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/depend
 	$(MAKE) -f CMakeFiles/SquareRoot.dir/build.make CMakeFiles/SquareRoot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target SquareRoot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target SquareRoot"
 .PHONY : CMakeFiles/SquareRoot.dir/all
 
 # Include target in all.
@@ -362,7 +399,7 @@ clean: CMakeFiles/SquareRoot.dir/clean
 CMakeFiles/Min_XOR_Value.dir/all:
 	$(MAKE) -f CMakeFiles/Min_XOR_Value.dir/build.make CMakeFiles/Min_XOR_Value.dir/depend
 	$(MAKE) -f CMakeFiles/Min_XOR_Value.dir/build.make CMakeFiles/Min_XOR_Value.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target Min_XOR_Value"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target Min_XOR_Value"
 .PHONY : CMakeFiles/Min_XOR_Value.dir/all
 
 # Include target in all.
@@ -399,7 +436,7 @@ clean: CMakeFiles/Min_XOR_Value.dir/clean
 CMakeFiles/LongestPalindromicSequence.dir/all:
 	$(MAKE) -f CMakeFiles/LongestPalindromicSequence.dir/build.make CMakeFiles/LongestPalindromicSequence.dir/depend
 	$(MAKE) -f CMakeFiles/LongestPalindromicSequence.dir/build.make CMakeFiles/LongestPalindromicSequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target LongestPalindromicSequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target LongestPalindromicSequence"
 .PHONY : CMakeFiles/LongestPalindromicSequence.dir/all
 
 # Include target in all.
@@ -436,7 +473,7 @@ clean: CMakeFiles/LongestPalindromicSequence.dir/clean
 CMakeFiles/ExcelColumnNumber.dir/all:
 	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/depend
 	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target ExcelColumnNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ExcelColumnNumber"
 .PHONY : CMakeFiles/ExcelColumnNumber.dir/all
 
 # Include target in all.
@@ -473,7 +510,7 @@ clean: CMakeFiles/ExcelColumnNumber.dir/clean
 CMakeFiles/Roman_To_Integer.dir/all:
 	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/depend
 	$(MAKE) -f CMakeFiles/Roman_To_Integer.dir/build.make CMakeFiles/Roman_To_Integer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target Roman_To_Integer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target Roman_To_Integer"
 .PHONY : CMakeFiles/Roman_To_Integer.dir/all
 
 # Include target in all.
@@ -510,7 +547,7 @@ clean: CMakeFiles/Roman_To_Integer.dir/clean
 CMakeFiles/Palindrome_String.dir/all:
 	$(MAKE) -f CMakeFiles/Palindrome_String.dir/build.make CMakeFiles/Palindrome_String.dir/depend
 	$(MAKE) -f CMakeFiles/Palindrome_String.dir/build.make CMakeFiles/Palindrome_String.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target Palindrome_String"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target Palindrome_String"
 .PHONY : CMakeFiles/Palindrome_String.dir/all
 
 # Include target in all.
@@ -547,7 +584,7 @@ clean: CMakeFiles/Palindrome_String.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Include target in all.
@@ -578,13 +615,50 @@ clean: CMakeFiles/main.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir
+
+# All Build rule for target.
+CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/all:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/depend
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target Best_Time_To_Buy_And_Sell_Stocks_II"
+.PHONY : CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/all
+
+# Include target in all.
+all: CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/rule
+
+# Convenience name for target.
+Best_Time_To_Buy_And_Sell_Stocks_II: CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/rule
+
+.PHONY : Best_Time_To_Buy_And_Sell_Stocks_II
+
+# clean rule for target.
+CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/clean:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/clean
+.PHONY : CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/RotatedArray.dir
 
 # All Build rule for target.
 CMakeFiles/RotatedArray.dir/all:
 	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/depend
 	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target RotatedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target RotatedArray"
 .PHONY : CMakeFiles/RotatedArray.dir/all
 
 # Include target in all.
@@ -621,7 +695,7 @@ clean: CMakeFiles/RotatedArray.dir/clean
 CMakeFiles/Remove_Duplicates.dir/all:
 	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/depend
 	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target Remove_Duplicates"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target Remove_Duplicates"
 .PHONY : CMakeFiles/Remove_Duplicates.dir/all
 
 # Include target in all.
@@ -658,7 +732,7 @@ clean: CMakeFiles/Remove_Duplicates.dir/clean
 CMakeFiles/index_Search_For_A_Range.dir/all:
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/depend
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target index_Search_For_A_Range"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target index_Search_For_A_Range"
 .PHONY : CMakeFiles/index_Search_For_A_Range.dir/all
 
 # Include target in all.
@@ -695,7 +769,7 @@ clean: CMakeFiles/index_Search_For_A_Range.dir/clean
 CMakeFiles/ReverseTheString.dir/all:
 	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/depend
 	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target ReverseTheString"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target ReverseTheString"
 .PHONY : CMakeFiles/ReverseTheString.dir/all
 
 # Include target in all.
@@ -732,7 +806,7 @@ clean: CMakeFiles/ReverseTheString.dir/clean
 CMakeFiles/Integer_to_roman.dir/all:
 	$(MAKE) -f CMakeFiles/Integer_to_roman.dir/build.make CMakeFiles/Integer_to_roman.dir/depend
 	$(MAKE) -f CMakeFiles/Integer_to_roman.dir/build.make CMakeFiles/Integer_to_roman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target Integer_to_roman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target Integer_to_roman"
 .PHONY : CMakeFiles/Integer_to_roman.dir/all
 
 # Include target in all.
@@ -769,7 +843,7 @@ clean: CMakeFiles/Integer_to_roman.dir/clean
 CMakeFiles/Coverpoint.dir/all:
 	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/depend
 	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target Coverpoint"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target Coverpoint"
 .PHONY : CMakeFiles/Coverpoint.dir/all
 
 # Include target in all.
@@ -806,7 +880,7 @@ clean: CMakeFiles/Coverpoint.dir/clean
 CMakeFiles/Single_Number_II.dir/all:
 	$(MAKE) -f CMakeFiles/Single_Number_II.dir/build.make CMakeFiles/Single_Number_II.dir/depend
 	$(MAKE) -f CMakeFiles/Single_Number_II.dir/build.make CMakeFiles/Single_Number_II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target Single_Number_II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target Single_Number_II"
 .PHONY : CMakeFiles/Single_Number_II.dir/all
 
 # Include target in all.
@@ -843,7 +917,7 @@ clean: CMakeFiles/Single_Number_II.dir/clean
 CMakeFiles/SingleNumber.dir/all:
 	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/depend
 	$(MAKE) -f CMakeFiles/SingleNumber.dir/build.make CMakeFiles/SingleNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target SingleNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target SingleNumber"
 .PHONY : CMakeFiles/SingleNumber.dir/all
 
 # Include target in all.
@@ -880,7 +954,7 @@ clean: CMakeFiles/SingleNumber.dir/clean
 CMakeFiles/Reverse_Link_list_II.dir/all:
 	$(MAKE) -f CMakeFiles/Reverse_Link_list_II.dir/build.make CMakeFiles/Reverse_Link_list_II.dir/depend
 	$(MAKE) -f CMakeFiles/Reverse_Link_list_II.dir/build.make CMakeFiles/Reverse_Link_list_II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target Reverse_Link_list_II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target Reverse_Link_list_II"
 .PHONY : CMakeFiles/Reverse_Link_list_II.dir/all
 
 # Include target in all.
@@ -917,7 +991,7 @@ clean: CMakeFiles/Reverse_Link_list_II.dir/clean
 CMakeFiles/GridUniquePath.dir/all:
 	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/depend
 	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target GridUniquePath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target GridUniquePath"
 .PHONY : CMakeFiles/GridUniquePath.dir/all
 
 # Include target in all.
@@ -991,7 +1065,7 @@ clean: CMakeFiles/Atoi.dir/clean
 CMakeFiles/Search.dir/all:
 	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/depend
 	$(MAKE) -f CMakeFiles/Search.dir/build.make CMakeFiles/Search.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target Search"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target Search"
 .PHONY : CMakeFiles/Search.dir/all
 
 # Include target in all.
@@ -1028,7 +1102,7 @@ clean: CMakeFiles/Search.dir/clean
 CMakeFiles/GCD.dir/all:
 	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/depend
 	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target GCD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target GCD"
 .PHONY : CMakeFiles/GCD.dir/all
 
 # Include target in all.
@@ -1065,7 +1139,7 @@ clean: CMakeFiles/GCD.dir/clean
 CMakeFiles/Power.dir/all:
 	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/depend
 	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target Power"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target Power"
 .PHONY : CMakeFiles/Power.dir/all
 
 # Include target in all.
@@ -1102,7 +1176,7 @@ clean: CMakeFiles/Power.dir/clean
 CMakeFiles/InterviewBit.dir/all:
 	$(MAKE) -f CMakeFiles/InterviewBit.dir/build.make CMakeFiles/InterviewBit.dir/depend
 	$(MAKE) -f CMakeFiles/InterviewBit.dir/build.make CMakeFiles/InterviewBit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target InterviewBit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target InterviewBit"
 .PHONY : CMakeFiles/InterviewBit.dir/all
 
 # Include target in all.
@@ -1176,7 +1250,7 @@ clean: CMakeFiles/Add_Two_Numbers_As_Lists.dir/clean
 CMakeFiles/PalindromeInteger.dir/all:
 	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/depend
 	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target PalindromeInteger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target PalindromeInteger"
 .PHONY : CMakeFiles/PalindromeInteger.dir/all
 
 # Include target in all.
@@ -1213,7 +1287,7 @@ clean: CMakeFiles/PalindromeInteger.dir/clean
 CMakeFiles/ExcelColumnTitle.dir/all:
 	$(MAKE) -f CMakeFiles/ExcelColumnTitle.dir/build.make CMakeFiles/ExcelColumnTitle.dir/depend
 	$(MAKE) -f CMakeFiles/ExcelColumnTitle.dir/build.make CMakeFiles/ExcelColumnTitle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ExcelColumnTitle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ExcelColumnTitle"
 .PHONY : CMakeFiles/ExcelColumnTitle.dir/all
 
 # Include target in all.

@@ -48,6 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Jump_Game_Array.dir/DependInfo.cmake"
   "CMakeFiles/Stairs.dir/DependInfo.cmake"
   "CMakeFiles/PalindromeList.dir/DependInfo.cmake"
   "CMakeFiles/3_sum.dir/DependInfo.cmake"
@@ -62,6 +63,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Roman_To_Integer.dir/DependInfo.cmake"
   "CMakeFiles/Palindrome_String.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/DependInfo.cmake"
   "CMakeFiles/RotatedArray.dir/DependInfo.cmake"
   "CMakeFiles/Remove_Duplicates.dir/DependInfo.cmake"
   "CMakeFiles/index_Search_For_A_Range.dir/DependInfo.cmake"
