@@ -46,3 +46,6 @@ add_executable(Points_on_the_straight_line "Level 5/Points_on_the_straight_line.
 add_executable(Stairs "Level 7/Dynamic Programming/Stairs.cpp")
 add_executable(Jump_Game_Array "Level 7/Dynamic Programming/Jump_Game_Array.cpp")
 add_executable(Best_Time_To_Buy_And_Sell_Stocks_II "Level 7/Dynamic Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp")
+add_executable(Ways_to_decode "Level 7/Dynamic Programming/Ways_to_decode.cpp")
+add_executable(Edit_Distance "Level 7/Dynamic Programming/Edit_Distance.cpp")
+add_executable(Sample OnCampus_Recruitments/ProfitSort.cpp)

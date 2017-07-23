@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Edit_Distance
+
+# Build rule for target.
+Edit_Distance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Edit_Distance
+.PHONY : Edit_Distance
+
+# fast build rule for target.
+Edit_Distance/fast:
+	$(MAKE) -f CMakeFiles/Edit_Distance.dir/build.make CMakeFiles/Edit_Distance.dir/build
+.PHONY : Edit_Distance/fast
+
+#=============================================================================
+# Target rules for targets named Ways_to_decode
+
+# Build rule for target.
+Ways_to_decode: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Ways_to_decode
+.PHONY : Ways_to_decode
+
+# fast build rule for target.
+Ways_to_decode/fast:
+	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/build
+.PHONY : Ways_to_decode/fast
+
+#=============================================================================
 # Target rules for targets named Jump_Game_Array
 
 # Build rule for target.
@@ -200,6 +226,19 @@ Merge_Two_Sorted_List: cmake_check_build_system
 Merge_Two_Sorted_List/fast:
 	$(MAKE) -f CMakeFiles/Merge_Two_Sorted_List.dir/build.make CMakeFiles/Merge_Two_Sorted_List.dir/build
 .PHONY : Merge_Two_Sorted_List/fast
+
+#=============================================================================
+# Target rules for targets named Sample
+
+# Build rule for target.
+Sample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Sample
+.PHONY : Sample
+
+# fast build rule for target.
+Sample/fast:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/build
+.PHONY : Sample/fast
 
 #=============================================================================
 # Target rules for targets named Remove_Duplicates_From_Array_2
@@ -1362,6 +1401,33 @@ Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.s:
 	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_II.dir/Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.s
 .PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.s
 
+Level_7/Dynamic_Programming/Edit_Distance.o: Level_7/Dynamic_Programming/Edit_Distance.cpp.o
+
+.PHONY : Level_7/Dynamic_Programming/Edit_Distance.o
+
+# target to build an object file
+Level_7/Dynamic_Programming/Edit_Distance.cpp.o:
+	$(MAKE) -f CMakeFiles/Edit_Distance.dir/build.make CMakeFiles/Edit_Distance.dir/Level_7/Dynamic_Programming/Edit_Distance.cpp.o
+.PHONY : Level_7/Dynamic_Programming/Edit_Distance.cpp.o
+
+Level_7/Dynamic_Programming/Edit_Distance.i: Level_7/Dynamic_Programming/Edit_Distance.cpp.i
+
+.PHONY : Level_7/Dynamic_Programming/Edit_Distance.i
+
+# target to preprocess a source file
+Level_7/Dynamic_Programming/Edit_Distance.cpp.i:
+	$(MAKE) -f CMakeFiles/Edit_Distance.dir/build.make CMakeFiles/Edit_Distance.dir/Level_7/Dynamic_Programming/Edit_Distance.cpp.i
+.PHONY : Level_7/Dynamic_Programming/Edit_Distance.cpp.i
+
+Level_7/Dynamic_Programming/Edit_Distance.s: Level_7/Dynamic_Programming/Edit_Distance.cpp.s
+
+.PHONY : Level_7/Dynamic_Programming/Edit_Distance.s
+
+# target to generate assembly for a file
+Level_7/Dynamic_Programming/Edit_Distance.cpp.s:
+	$(MAKE) -f CMakeFiles/Edit_Distance.dir/build.make CMakeFiles/Edit_Distance.dir/Level_7/Dynamic_Programming/Edit_Distance.cpp.s
+.PHONY : Level_7/Dynamic_Programming/Edit_Distance.cpp.s
+
 Level_7/Dynamic_Programming/Jump_Game_Array.o: Level_7/Dynamic_Programming/Jump_Game_Array.cpp.o
 
 .PHONY : Level_7/Dynamic_Programming/Jump_Game_Array.o
@@ -1416,6 +1482,60 @@ Level_7/Dynamic_Programming/Stairs.cpp.s:
 	$(MAKE) -f CMakeFiles/Stairs.dir/build.make CMakeFiles/Stairs.dir/Level_7/Dynamic_Programming/Stairs.cpp.s
 .PHONY : Level_7/Dynamic_Programming/Stairs.cpp.s
 
+Level_7/Dynamic_Programming/Ways_to_decode.o: Level_7/Dynamic_Programming/Ways_to_decode.cpp.o
+
+.PHONY : Level_7/Dynamic_Programming/Ways_to_decode.o
+
+# target to build an object file
+Level_7/Dynamic_Programming/Ways_to_decode.cpp.o:
+	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/Level_7/Dynamic_Programming/Ways_to_decode.cpp.o
+.PHONY : Level_7/Dynamic_Programming/Ways_to_decode.cpp.o
+
+Level_7/Dynamic_Programming/Ways_to_decode.i: Level_7/Dynamic_Programming/Ways_to_decode.cpp.i
+
+.PHONY : Level_7/Dynamic_Programming/Ways_to_decode.i
+
+# target to preprocess a source file
+Level_7/Dynamic_Programming/Ways_to_decode.cpp.i:
+	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/Level_7/Dynamic_Programming/Ways_to_decode.cpp.i
+.PHONY : Level_7/Dynamic_Programming/Ways_to_decode.cpp.i
+
+Level_7/Dynamic_Programming/Ways_to_decode.s: Level_7/Dynamic_Programming/Ways_to_decode.cpp.s
+
+.PHONY : Level_7/Dynamic_Programming/Ways_to_decode.s
+
+# target to generate assembly for a file
+Level_7/Dynamic_Programming/Ways_to_decode.cpp.s:
+	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/Level_7/Dynamic_Programming/Ways_to_decode.cpp.s
+.PHONY : Level_7/Dynamic_Programming/Ways_to_decode.cpp.s
+
+OnCampus_Recruitments/ProfitSort.o: OnCampus_Recruitments/ProfitSort.cpp.o
+
+.PHONY : OnCampus_Recruitments/ProfitSort.o
+
+# target to build an object file
+OnCampus_Recruitments/ProfitSort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/OnCampus_Recruitments/ProfitSort.cpp.o
+.PHONY : OnCampus_Recruitments/ProfitSort.cpp.o
+
+OnCampus_Recruitments/ProfitSort.i: OnCampus_Recruitments/ProfitSort.cpp.i
+
+.PHONY : OnCampus_Recruitments/ProfitSort.i
+
+# target to preprocess a source file
+OnCampus_Recruitments/ProfitSort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/OnCampus_Recruitments/ProfitSort.cpp.i
+.PHONY : OnCampus_Recruitments/ProfitSort.cpp.i
+
+OnCampus_Recruitments/ProfitSort.s: OnCampus_Recruitments/ProfitSort.cpp.s
+
+.PHONY : OnCampus_Recruitments/ProfitSort.s
+
+# target to generate assembly for a file
+OnCampus_Recruitments/ProfitSort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/OnCampus_Recruitments/ProfitSort.cpp.s
+.PHONY : OnCampus_Recruitments/ProfitSort.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -1453,6 +1573,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Edit_Distance"
+	@echo "... Ways_to_decode"
 	@echo "... Jump_Game_Array"
 	@echo "... Stairs"
 	@echo "... PalindromeList"
@@ -1461,6 +1583,7 @@ help:
 	@echo "... ARRAY_3_POINTERS"
 	@echo "... Points_on_the_straight_line"
 	@echo "... Merge_Two_Sorted_List"
+	@echo "... Sample"
 	@echo "... Remove_Duplicates_From_Array_2"
 	@echo "... SquareRoot"
 	@echo "... Min_XOR_Value"
@@ -1578,12 +1701,21 @@ help:
 	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o"
 	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.i"
 	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.s"
+	@echo "... Level_7/Dynamic_Programming/Edit_Distance.o"
+	@echo "... Level_7/Dynamic_Programming/Edit_Distance.i"
+	@echo "... Level_7/Dynamic_Programming/Edit_Distance.s"
 	@echo "... Level_7/Dynamic_Programming/Jump_Game_Array.o"
 	@echo "... Level_7/Dynamic_Programming/Jump_Game_Array.i"
 	@echo "... Level_7/Dynamic_Programming/Jump_Game_Array.s"
 	@echo "... Level_7/Dynamic_Programming/Stairs.o"
 	@echo "... Level_7/Dynamic_Programming/Stairs.i"
 	@echo "... Level_7/Dynamic_Programming/Stairs.s"
+	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.o"
+	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.i"
+	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.s"
+	@echo "... OnCampus_Recruitments/ProfitSort.o"
+	@echo "... OnCampus_Recruitments/ProfitSort.i"
+	@echo "... OnCampus_Recruitments/ProfitSort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
