@@ -49,3 +49,5 @@ add_executable(Best_Time_To_Buy_And_Sell_Stocks_II "Level 7/Dynamic Programming/
 add_executable(Ways_to_decode "Level 7/Dynamic Programming/Ways_to_decode.cpp")
 add_executable(Edit_Distance "Level 7/Dynamic Programming/Edit_Distance.cpp")
 add_executable(Sample OnCampus_Recruitments/ProfitSort.cpp)
+add_executable(ProfitSort OnCampus_Recruitments/ProfitSort.cpp)
+add_executable(ValidBst "Level 6/Trees/ValidBst.cpp")

@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ProfitSort.dir/DependInfo.cmake"
+  "CMakeFiles/ValidBst.dir/DependInfo.cmake"
   "CMakeFiles/Edit_Distance.dir/DependInfo.cmake"
   "CMakeFiles/Ways_to_decode.dir/DependInfo.cmake"
   "CMakeFiles/Jump_Game_Array.dir/DependInfo.cmake"

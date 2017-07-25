@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ProfitSort
+
+# Build rule for target.
+ProfitSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ProfitSort
+.PHONY : ProfitSort
+
+# fast build rule for target.
+ProfitSort/fast:
+	$(MAKE) -f CMakeFiles/ProfitSort.dir/build.make CMakeFiles/ProfitSort.dir/build
+.PHONY : ProfitSort/fast
+
+#=============================================================================
+# Target rules for targets named ValidBst
+
+# Build rule for target.
+ValidBst: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ValidBst
+.PHONY : ValidBst
+
+# fast build rule for target.
+ValidBst/fast:
+	$(MAKE) -f CMakeFiles/ValidBst.dir/build.make CMakeFiles/ValidBst.dir/build
+.PHONY : ValidBst/fast
+
+#=============================================================================
 # Target rules for targets named Edit_Distance
 
 # Build rule for target.
@@ -1374,6 +1400,33 @@ Level_5/Points_on_the_straight_line.cpp.s:
 	$(MAKE) -f CMakeFiles/Points_on_the_straight_line.dir/build.make CMakeFiles/Points_on_the_straight_line.dir/Level_5/Points_on_the_straight_line.cpp.s
 .PHONY : Level_5/Points_on_the_straight_line.cpp.s
 
+Level_6/Trees/ValidBst.o: Level_6/Trees/ValidBst.cpp.o
+
+.PHONY : Level_6/Trees/ValidBst.o
+
+# target to build an object file
+Level_6/Trees/ValidBst.cpp.o:
+	$(MAKE) -f CMakeFiles/ValidBst.dir/build.make CMakeFiles/ValidBst.dir/Level_6/Trees/ValidBst.cpp.o
+.PHONY : Level_6/Trees/ValidBst.cpp.o
+
+Level_6/Trees/ValidBst.i: Level_6/Trees/ValidBst.cpp.i
+
+.PHONY : Level_6/Trees/ValidBst.i
+
+# target to preprocess a source file
+Level_6/Trees/ValidBst.cpp.i:
+	$(MAKE) -f CMakeFiles/ValidBst.dir/build.make CMakeFiles/ValidBst.dir/Level_6/Trees/ValidBst.cpp.i
+.PHONY : Level_6/Trees/ValidBst.cpp.i
+
+Level_6/Trees/ValidBst.s: Level_6/Trees/ValidBst.cpp.s
+
+.PHONY : Level_6/Trees/ValidBst.s
+
+# target to generate assembly for a file
+Level_6/Trees/ValidBst.cpp.s:
+	$(MAKE) -f CMakeFiles/ValidBst.dir/build.make CMakeFiles/ValidBst.dir/Level_6/Trees/ValidBst.cpp.s
+.PHONY : Level_6/Trees/ValidBst.cpp.s
+
 Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o: Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.o
 
 .PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o
@@ -1515,6 +1568,7 @@ OnCampus_Recruitments/ProfitSort.o: OnCampus_Recruitments/ProfitSort.cpp.o
 
 # target to build an object file
 OnCampus_Recruitments/ProfitSort.cpp.o:
+	$(MAKE) -f CMakeFiles/ProfitSort.dir/build.make CMakeFiles/ProfitSort.dir/OnCampus_Recruitments/ProfitSort.cpp.o
 	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/OnCampus_Recruitments/ProfitSort.cpp.o
 .PHONY : OnCampus_Recruitments/ProfitSort.cpp.o
 
@@ -1524,6 +1578,7 @@ OnCampus_Recruitments/ProfitSort.i: OnCampus_Recruitments/ProfitSort.cpp.i
 
 # target to preprocess a source file
 OnCampus_Recruitments/ProfitSort.cpp.i:
+	$(MAKE) -f CMakeFiles/ProfitSort.dir/build.make CMakeFiles/ProfitSort.dir/OnCampus_Recruitments/ProfitSort.cpp.i
 	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/OnCampus_Recruitments/ProfitSort.cpp.i
 .PHONY : OnCampus_Recruitments/ProfitSort.cpp.i
 
@@ -1533,6 +1588,7 @@ OnCampus_Recruitments/ProfitSort.s: OnCampus_Recruitments/ProfitSort.cpp.s
 
 # target to generate assembly for a file
 OnCampus_Recruitments/ProfitSort.cpp.s:
+	$(MAKE) -f CMakeFiles/ProfitSort.dir/build.make CMakeFiles/ProfitSort.dir/OnCampus_Recruitments/ProfitSort.cpp.s
 	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/OnCampus_Recruitments/ProfitSort.cpp.s
 .PHONY : OnCampus_Recruitments/ProfitSort.cpp.s
 
@@ -1573,6 +1629,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... ProfitSort"
+	@echo "... ValidBst"
 	@echo "... Edit_Distance"
 	@echo "... Ways_to_decode"
 	@echo "... Jump_Game_Array"
@@ -1698,6 +1756,9 @@ help:
 	@echo "... Level_5/Points_on_the_straight_line.o"
 	@echo "... Level_5/Points_on_the_straight_line.i"
 	@echo "... Level_5/Points_on_the_straight_line.s"
+	@echo "... Level_6/Trees/ValidBst.o"
+	@echo "... Level_6/Trees/ValidBst.i"
+	@echo "... Level_6/Trees/ValidBst.s"
 	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o"
 	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.i"
 	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.s"

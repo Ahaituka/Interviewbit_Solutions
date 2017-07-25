@@ -38,6 +38,7 @@ Sample Output:
 #include<iostream>
 #include <vector>
 
+
 #define Rep(i, n) for(int i=0;i<n;i++)
 
 using namespace std;
@@ -60,15 +61,12 @@ int main() {
 
     }
     sort(A.begin(), A.end());
-    Rep(i, 3) {
+    Rep(i, q) {
         int low = lower_bound(A.begin(), A.end(), query[i][0]) - A.begin();
         int high = upper_bound(A.begin(), A.end(), query[i][1]) - A.begin();
-        int count = 0;
-        for (int x = low; x < high; ++x) {
-            if (A[low] >= query[i][0] and A[low] <= query[i][1])
-                count++;
-        }
-        cout << count << endl;
+//        if(high==low and !(A[low]>=query[i][0] and A[high]<=query[i][1]))
+//            cout<<0;
+        cout << high - low;
     }
     return 0;
 }
