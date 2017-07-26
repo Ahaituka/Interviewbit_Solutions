@@ -38,16 +38,19 @@ string convertEven(string &s) {
     // if(flag)
     // {
     int last = s.size() - 2;
+    bool flag = false;
     Rep(j, s.size()) {
         int x = s[j] - 48;
         if (x % 2 == 0) {
-            last = j;
+            last = j, flag = true;
             if ((s[s.size() - 1] - 48) > x and j != s.size() - 2) {
                 swap(s[j], s[s.size() - 1]);
+                break;
             }
         }
-        if (j == s.size() - 2) {
+        if (j == s.size() - 2 and flag) {
             swap(s[last], s[s.size() - 1]);
+            break;
         }
     }
     return s;
@@ -58,7 +61,7 @@ string convertEven(string &s) {
 }
 
 int main() {
-    string s = "186113";
+    string s = "131680771";
     cout << convertEven(s);
     return 0;
 }
