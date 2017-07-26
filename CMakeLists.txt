@@ -51,3 +51,6 @@ add_executable(Edit_Distance "Level 7/Dynamic Programming/Edit_Distance.cpp")
 add_executable(Sample OnCampus_Recruitments/ProfitSort.cpp)
 add_executable(ProfitSort OnCampus_Recruitments/ProfitSort.cpp)
 add_executable(ValidBst "Level 6/Trees/ValidBst.cpp")
+add_executable(Increasing_Common_Subsequence "Level 7/Dynamic Programming/Increasing_Common_Subsequence.cpp")
+
+add_executable(Even_Number_Morgan_Stanley OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp)

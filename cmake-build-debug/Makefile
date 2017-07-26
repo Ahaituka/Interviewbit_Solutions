@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Even_Number_Morgan_Stanley
+
+# Build rule for target.
+Even_Number_Morgan_Stanley: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Even_Number_Morgan_Stanley
+.PHONY : Even_Number_Morgan_Stanley
+
+# fast build rule for target.
+Even_Number_Morgan_Stanley/fast:
+	$(MAKE) -f CMakeFiles/Even_Number_Morgan_Stanley.dir/build.make CMakeFiles/Even_Number_Morgan_Stanley.dir/build
+.PHONY : Even_Number_Morgan_Stanley/fast
+
+#=============================================================================
 # Target rules for targets named ProfitSort
 
 # Build rule for target.
@@ -252,6 +265,19 @@ Merge_Two_Sorted_List: cmake_check_build_system
 Merge_Two_Sorted_List/fast:
 	$(MAKE) -f CMakeFiles/Merge_Two_Sorted_List.dir/build.make CMakeFiles/Merge_Two_Sorted_List.dir/build
 .PHONY : Merge_Two_Sorted_List/fast
+
+#=============================================================================
+# Target rules for targets named Increasing_Common_Subsequence
+
+# Build rule for target.
+Increasing_Common_Subsequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Increasing_Common_Subsequence
+.PHONY : Increasing_Common_Subsequence
+
+# fast build rule for target.
+Increasing_Common_Subsequence/fast:
+	$(MAKE) -f CMakeFiles/Increasing_Common_Subsequence.dir/build.make CMakeFiles/Increasing_Common_Subsequence.dir/build
+.PHONY : Increasing_Common_Subsequence/fast
 
 #=============================================================================
 # Target rules for targets named Sample
@@ -1481,6 +1507,33 @@ Level_7/Dynamic_Programming/Edit_Distance.cpp.s:
 	$(MAKE) -f CMakeFiles/Edit_Distance.dir/build.make CMakeFiles/Edit_Distance.dir/Level_7/Dynamic_Programming/Edit_Distance.cpp.s
 .PHONY : Level_7/Dynamic_Programming/Edit_Distance.cpp.s
 
+Level_7/Dynamic_Programming/Increasing_Common_Subsequence.o: Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.o
+
+.PHONY : Level_7/Dynamic_Programming/Increasing_Common_Subsequence.o
+
+# target to build an object file
+Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.o:
+	$(MAKE) -f CMakeFiles/Increasing_Common_Subsequence.dir/build.make CMakeFiles/Increasing_Common_Subsequence.dir/Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.o
+.PHONY : Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.o
+
+Level_7/Dynamic_Programming/Increasing_Common_Subsequence.i: Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.i
+
+.PHONY : Level_7/Dynamic_Programming/Increasing_Common_Subsequence.i
+
+# target to preprocess a source file
+Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.i:
+	$(MAKE) -f CMakeFiles/Increasing_Common_Subsequence.dir/build.make CMakeFiles/Increasing_Common_Subsequence.dir/Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.i
+.PHONY : Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.i
+
+Level_7/Dynamic_Programming/Increasing_Common_Subsequence.s: Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.s
+
+.PHONY : Level_7/Dynamic_Programming/Increasing_Common_Subsequence.s
+
+# target to generate assembly for a file
+Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.s:
+	$(MAKE) -f CMakeFiles/Increasing_Common_Subsequence.dir/build.make CMakeFiles/Increasing_Common_Subsequence.dir/Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.s
+.PHONY : Level_7/Dynamic_Programming/Increasing_Common_Subsequence.cpp.s
+
 Level_7/Dynamic_Programming/Jump_Game_Array.o: Level_7/Dynamic_Programming/Jump_Game_Array.cpp.o
 
 .PHONY : Level_7/Dynamic_Programming/Jump_Game_Array.o
@@ -1562,6 +1615,33 @@ Level_7/Dynamic_Programming/Ways_to_decode.cpp.s:
 	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/Level_7/Dynamic_Programming/Ways_to_decode.cpp.s
 .PHONY : Level_7/Dynamic_Programming/Ways_to_decode.cpp.s
 
+OnCampus_Recruitments/Even_Number_Morgan_Stanley.o: OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.o
+
+.PHONY : OnCampus_Recruitments/Even_Number_Morgan_Stanley.o
+
+# target to build an object file
+OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.o:
+	$(MAKE) -f CMakeFiles/Even_Number_Morgan_Stanley.dir/build.make CMakeFiles/Even_Number_Morgan_Stanley.dir/OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.o
+.PHONY : OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.o
+
+OnCampus_Recruitments/Even_Number_Morgan_Stanley.i: OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.i
+
+.PHONY : OnCampus_Recruitments/Even_Number_Morgan_Stanley.i
+
+# target to preprocess a source file
+OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.i:
+	$(MAKE) -f CMakeFiles/Even_Number_Morgan_Stanley.dir/build.make CMakeFiles/Even_Number_Morgan_Stanley.dir/OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.i
+.PHONY : OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.i
+
+OnCampus_Recruitments/Even_Number_Morgan_Stanley.s: OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.s
+
+.PHONY : OnCampus_Recruitments/Even_Number_Morgan_Stanley.s
+
+# target to generate assembly for a file
+OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.s:
+	$(MAKE) -f CMakeFiles/Even_Number_Morgan_Stanley.dir/build.make CMakeFiles/Even_Number_Morgan_Stanley.dir/OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.s
+.PHONY : OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.s
+
 OnCampus_Recruitments/ProfitSort.o: OnCampus_Recruitments/ProfitSort.cpp.o
 
 .PHONY : OnCampus_Recruitments/ProfitSort.o
@@ -1629,6 +1709,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Even_Number_Morgan_Stanley"
 	@echo "... ProfitSort"
 	@echo "... ValidBst"
 	@echo "... Edit_Distance"
@@ -1641,6 +1722,7 @@ help:
 	@echo "... ARRAY_3_POINTERS"
 	@echo "... Points_on_the_straight_line"
 	@echo "... Merge_Two_Sorted_List"
+	@echo "... Increasing_Common_Subsequence"
 	@echo "... Sample"
 	@echo "... Remove_Duplicates_From_Array_2"
 	@echo "... SquareRoot"
@@ -1765,6 +1847,9 @@ help:
 	@echo "... Level_7/Dynamic_Programming/Edit_Distance.o"
 	@echo "... Level_7/Dynamic_Programming/Edit_Distance.i"
 	@echo "... Level_7/Dynamic_Programming/Edit_Distance.s"
+	@echo "... Level_7/Dynamic_Programming/Increasing_Common_Subsequence.o"
+	@echo "... Level_7/Dynamic_Programming/Increasing_Common_Subsequence.i"
+	@echo "... Level_7/Dynamic_Programming/Increasing_Common_Subsequence.s"
 	@echo "... Level_7/Dynamic_Programming/Jump_Game_Array.o"
 	@echo "... Level_7/Dynamic_Programming/Jump_Game_Array.i"
 	@echo "... Level_7/Dynamic_Programming/Jump_Game_Array.s"
@@ -1774,6 +1859,9 @@ help:
 	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.o"
 	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.i"
 	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.s"
+	@echo "... OnCampus_Recruitments/Even_Number_Morgan_Stanley.o"
+	@echo "... OnCampus_Recruitments/Even_Number_Morgan_Stanley.i"
+	@echo "... OnCampus_Recruitments/Even_Number_Morgan_Stanley.s"
 	@echo "... OnCampus_Recruitments/ProfitSort.o"
 	@echo "... OnCampus_Recruitments/ProfitSort.i"
 	@echo "... OnCampus_Recruitments/ProfitSort.s"
