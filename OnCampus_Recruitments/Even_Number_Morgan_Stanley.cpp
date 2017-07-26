@@ -15,6 +15,9 @@
 
 using namespace std;
 
+#define Rep(i, n) for(int i=0;i<n;i++)
+
+
 string convertEven(string &s) {
     // int flag=1;
 
@@ -34,7 +37,7 @@ string convertEven(string &s) {
 
     // if(flag)
     // {
-    for (int j = 0; j < s.size(); ++j) {
+    Rep(j, s.size()) {
         int x = s[j] - 48;
         if (x % 2 == 0)
             if ((s[s.size() - 1] - 48) > x and j != s.size() - 2) {
