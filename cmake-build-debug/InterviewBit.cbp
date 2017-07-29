@@ -27,6 +27,48 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Gas_Station">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Gas_Station" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gas_Station"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gas_Station/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Gas_Station" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gas_Station/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Even_Number_Morgan_Stanley">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Even_Number_Morgan_Stanley" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -1867,6 +1909,9 @@
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 7/Dynamic Programming/Ways_to_decode.cpp">
 			<Option target="Ways_to_decode"/>
+		</Unit>
+		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 7/Greedy/Gas_Station.cpp">
+			<Option target="Gas_Station"/>
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp">
 			<Option target="Even_Number_Morgan_Stanley"/>

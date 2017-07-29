@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Gas_Station
+
+# Build rule for target.
+Gas_Station: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Gas_Station
+.PHONY : Gas_Station
+
+# fast build rule for target.
+Gas_Station/fast:
+	$(MAKE) -f CMakeFiles/Gas_Station.dir/build.make CMakeFiles/Gas_Station.dir/build
+.PHONY : Gas_Station/fast
+
+#=============================================================================
 # Target rules for targets named Even_Number_Morgan_Stanley
 
 # Build rule for target.
@@ -1615,6 +1628,33 @@ Level_7/Dynamic_Programming/Ways_to_decode.cpp.s:
 	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/Level_7/Dynamic_Programming/Ways_to_decode.cpp.s
 .PHONY : Level_7/Dynamic_Programming/Ways_to_decode.cpp.s
 
+Level_7/Greedy/Gas_Station.o: Level_7/Greedy/Gas_Station.cpp.o
+
+.PHONY : Level_7/Greedy/Gas_Station.o
+
+# target to build an object file
+Level_7/Greedy/Gas_Station.cpp.o:
+	$(MAKE) -f CMakeFiles/Gas_Station.dir/build.make CMakeFiles/Gas_Station.dir/Level_7/Greedy/Gas_Station.cpp.o
+.PHONY : Level_7/Greedy/Gas_Station.cpp.o
+
+Level_7/Greedy/Gas_Station.i: Level_7/Greedy/Gas_Station.cpp.i
+
+.PHONY : Level_7/Greedy/Gas_Station.i
+
+# target to preprocess a source file
+Level_7/Greedy/Gas_Station.cpp.i:
+	$(MAKE) -f CMakeFiles/Gas_Station.dir/build.make CMakeFiles/Gas_Station.dir/Level_7/Greedy/Gas_Station.cpp.i
+.PHONY : Level_7/Greedy/Gas_Station.cpp.i
+
+Level_7/Greedy/Gas_Station.s: Level_7/Greedy/Gas_Station.cpp.s
+
+.PHONY : Level_7/Greedy/Gas_Station.s
+
+# target to generate assembly for a file
+Level_7/Greedy/Gas_Station.cpp.s:
+	$(MAKE) -f CMakeFiles/Gas_Station.dir/build.make CMakeFiles/Gas_Station.dir/Level_7/Greedy/Gas_Station.cpp.s
+.PHONY : Level_7/Greedy/Gas_Station.cpp.s
+
 OnCampus_Recruitments/Even_Number_Morgan_Stanley.o: OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.o
 
 .PHONY : OnCampus_Recruitments/Even_Number_Morgan_Stanley.o
@@ -1709,6 +1749,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Gas_Station"
 	@echo "... Even_Number_Morgan_Stanley"
 	@echo "... ProfitSort"
 	@echo "... ValidBst"
@@ -1859,6 +1900,9 @@ help:
 	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.o"
 	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.i"
 	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.s"
+	@echo "... Level_7/Greedy/Gas_Station.o"
+	@echo "... Level_7/Greedy/Gas_Station.i"
+	@echo "... Level_7/Greedy/Gas_Station.s"
 	@echo "... OnCampus_Recruitments/Even_Number_Morgan_Stanley.o"
 	@echo "... OnCampus_Recruitments/Even_Number_Morgan_Stanley.i"
 	@echo "... OnCampus_Recruitments/Even_Number_Morgan_Stanley.s"

@@ -1,7 +1,6 @@
 #include<iostream>
-#include <stack>
+#include <vector>
 
-using namespace std;
 //
 //long long solve (vector<int> a)
 //{
@@ -134,84 +133,84 @@ using namespace std;
 // windows of different sizes
 using namespace std;
 
-void printMaxOfMin(int arr[], int n) {
-    stack<int> s; // Used to find previous and next smaller
-
-    // Arrays to store previous and next smaller
-    int left[n + 1];
-    int right[n + 1];
-
-    // Initialize elements of left[] and right[]
-    for (int i = 0; i < n; i++) {
-        left[i] = -1;
-        right[i] = n;
-    }
-
-    // Fill elements of left[] using logic discussed on
-    // http://www.geeksforgeeks.org/next-greater-element/
-    for (int i = 0; i < n; i++) {
-        while (!s.empty() && arr[s.top()] >= arr[i])
-            s.pop();
-
-        if (!s.empty())
-            left[i] = s.top();
-
-        s.push(i);
-    }
-
-    // Empty the stack as stack is going to be used for right[]
-    while (!s.empty())
-        s.pop();
-
-    // Fill elements of right[] using same logic
-    for (int i = n - 1; i >= 0; i--) {
-        while (!s.empty() && arr[s.top()] >= arr[i])
-            s.pop();
-
-        if (!s.empty())
-            right[i] = s.top();
-
-        s.push(i);
-    }
-
-    // Create and initialize answer array
-    int ans[n + 1];
-
-    for (int i = 0; i <= n; i++)
-        ans[i] = 0;
-
-    // Fill answer array by comparing minimums of all
-    // lengths computed using left[] and right[]
-    for (int i = 0; i < n; i++) {
-        // length of the interval
-        int len = right[i] - left[i] - 1;
-
-        // arr[i] is a possible answer for this length
-        // 'len' interval, check if arr[i] is more than
-        // max for 'len'
-        int x = ans[len];
-        int y = arr[i];
-        ans[len] = max(ans[len], arr[i]);
-        int zs = ans[len];
-        int t = 5;
-
-
-    }
-
-    // Some entries in ans[] may not be filled yet. Fill
-    // them by taking values from right side of ans[]
-    for (int i = n - 1; i >= 1; i--) {
-        ans[i] = max(ans[i], ans[i + 1]);
-
-        for (int j = 0; j < n; ++j) {
-            cout << ans[j] << " ";
-        }
-        cout << endl;
-    }
-    // Print the result
-    for (int i = 1; i <= n; i++)
-        cout << ans[i] << " ";
-}
+//void printMaxOfMin(int arr[], int n) {
+//    stack<int> s; // Used to find previous and next smaller
+//
+//    // Arrays to store previous and next smaller
+//    int left[n + 1];
+//    int right[n + 1];
+//
+//    // Initialize elements of left[] and right[]
+//    for (int i = 0; i < n; i++) {
+//        left[i] = -1;
+//        right[i] = n;
+//    }
+//
+//    // Fill elements of left[] using logic discussed on
+//    // http://www.geeksforgeeks.org/next-greater-element/
+//    for (int i = 0; i < n; i++) {
+//        while (!s.empty() && arr[s.top()] >= arr[i])
+//            s.pop();
+//
+//        if (!s.empty())
+//            left[i] = s.top();
+//
+//        s.push(i);
+//    }
+//
+//    // Empty the stack as stack is going to be used for right[]
+//    while (!s.empty())
+//        s.pop();
+//
+//    // Fill elements of right[] using same logic
+//    for (int i = n - 1; i >= 0; i--) {
+//        while (!s.empty() && arr[s.top()] >= arr[i])
+//            s.pop();
+//
+//        if (!s.empty())
+//            right[i] = s.top();
+//
+//        s.push(i);
+//    }
+//
+//    // Create and initialize answer array
+//    int ans[n + 1];
+//
+//    for (int i = 0; i <= n; i++)
+//        ans[i] = 0;
+//
+//    // Fill answer array by comparing minimums of all
+//    // lengths computed using left[] and right[]
+//    for (int i = 0; i < n; i++) {
+//        // length of the interval
+//        int len = right[i] - left[i] - 1;
+//
+//        // arr[i] is a possible answer for this length
+//        // 'len' interval, check if arr[i] is more than
+//        // max for 'len'
+//        int x = ans[len];
+//        int y = arr[i];
+//        ans[len] = max(ans[len], arr[i]);
+//        int zs = ans[len];
+//        int t = 5;
+//
+//
+//    }
+//
+//    // Some entries in ans[] may not be filled yet. Fill
+//    // them by taking values from right side of ans[]
+//    for (int i = n - 1; i >= 1; i--) {
+//        ans[i] = max(ans[i], ans[i + 1]);
+//
+//        for (int j = 0; j < n; ++j) {
+//            cout << ans[j] << " ";
+//        }
+//        cout << endl;
+//    }
+//    // Print the result
+//    for (int i = 1; i <= n; i++)
+//        cout << ans[i] << " ";
+//}
 
 
 int count(int n) {
@@ -224,12 +223,59 @@ int count(int n) {
         return count(n - 1) + count(n - 2);
 }
 
+void permute(vector<int> &num, int start, vector<vector<int> > &result) {
+    if (start == num.size() - 1) {
+        result.push_back(num);
+        return;
+    }
+    for (int i = start; i < num.size(); i++) {
+        swap(num[start], num[i]);
+        permute(num, start + 1, result);
+        swap(num[start], num[i]);
+    }
+}
+
+vector<vector<int> > permute(vector<int> &num) {
+    vector<vector<int> > result;
+    if (num.size() == 0)
+        return result;
+    sort(num.begin(), num.end());
+    permute(num, 0, result);
+    return result;
+}
 // Driver program
 int main() {
-    int arr[] = {10, 20, 30, 50, 10, 70, 30};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    //int arr[] = {10, 20, 30, 50, 10, 70, 30};
+    //int n = sizeof(arr) / sizeof(arr[0]);
     // printMaxOfMin(arr, n);
-    cout << count(15);
+//    string s = "1243";
+//    auto i = 0, prev = -1, min = 0;
+//    for (int j = 0; j < s.size(); ++j) {
+//        int x = s[j] - 48;
+//        if (x % 2 == 0)
+//            if ((s[s.size() - 1] - 48) > x and j != s.size() - 2) {
+//                swap(s[j], s[s.size() - 1]);
+//            }
+//        if (j == s.size() - 2) {
+//            swap(s[j], s[s.size() - 1]);
+//        }
+//    }
+//
+//
+//    cout << s;
+    // cout << (212%26);
+
+    vector<int> A = {1, 2, 3};
+    auto x = permute(A);
+    for (auto c : x) {
+        for (auto t : c) {
+            cout << t;
+        }
+        cout << endl;
+
+    }
+
+
     return 0;
 }
 
