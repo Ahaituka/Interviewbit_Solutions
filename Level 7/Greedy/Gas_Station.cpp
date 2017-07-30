@@ -25,22 +25,25 @@ If you start from index 1, you can fill in gas[1] = 2 amount of gas. Now your ta
 #include <vector>
 
 
+
 using namespace std;
 
 
-int gas(vector<int> A, vector<int> B) {
+#define Rep(i, n) for(int i = 0 ; i<n ; i++)
 
-    int sum = 0, start = 0, gas = 0, cost = 0;
-    for (int i = 0; i < A.size(); ++i) {
+
+int canCompleteCircuit(const vector<int> &A, const vector<int> &B) {
+    int sum = 0, start = 0, cost = 0, gas = 0;
+
+    Rep(i, A.size()) {
         gas += A[i];
-        cost += A[i];
-
+        cost += B[i];
 
     }
     if (gas < cost)
         return -1;
 
-    for (int i = 0; i < A.size(); ++i) {
+    Rep(i, A.size()) {
         sum += A[i] - B[i];
         if (sum < 0) {
             sum = 0;
@@ -50,10 +53,8 @@ int gas(vector<int> A, vector<int> B) {
 
     }
     return start;
-
-
 }
-//
+
 //int findKthLargest(vector<int>& nums, int k) {
 //    priority_queue<int,vector<int>,std::greater<int>> pq(nums.begin(), nums.end());
 //    for (int i = 0; i < k - 1; i++)
@@ -61,10 +62,14 @@ int gas(vector<int> A, vector<int> B) {
 //    return pq.top();
 //}
 
+
 int main() {
     vector<int> A = {1, 2};
     vector<int> B = {2, 1};
-    cout << gas(A, B);
+//    for (int i = 0; i < B.size(); ++i) {
+    cout << canCompleteCircuit(A, B);
+//
+    // }
 
 }
 

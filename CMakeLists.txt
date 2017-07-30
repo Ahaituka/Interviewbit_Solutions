@@ -55,3 +55,5 @@ add_executable(Increasing_Common_Subsequence "Level 7/Dynamic Programming/Increa
 
 add_executable(Even_Number_Morgan_Stanley OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp)
 add_executable(Gas_Station "Level 7/Greedy/Gas_Station.cpp")
+add_executable(Majority_Element "Level 7/Greedy/Majority_Element.cpp")
+add_executable(Highest_Product "Level 7/Greedy/Highest_Product.cpp")

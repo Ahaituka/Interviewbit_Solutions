@@ -48,12 +48,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Highest_Product.dir/DependInfo.cmake"
   "CMakeFiles/Gas_Station.dir/DependInfo.cmake"
   "CMakeFiles/Even_Number_Morgan_Stanley.dir/DependInfo.cmake"
   "CMakeFiles/ProfitSort.dir/DependInfo.cmake"
   "CMakeFiles/ValidBst.dir/DependInfo.cmake"
   "CMakeFiles/Edit_Distance.dir/DependInfo.cmake"
   "CMakeFiles/Ways_to_decode.dir/DependInfo.cmake"
+  "CMakeFiles/Majority_Element.dir/DependInfo.cmake"
   "CMakeFiles/Jump_Game_Array.dir/DependInfo.cmake"
   "CMakeFiles/Stairs.dir/DependInfo.cmake"
   "CMakeFiles/PalindromeList.dir/DependInfo.cmake"

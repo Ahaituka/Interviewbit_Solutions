@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Highest_Product
+
+# Build rule for target.
+Highest_Product: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Highest_Product
+.PHONY : Highest_Product
+
+# fast build rule for target.
+Highest_Product/fast:
+	$(MAKE) -f CMakeFiles/Highest_Product.dir/build.make CMakeFiles/Highest_Product.dir/build
+.PHONY : Highest_Product/fast
+
+#=============================================================================
 # Target rules for targets named Gas_Station
 
 # Build rule for target.
@@ -187,6 +200,19 @@ Ways_to_decode: cmake_check_build_system
 Ways_to_decode/fast:
 	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/build
 .PHONY : Ways_to_decode/fast
+
+#=============================================================================
+# Target rules for targets named Majority_Element
+
+# Build rule for target.
+Majority_Element: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Majority_Element
+.PHONY : Majority_Element
+
+# fast build rule for target.
+Majority_Element/fast:
+	$(MAKE) -f CMakeFiles/Majority_Element.dir/build.make CMakeFiles/Majority_Element.dir/build
+.PHONY : Majority_Element/fast
 
 #=============================================================================
 # Target rules for targets named Jump_Game_Array
@@ -1655,6 +1681,60 @@ Level_7/Greedy/Gas_Station.cpp.s:
 	$(MAKE) -f CMakeFiles/Gas_Station.dir/build.make CMakeFiles/Gas_Station.dir/Level_7/Greedy/Gas_Station.cpp.s
 .PHONY : Level_7/Greedy/Gas_Station.cpp.s
 
+Level_7/Greedy/Highest_Product.o: Level_7/Greedy/Highest_Product.cpp.o
+
+.PHONY : Level_7/Greedy/Highest_Product.o
+
+# target to build an object file
+Level_7/Greedy/Highest_Product.cpp.o:
+	$(MAKE) -f CMakeFiles/Highest_Product.dir/build.make CMakeFiles/Highest_Product.dir/Level_7/Greedy/Highest_Product.cpp.o
+.PHONY : Level_7/Greedy/Highest_Product.cpp.o
+
+Level_7/Greedy/Highest_Product.i: Level_7/Greedy/Highest_Product.cpp.i
+
+.PHONY : Level_7/Greedy/Highest_Product.i
+
+# target to preprocess a source file
+Level_7/Greedy/Highest_Product.cpp.i:
+	$(MAKE) -f CMakeFiles/Highest_Product.dir/build.make CMakeFiles/Highest_Product.dir/Level_7/Greedy/Highest_Product.cpp.i
+.PHONY : Level_7/Greedy/Highest_Product.cpp.i
+
+Level_7/Greedy/Highest_Product.s: Level_7/Greedy/Highest_Product.cpp.s
+
+.PHONY : Level_7/Greedy/Highest_Product.s
+
+# target to generate assembly for a file
+Level_7/Greedy/Highest_Product.cpp.s:
+	$(MAKE) -f CMakeFiles/Highest_Product.dir/build.make CMakeFiles/Highest_Product.dir/Level_7/Greedy/Highest_Product.cpp.s
+.PHONY : Level_7/Greedy/Highest_Product.cpp.s
+
+Level_7/Greedy/Majority_Element.o: Level_7/Greedy/Majority_Element.cpp.o
+
+.PHONY : Level_7/Greedy/Majority_Element.o
+
+# target to build an object file
+Level_7/Greedy/Majority_Element.cpp.o:
+	$(MAKE) -f CMakeFiles/Majority_Element.dir/build.make CMakeFiles/Majority_Element.dir/Level_7/Greedy/Majority_Element.cpp.o
+.PHONY : Level_7/Greedy/Majority_Element.cpp.o
+
+Level_7/Greedy/Majority_Element.i: Level_7/Greedy/Majority_Element.cpp.i
+
+.PHONY : Level_7/Greedy/Majority_Element.i
+
+# target to preprocess a source file
+Level_7/Greedy/Majority_Element.cpp.i:
+	$(MAKE) -f CMakeFiles/Majority_Element.dir/build.make CMakeFiles/Majority_Element.dir/Level_7/Greedy/Majority_Element.cpp.i
+.PHONY : Level_7/Greedy/Majority_Element.cpp.i
+
+Level_7/Greedy/Majority_Element.s: Level_7/Greedy/Majority_Element.cpp.s
+
+.PHONY : Level_7/Greedy/Majority_Element.s
+
+# target to generate assembly for a file
+Level_7/Greedy/Majority_Element.cpp.s:
+	$(MAKE) -f CMakeFiles/Majority_Element.dir/build.make CMakeFiles/Majority_Element.dir/Level_7/Greedy/Majority_Element.cpp.s
+.PHONY : Level_7/Greedy/Majority_Element.cpp.s
+
 OnCampus_Recruitments/Even_Number_Morgan_Stanley.o: OnCampus_Recruitments/Even_Number_Morgan_Stanley.cpp.o
 
 .PHONY : OnCampus_Recruitments/Even_Number_Morgan_Stanley.o
@@ -1749,12 +1829,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Highest_Product"
 	@echo "... Gas_Station"
 	@echo "... Even_Number_Morgan_Stanley"
 	@echo "... ProfitSort"
 	@echo "... ValidBst"
 	@echo "... Edit_Distance"
 	@echo "... Ways_to_decode"
+	@echo "... Majority_Element"
 	@echo "... Jump_Game_Array"
 	@echo "... Stairs"
 	@echo "... PalindromeList"
@@ -1903,6 +1985,12 @@ help:
 	@echo "... Level_7/Greedy/Gas_Station.o"
 	@echo "... Level_7/Greedy/Gas_Station.i"
 	@echo "... Level_7/Greedy/Gas_Station.s"
+	@echo "... Level_7/Greedy/Highest_Product.o"
+	@echo "... Level_7/Greedy/Highest_Product.i"
+	@echo "... Level_7/Greedy/Highest_Product.s"
+	@echo "... Level_7/Greedy/Majority_Element.o"
+	@echo "... Level_7/Greedy/Majority_Element.i"
+	@echo "... Level_7/Greedy/Majority_Element.s"
 	@echo "... OnCampus_Recruitments/Even_Number_Morgan_Stanley.o"
 	@echo "... OnCampus_Recruitments/Even_Number_Morgan_Stanley.i"
 	@echo "... OnCampus_Recruitments/Even_Number_Morgan_Stanley.s"
