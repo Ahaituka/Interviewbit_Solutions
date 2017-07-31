@@ -57,3 +57,4 @@ add_executable(Even_Number_Morgan_Stanley OnCampus_Recruitments/Even_Number_Morg
 add_executable(Gas_Station "Level 7/Greedy/Gas_Station.cpp")
 add_executable(Majority_Element "Level 7/Greedy/Majority_Element.cpp")
 add_executable(Highest_Product "Level 7/Greedy/Highest_Product.cpp")
+add_executable(Bulbs "Level 7/Greedy/Bulbs.cpp")

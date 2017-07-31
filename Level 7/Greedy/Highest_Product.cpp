@@ -10,7 +10,7 @@ Example:
 [0, -1, 3, 100, 70, 50]
 
 => 70*50*100 = 350000
- *  /
+ */
 
 #include <iostream>
 #include <vector>

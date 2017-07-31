@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Bulbs
+
+# Build rule for target.
+Bulbs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Bulbs
+.PHONY : Bulbs
+
+# fast build rule for target.
+Bulbs/fast:
+	$(MAKE) -f CMakeFiles/Bulbs.dir/build.make CMakeFiles/Bulbs.dir/build
+.PHONY : Bulbs/fast
+
+#=============================================================================
 # Target rules for targets named Highest_Product
 
 # Build rule for target.
@@ -1654,6 +1667,33 @@ Level_7/Dynamic_Programming/Ways_to_decode.cpp.s:
 	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/Level_7/Dynamic_Programming/Ways_to_decode.cpp.s
 .PHONY : Level_7/Dynamic_Programming/Ways_to_decode.cpp.s
 
+Level_7/Greedy/Bulbs.o: Level_7/Greedy/Bulbs.cpp.o
+
+.PHONY : Level_7/Greedy/Bulbs.o
+
+# target to build an object file
+Level_7/Greedy/Bulbs.cpp.o:
+	$(MAKE) -f CMakeFiles/Bulbs.dir/build.make CMakeFiles/Bulbs.dir/Level_7/Greedy/Bulbs.cpp.o
+.PHONY : Level_7/Greedy/Bulbs.cpp.o
+
+Level_7/Greedy/Bulbs.i: Level_7/Greedy/Bulbs.cpp.i
+
+.PHONY : Level_7/Greedy/Bulbs.i
+
+# target to preprocess a source file
+Level_7/Greedy/Bulbs.cpp.i:
+	$(MAKE) -f CMakeFiles/Bulbs.dir/build.make CMakeFiles/Bulbs.dir/Level_7/Greedy/Bulbs.cpp.i
+.PHONY : Level_7/Greedy/Bulbs.cpp.i
+
+Level_7/Greedy/Bulbs.s: Level_7/Greedy/Bulbs.cpp.s
+
+.PHONY : Level_7/Greedy/Bulbs.s
+
+# target to generate assembly for a file
+Level_7/Greedy/Bulbs.cpp.s:
+	$(MAKE) -f CMakeFiles/Bulbs.dir/build.make CMakeFiles/Bulbs.dir/Level_7/Greedy/Bulbs.cpp.s
+.PHONY : Level_7/Greedy/Bulbs.cpp.s
+
 Level_7/Greedy/Gas_Station.o: Level_7/Greedy/Gas_Station.cpp.o
 
 .PHONY : Level_7/Greedy/Gas_Station.o
@@ -1829,6 +1869,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Bulbs"
 	@echo "... Highest_Product"
 	@echo "... Gas_Station"
 	@echo "... Even_Number_Morgan_Stanley"
@@ -1982,6 +2023,9 @@ help:
 	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.o"
 	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.i"
 	@echo "... Level_7/Dynamic_Programming/Ways_to_decode.s"
+	@echo "... Level_7/Greedy/Bulbs.o"
+	@echo "... Level_7/Greedy/Bulbs.i"
+	@echo "... Level_7/Greedy/Bulbs.s"
 	@echo "... Level_7/Greedy/Gas_Station.o"
 	@echo "... Level_7/Greedy/Gas_Station.i"
 	@echo "... Level_7/Greedy/Gas_Station.s"
