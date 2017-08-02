@@ -27,6 +27,90 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Distribute_candy">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Distribute_candy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Distribute_candy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Distribute_candy/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Distribute_candy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Distribute_candy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Even_Number_Morgan_Stanley">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Even_Number_Morgan_Stanley" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Even_Number_Morgan_Stanley"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Even_Number_Morgan_Stanley/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Even_Number_Morgan_Stanley" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Even_Number_Morgan_Stanley/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Bulbs">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Bulbs" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -153,8 +237,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Even_Number_Morgan_Stanley">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Even_Number_Morgan_Stanley" prefix_auto="0" extension_auto="0"/>
+			<Target title="PalindromeInteger">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/PalindromeInteger" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -168,14 +252,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Even_Number_Morgan_Stanley"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 PalindromeInteger"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Even_Number_Morgan_Stanley/fast">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Even_Number_Morgan_Stanley" prefix_auto="0" extension_auto="0"/>
+			<Target title="PalindromeInteger/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/PalindromeInteger" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -189,7 +273,49 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Even_Number_Morgan_Stanley/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 PalindromeInteger/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stairs">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Stairs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stairs"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stairs/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Stairs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stairs/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -274,6 +400,90 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ValidBst/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Reverse_Link_list_II">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Reverse_Link_list_II" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Reverse_Link_list_II"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Reverse_Link_list_II/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Reverse_Link_list_II" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Reverse_Link_list_II/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Increasing_Common_Subsequence">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Increasing_Common_Subsequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Increasing_Common_Subsequence"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Increasing_Common_Subsequence/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Increasing_Common_Subsequence" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Increasing_Common_Subsequence/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -447,48 +657,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Stairs">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Stairs" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stairs"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Stairs/fast">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Stairs" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stairs/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="PalindromeList">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/PalindromeList" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -526,16 +694,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 PalindromeList/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -704,48 +862,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Merge_Two_Sorted_List/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Increasing_Common_Subsequence">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Increasing_Common_Subsequence" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Increasing_Common_Subsequence"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Increasing_Common_Subsequence/fast">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Increasing_Common_Subsequence" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Increasing_Common_Subsequence/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -961,6 +1077,48 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="RotatedArray">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/RotatedArray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 RotatedArray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RotatedArray/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/RotatedArray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 RotatedArray/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ExcelColumnNumber">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/ExcelColumnNumber" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -1171,48 +1329,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="RotatedArray">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/RotatedArray" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 RotatedArray"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="RotatedArray/fast">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/RotatedArray" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 RotatedArray/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="Remove_Duplicates">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Remove_Duplicates" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -1250,6 +1366,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Remove_Duplicates/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Prime_Numbers">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Prime_Numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Prime_Numbers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Prime_Numbers/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Prime_Numbers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Prime_Numbers/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1334,6 +1492,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReverseTheString/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Power">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Power" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Power"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Power/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Power" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Power/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1465,6 +1665,16 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="SingleNumber">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/SingleNumber" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -1502,48 +1712,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingleNumber/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Reverse_Link_list_II">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Reverse_Link_list_II" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Reverse_Link_list_II"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Reverse_Link_list_II/fast">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Reverse_Link_list_II" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Reverse_Link_list_II/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1717,48 +1885,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Power">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Power" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Power"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Power/fast">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Power" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Power/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="InterviewBit">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/InterviewBit" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -1843,48 +1969,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="PalindromeInteger">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/PalindromeInteger" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 PalindromeInteger"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="PalindromeInteger/fast">
-				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/PalindromeInteger" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 PalindromeInteger/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="ExcelColumnTitle">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/ExcelColumnTitle" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -1945,6 +2029,9 @@
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2 Math/PalindromeInteger.cpp">
 			<Option target="PalindromeInteger"/>
+		</Unit>
+		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2 Math/Prime_Numbers.cpp">
+			<Option target="Prime_Numbers"/>
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 3/Binary Search/Power.cpp">
 			<Option target="Power"/>
@@ -2039,6 +2126,9 @@
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 7/Greedy/Bulbs.cpp">
 			<Option target="Bulbs"/>
 		</Unit>
+		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 7/Greedy/Distribute_candy.cpp">
+			<Option target="Distribute_candy"/>
+		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 7/Greedy/Gas_Station.cpp">
 			<Option target="Gas_Station"/>
 		</Unit>
@@ -2053,6 +2143,8 @@
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/OnCampus_Recruitments/ProfitSort.cpp">
 			<Option target="ProfitSort"/>
+		</Unit>
+		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Sample.cpp">
 			<Option target="Sample"/>
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/main.cpp">

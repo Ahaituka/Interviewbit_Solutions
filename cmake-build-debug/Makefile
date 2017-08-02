@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Distribute_candy
+
+# Build rule for target.
+Distribute_candy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Distribute_candy
+.PHONY : Distribute_candy
+
+# fast build rule for target.
+Distribute_candy/fast:
+	$(MAKE) -f CMakeFiles/Distribute_candy.dir/build.make CMakeFiles/Distribute_candy.dir/build
+.PHONY : Distribute_candy/fast
+
+#=============================================================================
+# Target rules for targets named Even_Number_Morgan_Stanley
+
+# Build rule for target.
+Even_Number_Morgan_Stanley: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Even_Number_Morgan_Stanley
+.PHONY : Even_Number_Morgan_Stanley
+
+# fast build rule for target.
+Even_Number_Morgan_Stanley/fast:
+	$(MAKE) -f CMakeFiles/Even_Number_Morgan_Stanley.dir/build.make CMakeFiles/Even_Number_Morgan_Stanley.dir/build
+.PHONY : Even_Number_Morgan_Stanley/fast
+
+#=============================================================================
 # Target rules for targets named Bulbs
 
 # Build rule for target.
@@ -150,17 +176,30 @@ Gas_Station/fast:
 .PHONY : Gas_Station/fast
 
 #=============================================================================
-# Target rules for targets named Even_Number_Morgan_Stanley
+# Target rules for targets named PalindromeInteger
 
 # Build rule for target.
-Even_Number_Morgan_Stanley: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Even_Number_Morgan_Stanley
-.PHONY : Even_Number_Morgan_Stanley
+PalindromeInteger: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PalindromeInteger
+.PHONY : PalindromeInteger
 
 # fast build rule for target.
-Even_Number_Morgan_Stanley/fast:
-	$(MAKE) -f CMakeFiles/Even_Number_Morgan_Stanley.dir/build.make CMakeFiles/Even_Number_Morgan_Stanley.dir/build
-.PHONY : Even_Number_Morgan_Stanley/fast
+PalindromeInteger/fast:
+	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/build
+.PHONY : PalindromeInteger/fast
+
+#=============================================================================
+# Target rules for targets named Stairs
+
+# Build rule for target.
+Stairs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Stairs
+.PHONY : Stairs
+
+# fast build rule for target.
+Stairs/fast:
+	$(MAKE) -f CMakeFiles/Stairs.dir/build.make CMakeFiles/Stairs.dir/build
+.PHONY : Stairs/fast
 
 #=============================================================================
 # Target rules for targets named ProfitSort
@@ -187,6 +226,32 @@ ValidBst: cmake_check_build_system
 ValidBst/fast:
 	$(MAKE) -f CMakeFiles/ValidBst.dir/build.make CMakeFiles/ValidBst.dir/build
 .PHONY : ValidBst/fast
+
+#=============================================================================
+# Target rules for targets named Reverse_Link_list_II
+
+# Build rule for target.
+Reverse_Link_list_II: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Reverse_Link_list_II
+.PHONY : Reverse_Link_list_II
+
+# fast build rule for target.
+Reverse_Link_list_II/fast:
+	$(MAKE) -f CMakeFiles/Reverse_Link_list_II.dir/build.make CMakeFiles/Reverse_Link_list_II.dir/build
+.PHONY : Reverse_Link_list_II/fast
+
+#=============================================================================
+# Target rules for targets named Increasing_Common_Subsequence
+
+# Build rule for target.
+Increasing_Common_Subsequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Increasing_Common_Subsequence
+.PHONY : Increasing_Common_Subsequence
+
+# fast build rule for target.
+Increasing_Common_Subsequence/fast:
+	$(MAKE) -f CMakeFiles/Increasing_Common_Subsequence.dir/build.make CMakeFiles/Increasing_Common_Subsequence.dir/build
+.PHONY : Increasing_Common_Subsequence/fast
 
 #=============================================================================
 # Target rules for targets named Edit_Distance
@@ -239,19 +304,6 @@ Jump_Game_Array: cmake_check_build_system
 Jump_Game_Array/fast:
 	$(MAKE) -f CMakeFiles/Jump_Game_Array.dir/build.make CMakeFiles/Jump_Game_Array.dir/build
 .PHONY : Jump_Game_Array/fast
-
-#=============================================================================
-# Target rules for targets named Stairs
-
-# Build rule for target.
-Stairs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Stairs
-.PHONY : Stairs
-
-# fast build rule for target.
-Stairs/fast:
-	$(MAKE) -f CMakeFiles/Stairs.dir/build.make CMakeFiles/Stairs.dir/build
-.PHONY : Stairs/fast
 
 #=============================================================================
 # Target rules for targets named PalindromeList
@@ -319,19 +371,6 @@ Merge_Two_Sorted_List/fast:
 .PHONY : Merge_Two_Sorted_List/fast
 
 #=============================================================================
-# Target rules for targets named Increasing_Common_Subsequence
-
-# Build rule for target.
-Increasing_Common_Subsequence: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Increasing_Common_Subsequence
-.PHONY : Increasing_Common_Subsequence
-
-# fast build rule for target.
-Increasing_Common_Subsequence/fast:
-	$(MAKE) -f CMakeFiles/Increasing_Common_Subsequence.dir/build.make CMakeFiles/Increasing_Common_Subsequence.dir/build
-.PHONY : Increasing_Common_Subsequence/fast
-
-#=============================================================================
 # Target rules for targets named Sample
 
 # Build rule for target.
@@ -395,6 +434,19 @@ LongestPalindromicSequence: cmake_check_build_system
 LongestPalindromicSequence/fast:
 	$(MAKE) -f CMakeFiles/LongestPalindromicSequence.dir/build.make CMakeFiles/LongestPalindromicSequence.dir/build
 .PHONY : LongestPalindromicSequence/fast
+
+#=============================================================================
+# Target rules for targets named RotatedArray
+
+# Build rule for target.
+RotatedArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RotatedArray
+.PHONY : RotatedArray
+
+# fast build rule for target.
+RotatedArray/fast:
+	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/build
+.PHONY : RotatedArray/fast
 
 #=============================================================================
 # Target rules for targets named ExcelColumnNumber
@@ -462,19 +514,6 @@ Best_Time_To_Buy_And_Sell_Stocks_II/fast:
 .PHONY : Best_Time_To_Buy_And_Sell_Stocks_II/fast
 
 #=============================================================================
-# Target rules for targets named RotatedArray
-
-# Build rule for target.
-RotatedArray: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 RotatedArray
-.PHONY : RotatedArray
-
-# fast build rule for target.
-RotatedArray/fast:
-	$(MAKE) -f CMakeFiles/RotatedArray.dir/build.make CMakeFiles/RotatedArray.dir/build
-.PHONY : RotatedArray/fast
-
-#=============================================================================
 # Target rules for targets named Remove_Duplicates
 
 # Build rule for target.
@@ -486,6 +525,19 @@ Remove_Duplicates: cmake_check_build_system
 Remove_Duplicates/fast:
 	$(MAKE) -f CMakeFiles/Remove_Duplicates.dir/build.make CMakeFiles/Remove_Duplicates.dir/build
 .PHONY : Remove_Duplicates/fast
+
+#=============================================================================
+# Target rules for targets named Prime_Numbers
+
+# Build rule for target.
+Prime_Numbers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prime_Numbers
+.PHONY : Prime_Numbers
+
+# fast build rule for target.
+Prime_Numbers/fast:
+	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/build
+.PHONY : Prime_Numbers/fast
 
 #=============================================================================
 # Target rules for targets named index_Search_For_A_Range
@@ -512,6 +564,19 @@ ReverseTheString: cmake_check_build_system
 ReverseTheString/fast:
 	$(MAKE) -f CMakeFiles/ReverseTheString.dir/build.make CMakeFiles/ReverseTheString.dir/build
 .PHONY : ReverseTheString/fast
+
+#=============================================================================
+# Target rules for targets named Power
+
+# Build rule for target.
+Power: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Power
+.PHONY : Power
+
+# fast build rule for target.
+Power/fast:
+	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/build
+.PHONY : Power/fast
 
 #=============================================================================
 # Target rules for targets named Integer_to_roman
@@ -566,19 +631,6 @@ SingleNumber/fast:
 .PHONY : SingleNumber/fast
 
 #=============================================================================
-# Target rules for targets named Reverse_Link_list_II
-
-# Build rule for target.
-Reverse_Link_list_II: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Reverse_Link_list_II
-.PHONY : Reverse_Link_list_II
-
-# fast build rule for target.
-Reverse_Link_list_II/fast:
-	$(MAKE) -f CMakeFiles/Reverse_Link_list_II.dir/build.make CMakeFiles/Reverse_Link_list_II.dir/build
-.PHONY : Reverse_Link_list_II/fast
-
-#=============================================================================
 # Target rules for targets named GridUniquePath
 
 # Build rule for target.
@@ -631,19 +683,6 @@ GCD/fast:
 .PHONY : GCD/fast
 
 #=============================================================================
-# Target rules for targets named Power
-
-# Build rule for target.
-Power: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Power
-.PHONY : Power
-
-# fast build rule for target.
-Power/fast:
-	$(MAKE) -f CMakeFiles/Power.dir/build.make CMakeFiles/Power.dir/build
-.PHONY : Power/fast
-
-#=============================================================================
 # Target rules for targets named InterviewBit
 
 # Build rule for target.
@@ -668,19 +707,6 @@ Add_Two_Numbers_As_Lists: cmake_check_build_system
 Add_Two_Numbers_As_Lists/fast:
 	$(MAKE) -f CMakeFiles/Add_Two_Numbers_As_Lists.dir/build.make CMakeFiles/Add_Two_Numbers_As_Lists.dir/build
 .PHONY : Add_Two_Numbers_As_Lists/fast
-
-#=============================================================================
-# Target rules for targets named PalindromeInteger
-
-# Build rule for target.
-PalindromeInteger: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PalindromeInteger
-.PHONY : PalindromeInteger
-
-# fast build rule for target.
-PalindromeInteger/fast:
-	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/build
-.PHONY : PalindromeInteger/fast
 
 #=============================================================================
 # Target rules for targets named ExcelColumnTitle
@@ -856,6 +882,33 @@ Level_2_Math/PalindromeInteger.s: Level_2_Math/PalindromeInteger.cpp.s
 Level_2_Math/PalindromeInteger.cpp.s:
 	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/Level_2_Math/PalindromeInteger.cpp.s
 .PHONY : Level_2_Math/PalindromeInteger.cpp.s
+
+Level_2_Math/Prime_Numbers.o: Level_2_Math/Prime_Numbers.cpp.o
+
+.PHONY : Level_2_Math/Prime_Numbers.o
+
+# target to build an object file
+Level_2_Math/Prime_Numbers.cpp.o:
+	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2_Math/Prime_Numbers.cpp.o
+.PHONY : Level_2_Math/Prime_Numbers.cpp.o
+
+Level_2_Math/Prime_Numbers.i: Level_2_Math/Prime_Numbers.cpp.i
+
+.PHONY : Level_2_Math/Prime_Numbers.i
+
+# target to preprocess a source file
+Level_2_Math/Prime_Numbers.cpp.i:
+	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2_Math/Prime_Numbers.cpp.i
+.PHONY : Level_2_Math/Prime_Numbers.cpp.i
+
+Level_2_Math/Prime_Numbers.s: Level_2_Math/Prime_Numbers.cpp.s
+
+.PHONY : Level_2_Math/Prime_Numbers.s
+
+# target to generate assembly for a file
+Level_2_Math/Prime_Numbers.cpp.s:
+	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2_Math/Prime_Numbers.cpp.s
+.PHONY : Level_2_Math/Prime_Numbers.cpp.s
 
 Level_3/Binary_Search/Power.o: Level_3/Binary_Search/Power.cpp.o
 
@@ -1694,6 +1747,33 @@ Level_7/Greedy/Bulbs.cpp.s:
 	$(MAKE) -f CMakeFiles/Bulbs.dir/build.make CMakeFiles/Bulbs.dir/Level_7/Greedy/Bulbs.cpp.s
 .PHONY : Level_7/Greedy/Bulbs.cpp.s
 
+Level_7/Greedy/Distribute_candy.o: Level_7/Greedy/Distribute_candy.cpp.o
+
+.PHONY : Level_7/Greedy/Distribute_candy.o
+
+# target to build an object file
+Level_7/Greedy/Distribute_candy.cpp.o:
+	$(MAKE) -f CMakeFiles/Distribute_candy.dir/build.make CMakeFiles/Distribute_candy.dir/Level_7/Greedy/Distribute_candy.cpp.o
+.PHONY : Level_7/Greedy/Distribute_candy.cpp.o
+
+Level_7/Greedy/Distribute_candy.i: Level_7/Greedy/Distribute_candy.cpp.i
+
+.PHONY : Level_7/Greedy/Distribute_candy.i
+
+# target to preprocess a source file
+Level_7/Greedy/Distribute_candy.cpp.i:
+	$(MAKE) -f CMakeFiles/Distribute_candy.dir/build.make CMakeFiles/Distribute_candy.dir/Level_7/Greedy/Distribute_candy.cpp.i
+.PHONY : Level_7/Greedy/Distribute_candy.cpp.i
+
+Level_7/Greedy/Distribute_candy.s: Level_7/Greedy/Distribute_candy.cpp.s
+
+.PHONY : Level_7/Greedy/Distribute_candy.s
+
+# target to generate assembly for a file
+Level_7/Greedy/Distribute_candy.cpp.s:
+	$(MAKE) -f CMakeFiles/Distribute_candy.dir/build.make CMakeFiles/Distribute_candy.dir/Level_7/Greedy/Distribute_candy.cpp.s
+.PHONY : Level_7/Greedy/Distribute_candy.cpp.s
+
 Level_7/Greedy/Gas_Station.o: Level_7/Greedy/Gas_Station.cpp.o
 
 .PHONY : Level_7/Greedy/Gas_Station.o
@@ -1809,7 +1889,6 @@ OnCampus_Recruitments/ProfitSort.o: OnCampus_Recruitments/ProfitSort.cpp.o
 # target to build an object file
 OnCampus_Recruitments/ProfitSort.cpp.o:
 	$(MAKE) -f CMakeFiles/ProfitSort.dir/build.make CMakeFiles/ProfitSort.dir/OnCampus_Recruitments/ProfitSort.cpp.o
-	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/OnCampus_Recruitments/ProfitSort.cpp.o
 .PHONY : OnCampus_Recruitments/ProfitSort.cpp.o
 
 OnCampus_Recruitments/ProfitSort.i: OnCampus_Recruitments/ProfitSort.cpp.i
@@ -1819,7 +1898,6 @@ OnCampus_Recruitments/ProfitSort.i: OnCampus_Recruitments/ProfitSort.cpp.i
 # target to preprocess a source file
 OnCampus_Recruitments/ProfitSort.cpp.i:
 	$(MAKE) -f CMakeFiles/ProfitSort.dir/build.make CMakeFiles/ProfitSort.dir/OnCampus_Recruitments/ProfitSort.cpp.i
-	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/OnCampus_Recruitments/ProfitSort.cpp.i
 .PHONY : OnCampus_Recruitments/ProfitSort.cpp.i
 
 OnCampus_Recruitments/ProfitSort.s: OnCampus_Recruitments/ProfitSort.cpp.s
@@ -1829,8 +1907,34 @@ OnCampus_Recruitments/ProfitSort.s: OnCampus_Recruitments/ProfitSort.cpp.s
 # target to generate assembly for a file
 OnCampus_Recruitments/ProfitSort.cpp.s:
 	$(MAKE) -f CMakeFiles/ProfitSort.dir/build.make CMakeFiles/ProfitSort.dir/OnCampus_Recruitments/ProfitSort.cpp.s
-	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/OnCampus_Recruitments/ProfitSort.cpp.s
 .PHONY : OnCampus_Recruitments/ProfitSort.cpp.s
+
+Sample.o: Sample.cpp.o
+
+.PHONY : Sample.o
+
+# target to build an object file
+Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Sample.cpp.o
+.PHONY : Sample.cpp.o
+
+Sample.i: Sample.cpp.i
+
+.PHONY : Sample.i
+
+# target to preprocess a source file
+Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Sample.cpp.i
+.PHONY : Sample.cpp.i
+
+Sample.s: Sample.cpp.s
+
+.PHONY : Sample.s
+
+# target to generate assembly for a file
+Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/Sample.dir/build.make CMakeFiles/Sample.dir/Sample.cpp.s
+.PHONY : Sample.cpp.s
 
 main.o: main.cpp.o
 
@@ -1869,51 +1973,53 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Distribute_candy"
+	@echo "... Even_Number_Morgan_Stanley"
 	@echo "... Bulbs"
 	@echo "... Highest_Product"
 	@echo "... Gas_Station"
-	@echo "... Even_Number_Morgan_Stanley"
+	@echo "... PalindromeInteger"
+	@echo "... Stairs"
 	@echo "... ProfitSort"
 	@echo "... ValidBst"
+	@echo "... Reverse_Link_list_II"
+	@echo "... Increasing_Common_Subsequence"
 	@echo "... Edit_Distance"
 	@echo "... Ways_to_decode"
 	@echo "... Majority_Element"
 	@echo "... Jump_Game_Array"
-	@echo "... Stairs"
 	@echo "... PalindromeList"
-	@echo "... edit_cache"
 	@echo "... 3_sum"
 	@echo "... ARRAY_3_POINTERS"
 	@echo "... Points_on_the_straight_line"
 	@echo "... Merge_Two_Sorted_List"
-	@echo "... Increasing_Common_Subsequence"
 	@echo "... Sample"
 	@echo "... Remove_Duplicates_From_Array_2"
 	@echo "... SquareRoot"
 	@echo "... Min_XOR_Value"
 	@echo "... LongestPalindromicSequence"
+	@echo "... RotatedArray"
 	@echo "... ExcelColumnNumber"
 	@echo "... Roman_To_Integer"
 	@echo "... Palindrome_String"
 	@echo "... main"
 	@echo "... Best_Time_To_Buy_And_Sell_Stocks_II"
-	@echo "... RotatedArray"
 	@echo "... Remove_Duplicates"
+	@echo "... Prime_Numbers"
 	@echo "... index_Search_For_A_Range"
 	@echo "... ReverseTheString"
+	@echo "... Power"
 	@echo "... Integer_to_roman"
 	@echo "... Coverpoint"
 	@echo "... Single_Number_II"
+	@echo "... edit_cache"
 	@echo "... SingleNumber"
-	@echo "... Reverse_Link_list_II"
 	@echo "... GridUniquePath"
 	@echo "... Atoi"
 	@echo "... Search"
 	@echo "... GCD"
-	@echo "... Power"
 	@echo "... InterviewBit"
 	@echo "... Add_Two_Numbers_As_Lists"
-	@echo "... PalindromeInteger"
 	@echo "... ExcelColumnTitle"
 	@echo "... Level_2_Array/Coverpoint.o"
 	@echo "... Level_2_Array/Coverpoint.i"
@@ -1933,6 +2039,9 @@ help:
 	@echo "... Level_2_Math/PalindromeInteger.o"
 	@echo "... Level_2_Math/PalindromeInteger.i"
 	@echo "... Level_2_Math/PalindromeInteger.s"
+	@echo "... Level_2_Math/Prime_Numbers.o"
+	@echo "... Level_2_Math/Prime_Numbers.i"
+	@echo "... Level_2_Math/Prime_Numbers.s"
 	@echo "... Level_3/Binary_Search/Power.o"
 	@echo "... Level_3/Binary_Search/Power.i"
 	@echo "... Level_3/Binary_Search/Power.s"
@@ -2026,6 +2135,9 @@ help:
 	@echo "... Level_7/Greedy/Bulbs.o"
 	@echo "... Level_7/Greedy/Bulbs.i"
 	@echo "... Level_7/Greedy/Bulbs.s"
+	@echo "... Level_7/Greedy/Distribute_candy.o"
+	@echo "... Level_7/Greedy/Distribute_candy.i"
+	@echo "... Level_7/Greedy/Distribute_candy.s"
 	@echo "... Level_7/Greedy/Gas_Station.o"
 	@echo "... Level_7/Greedy/Gas_Station.i"
 	@echo "... Level_7/Greedy/Gas_Station.s"
@@ -2041,6 +2153,9 @@ help:
 	@echo "... OnCampus_Recruitments/ProfitSort.o"
 	@echo "... OnCampus_Recruitments/ProfitSort.i"
 	@echo "... OnCampus_Recruitments/ProfitSort.s"
+	@echo "... Sample.o"
+	@echo "... Sample.i"
+	@echo "... Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
