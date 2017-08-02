@@ -61,3 +61,4 @@ add_executable(Bulbs "Level 7/Greedy/Bulbs.cpp")
 add_executable(Distribute_candy "Level 7/Greedy/Distribute_candy.cpp")
 
 add_executable(Prime_Numbers "Level 2 Math/Prime_Numbers.cpp")
+add_executable(Trailing_Zeros_in_a_factorial "Level 2 Math/Trailing_Zeros_in_a_factorial.cpp")

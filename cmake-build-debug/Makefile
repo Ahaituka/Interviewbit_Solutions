@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Trailing_Zeros_in_a_factorial
+
+# Build rule for target.
+Trailing_Zeros_in_a_factorial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Trailing_Zeros_in_a_factorial
+.PHONY : Trailing_Zeros_in_a_factorial
+
+# fast build rule for target.
+Trailing_Zeros_in_a_factorial/fast:
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build
+.PHONY : Trailing_Zeros_in_a_factorial/fast
+
+#=============================================================================
 # Target rules for targets named Distribute_candy
 
 # Build rule for target.
@@ -909,6 +922,33 @@ Level_2_Math/Prime_Numbers.s: Level_2_Math/Prime_Numbers.cpp.s
 Level_2_Math/Prime_Numbers.cpp.s:
 	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2_Math/Prime_Numbers.cpp.s
 .PHONY : Level_2_Math/Prime_Numbers.cpp.s
+
+Level_2_Math/Trailing_Zeros_in_a_factorial.o: Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
+
+.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.o
+
+# target to build an object file
+Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o:
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
+.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
+
+Level_2_Math/Trailing_Zeros_in_a_factorial.i: Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i
+
+.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.i
+
+# target to preprocess a source file
+Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i:
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i
+.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i
+
+Level_2_Math/Trailing_Zeros_in_a_factorial.s: Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
+
+.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.s
+
+# target to generate assembly for a file
+Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s:
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
+.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
 
 Level_3/Binary_Search/Power.o: Level_3/Binary_Search/Power.cpp.o
 
@@ -1973,6 +2013,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Trailing_Zeros_in_a_factorial"
 	@echo "... Distribute_candy"
 	@echo "... Even_Number_Morgan_Stanley"
 	@echo "... Bulbs"
@@ -2042,6 +2083,9 @@ help:
 	@echo "... Level_2_Math/Prime_Numbers.o"
 	@echo "... Level_2_Math/Prime_Numbers.i"
 	@echo "... Level_2_Math/Prime_Numbers.s"
+	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.o"
+	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.i"
+	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.s"
 	@echo "... Level_3/Binary_Search/Power.o"
 	@echo "... Level_3/Binary_Search/Power.i"
 	@echo "... Level_3/Binary_Search/Power.s"

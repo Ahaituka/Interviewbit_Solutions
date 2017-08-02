@@ -48,6 +48,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Trailing_Zeros_in_a_factorial.dir/DependInfo.cmake"
   "CMakeFiles/Distribute_candy.dir/DependInfo.cmake"
   "CMakeFiles/Even_Number_Morgan_Stanley.dir/DependInfo.cmake"
   "CMakeFiles/Bulbs.dir/DependInfo.cmake"

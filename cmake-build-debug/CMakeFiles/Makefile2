@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2
 CMAKE_BINARY_DIR = /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/Trailing_Zeros_in_a_factorial.dir
+
+# All Build rule for target.
+CMakeFiles/Trailing_Zeros_in_a_factorial.dir/all:
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/depend
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=87,88 "Built target Trailing_Zeros_in_a_factorial"
+.PHONY : CMakeFiles/Trailing_Zeros_in_a_factorial.dir/all
+
+# Include target in all.
+all: CMakeFiles/Trailing_Zeros_in_a_factorial.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Trailing_Zeros_in_a_factorial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Trailing_Zeros_in_a_factorial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Trailing_Zeros_in_a_factorial.dir/rule
+
+# Convenience name for target.
+Trailing_Zeros_in_a_factorial: CMakeFiles/Trailing_Zeros_in_a_factorial.dir/rule
+
+.PHONY : Trailing_Zeros_in_a_factorial
+
+# clean rule for target.
+CMakeFiles/Trailing_Zeros_in_a_factorial.dir/clean:
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/clean
+.PHONY : CMakeFiles/Trailing_Zeros_in_a_factorial.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Trailing_Zeros_in_a_factorial.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Distribute_candy.dir
 
 # All Build rule for target.
@@ -362,7 +399,7 @@ clean: CMakeFiles/ProfitSort.dir/clean
 CMakeFiles/ValidBst.dir/all:
 	$(MAKE) -f CMakeFiles/ValidBst.dir/build.make CMakeFiles/ValidBst.dir/depend
 	$(MAKE) -f CMakeFiles/ValidBst.dir/build.make CMakeFiles/ValidBst.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=87,88 "Built target ValidBst"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=89,90 "Built target ValidBst"
 .PHONY : CMakeFiles/ValidBst.dir/all
 
 # Include target in all.
@@ -510,7 +547,7 @@ clean: CMakeFiles/Edit_Distance.dir/clean
 CMakeFiles/Ways_to_decode.dir/all:
 	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/depend
 	$(MAKE) -f CMakeFiles/Ways_to_decode.dir/build.make CMakeFiles/Ways_to_decode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=89,90 "Built target Ways_to_decode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=91,92 "Built target Ways_to_decode"
 .PHONY : CMakeFiles/Ways_to_decode.dir/all
 
 # Include target in all.
@@ -1139,7 +1176,7 @@ clean: CMakeFiles/Palindrome_String.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=95,96 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Include target in all.
@@ -1287,7 +1324,7 @@ clean: CMakeFiles/Prime_Numbers.dir/clean
 CMakeFiles/index_Search_For_A_Range.dir/all:
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/depend
 	$(MAKE) -f CMakeFiles/index_Search_For_A_Range.dir/build.make CMakeFiles/index_Search_For_A_Range.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=91,92 "Built target index_Search_For_A_Range"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target index_Search_For_A_Range"
 .PHONY : CMakeFiles/index_Search_For_A_Range.dir/all
 
 # Include target in all.
