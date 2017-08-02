@@ -62,3 +62,6 @@ add_executable(Distribute_candy "Level 7/Greedy/Distribute_candy.cpp")
 
 add_executable(Prime_Numbers "Level 2 Math/Prime_Numbers.cpp")
 add_executable(Trailing_Zeros_in_a_factorial "Level 2 Math/Trailing_Zeros_in_a_factorial.cpp")
+add_executable(HammingDistance "Level 2 Math/HammingDistance.cpp")
+add_executable(Verify_Prime "Level 2 Math/Verify_Prime.cpp")
+add_executable(factors "Level 2 Math/factors.cpp")

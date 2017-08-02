@@ -2,54 +2,57 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="InterviewBit" targetName="Trailing_Zeros_in_a_factorial" />
       <config projectName="InterviewBit" targetName="GridUniquePath" />
-      <config projectName="InterviewBit" targetName="LongestPalindromicSequence" />
-      <config projectName="InterviewBit" targetName="Palindrome_String" />
-      <config projectName="InterviewBit" targetName="Majority_Element" />
       <config projectName="InterviewBit" targetName="ARRAY_3_POINTERS" />
-      <config projectName="InterviewBit" targetName="PalindromeInteger" />
-      <config projectName="InterviewBit" targetName="Stairs" />
       <config projectName="InterviewBit" targetName="Min_XOR_Value" />
-      <config projectName="InterviewBit" targetName="ExcelColumnNumber" />
       <config projectName="InterviewBit" targetName="Highest_Product" />
-      <config projectName="InterviewBit" targetName="Increasing_Common_Subsequence" />
-      <config projectName="InterviewBit" targetName="Remove_Duplicates" />
       <config projectName="InterviewBit" targetName="InterviewBit" />
       <config projectName="InterviewBit" targetName="Distribute_candy" />
-      <config projectName="InterviewBit" targetName="3_sum" />
       <config projectName="InterviewBit" targetName="Integer_to_roman" />
-      <config projectName="InterviewBit" targetName="Power" />
       <config projectName="InterviewBit" targetName="Gas_Station" />
       <config projectName="InterviewBit" targetName="Add_Two_Numbers_As_Lists" />
-      <config projectName="InterviewBit" targetName="Roman_To_Integer" />
       <config projectName="InterviewBit" targetName="Coverpoint" />
-      <config projectName="InterviewBit" targetName="Edit_Distance" />
-      <config projectName="InterviewBit" targetName="ReverseTheString" />
-      <config projectName="InterviewBit" targetName="Remove_Duplicates_From_Array_2" />
       <config projectName="InterviewBit" targetName="Bulbs" />
       <config projectName="InterviewBit" targetName="PalindromeList" />
       <config projectName="InterviewBit" targetName="Atoi" />
-      <config projectName="InterviewBit" targetName="Jump_Game_Array" />
       <config projectName="InterviewBit" targetName="Even_Number_Morgan_Stanley" />
       <config projectName="InterviewBit" targetName="Best_Time_To_Buy_And_Sell_Stocks_II" />
       <config projectName="InterviewBit" targetName="Points_on_the_straight_line" />
-      <config projectName="InterviewBit" targetName="Sample" />
       <config projectName="InterviewBit" targetName="ProfitSort" />
-      <config projectName="InterviewBit" targetName="SingleNumber" />
-      <config projectName="InterviewBit" targetName="Prime_Numbers" />
       <config projectName="InterviewBit" targetName="RotatedArray" />
       <config projectName="InterviewBit" targetName="Reverse_Link_list_II" />
       <config projectName="InterviewBit" targetName="Search" />
-      <config projectName="InterviewBit" targetName="GCD" />
-      <config projectName="InterviewBit" targetName="main" />
+      <config projectName="InterviewBit" targetName="Verify_Prime" />
       <config projectName="InterviewBit" targetName="Single_Number_II" />
       <config projectName="InterviewBit" targetName="index_Search_For_A_Range" />
-      <config projectName="InterviewBit" targetName="ValidBst" />
       <config projectName="InterviewBit" targetName="SquareRoot" />
-      <config projectName="InterviewBit" targetName="Merge_Two_Sorted_List" />
       <config projectName="InterviewBit" targetName="Ways_to_decode" />
       <config projectName="InterviewBit" targetName="ExcelColumnTitle" />
+      <config projectName="InterviewBit" targetName="Trailing_Zeros_in_a_factorial" />
+      <config projectName="InterviewBit" targetName="LongestPalindromicSequence" />
+      <config projectName="InterviewBit" targetName="Palindrome_String" />
+      <config projectName="InterviewBit" targetName="Majority_Element" />
+      <config projectName="InterviewBit" targetName="PalindromeInteger" />
+      <config projectName="InterviewBit" targetName="Stairs" />
+      <config projectName="InterviewBit" targetName="ExcelColumnNumber" />
+      <config projectName="InterviewBit" targetName="Increasing_Common_Subsequence" />
+      <config projectName="InterviewBit" targetName="Remove_Duplicates" />
+      <config projectName="InterviewBit" targetName="3_sum" />
+      <config projectName="InterviewBit" targetName="HammingDistance" />
+      <config projectName="InterviewBit" targetName="Power" />
+      <config projectName="InterviewBit" targetName="Roman_To_Integer" />
+      <config projectName="InterviewBit" targetName="Edit_Distance" />
+      <config projectName="InterviewBit" targetName="ReverseTheString" />
+      <config projectName="InterviewBit" targetName="Remove_Duplicates_From_Array_2" />
+      <config projectName="InterviewBit" targetName="Jump_Game_Array" />
+      <config projectName="InterviewBit" targetName="factors" />
+      <config projectName="InterviewBit" targetName="Sample" />
+      <config projectName="InterviewBit" targetName="SingleNumber" />
+      <config projectName="InterviewBit" targetName="Prime_Numbers" />
+      <config projectName="InterviewBit" targetName="GCD" />
+      <config projectName="InterviewBit" targetName="main" />
+      <config projectName="InterviewBit" targetName="ValidBst" />
+      <config projectName="InterviewBit" targetName="Merge_Two_Sorted_List" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -58,14 +61,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd8f9077-4cc4-4ae7-9f6f-15979f802935" name="Default" comment="Bulbs.cpp">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 2 Math/Trailing_Zeros_in_a_factorial.cpp" />
+    <list default="true" id="bd8f9077-4cc4-4ae7-9f6f-15979f802935" name="Default" comment="Basic Math.cpp">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 2 Math/Trailing_zeroes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 2 Math/Verify_Prime.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 2 Math/factors.cpp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 7/Dynamic Programming/Edit_Distance.cpp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 7/Dynamic Programming/Increasing_Common_Subsequence.cpp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 7/Dynamic Programming/Ways_to_decode.cpp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Level 7/Greedy/Distribute_candy.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Level 2 Math/Trailing_Zeros_in_a_factorial.cpp" afterPath="$PROJECT_DIR$/Level 2 Math/Trailing_Zeros_in_a_factorial.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Coverpoint.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Coverpoint.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnNumber.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnNumber.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnTitle.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcelColumnTitle.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GCD.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GCD.dir/progress.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterviewBit.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/InterviewBit.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
@@ -89,11 +100,45 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+      <file leaf-file-name="Verify_Prime.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Level 2 Math/Verify_Prime.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="102" column="13" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="13" />
+            <state relative-caret-position="273">
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="e#193#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factors.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Level 2 Math/factors.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#142#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trailing_zeroes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Level 2 Math/Trailing_zeroes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trailing_Zeros_in_a_factorial.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Level 2 Math/Trailing_Zeros_in_a_factorial.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,21 +147,11 @@
       <file leaf-file-name="Prime_Numbers.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Level 2 Math/Prime_Numbers.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="410">
+              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="e#221#240#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Trailing_Zeros_in_a_factorial.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Level 2 Math/Trailing_Zeros_in_a_factorial.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -134,6 +169,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -159,10 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Level 3/SquareRoot.cpp" />
-        <option value="$PROJECT_DIR$/Level 3/Binary Search/SquareRoot.cpp" />
-        <option value="$PROJECT_DIR$/Level 3/Binary Search/Search For A Range.cpp" />
-        <option value="$PROJECT_DIR$/Level 3/Binary Search/index_Search_For_A_Range.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Binary Search/Power.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/ReverseTheString.cpp" />
         <option value="$PROJECT_DIR$/Level 3/Strings/Roman To Integer.cpp" />
@@ -208,8 +246,12 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Level 7/Greedy/Distribute_candy.cpp" />
         <option value="$PROJECT_DIR$/Sample.cpp" />
-        <option value="$PROJECT_DIR$/Level 2 Math/Prime_Numbers.cpp" />
         <option value="$PROJECT_DIR$/Level 2 Math/Trailing_Zeros_in_a_factorial.cpp" />
+        <option value="$PROJECT_DIR$/Level 2 Math/HammingDistance.cpp" />
+        <option value="$PROJECT_DIR$/Level 2 Math/Prime_Numbers.cpp" />
+        <option value="$PROJECT_DIR$/Level 2 Math/Verify_Prime.cpp" />
+        <option value="$PROJECT_DIR$/Level 2 Math/Trailing_zeroes.py" />
+        <option value="$PROJECT_DIR$/Level 2 Math/factors.cpp" />
       </list>
     </option>
   </component>
@@ -322,20 +364,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Level 3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InterviewBit" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interviewbit_Solutions_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Level 2 Math" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -373,7 +401,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Trailing_Zeros_in_a_factorial">
+  <component name="RunManager" selected="Application.factors">
+    <configuration default="false" name="Trailing_zeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Level 2 Math" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mergeinterval" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Level 2 Math/Trailing_zeroes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -604,6 +650,10 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="factors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="factors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="factors">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Gas_Station" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="Gas_Station" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="Gas_Station">
       <envs />
       <method />
@@ -613,6 +663,10 @@
       <method />
     </configuration>
     <configuration default="false" name="GridUniquePath" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="GridUniquePath" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="GridUniquePath">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="HammingDistance" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="HammingDistance" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="HammingDistance">
       <envs />
       <method />
     </configuration>
@@ -744,6 +798,10 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Verify_Prime" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="Verify_Prime" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="Verify_Prime">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Ways_to_decode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InterviewBit" TARGET_NAME="Ways_to_decode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InterviewBit" RUN_TARGET_NAME="Ways_to_decode">
       <envs />
       <method />
@@ -756,7 +814,7 @@
       <envs />
       <method />
     </configuration>
-    <list size="50">
+    <list size="54">
       <item index="0" class="java.lang.String" itemvalue="Application.3_sum" />
       <item index="1" class="java.lang.String" itemvalue="Application.Add_Two_Numbers_As_Lists" />
       <item index="2" class="java.lang.String" itemvalue="Application.ARRAY_3_POINTERS" />
@@ -769,45 +827,54 @@
       <item index="9" class="java.lang.String" itemvalue="Application.Even_Number_Morgan_Stanley" />
       <item index="10" class="java.lang.String" itemvalue="Application.ExcelColumnNumber" />
       <item index="11" class="java.lang.String" itemvalue="Application.ExcelColumnTitle" />
-      <item index="12" class="java.lang.String" itemvalue="Application.Gas_Station" />
-      <item index="13" class="java.lang.String" itemvalue="Application.GCD" />
-      <item index="14" class="java.lang.String" itemvalue="Application.GridUniquePath" />
-      <item index="15" class="java.lang.String" itemvalue="Application.Highest_Product" />
-      <item index="16" class="java.lang.String" itemvalue="Application.Increasing_Common_Subsequence" />
-      <item index="17" class="java.lang.String" itemvalue="Application.index_Search_For_A_Range" />
-      <item index="18" class="java.lang.String" itemvalue="Application.Integer_to_roman" />
-      <item index="19" class="java.lang.String" itemvalue="Application.InterviewBit" />
-      <item index="20" class="java.lang.String" itemvalue="Application.Jump_Game_Array" />
-      <item index="21" class="java.lang.String" itemvalue="Application.LongestPalindromicSequence" />
-      <item index="22" class="java.lang.String" itemvalue="Application.main" />
-      <item index="23" class="java.lang.String" itemvalue="Application.Majority_Element" />
-      <item index="24" class="java.lang.String" itemvalue="Application.Merge_Two_Sorted_List" />
-      <item index="25" class="java.lang.String" itemvalue="Application.Min_XOR_Value" />
-      <item index="26" class="java.lang.String" itemvalue="Application.Palindrome_String" />
-      <item index="27" class="java.lang.String" itemvalue="Application.PalindromeInteger" />
-      <item index="28" class="java.lang.String" itemvalue="Application.PalindromeList" />
-      <item index="29" class="java.lang.String" itemvalue="Application.Points_on_the_straight_line" />
-      <item index="30" class="java.lang.String" itemvalue="Application.Power" />
-      <item index="31" class="java.lang.String" itemvalue="Application.Prime_Numbers" />
-      <item index="32" class="java.lang.String" itemvalue="Application.ProfitSort" />
-      <item index="33" class="java.lang.String" itemvalue="Application.Remove_Duplicates" />
-      <item index="34" class="java.lang.String" itemvalue="Application.Remove_Duplicates_From_Array_2" />
-      <item index="35" class="java.lang.String" itemvalue="Application.Reverse_Link_list_II" />
-      <item index="36" class="java.lang.String" itemvalue="Application.ReverseTheString" />
-      <item index="37" class="java.lang.String" itemvalue="Application.Roman_To_Integer" />
-      <item index="38" class="java.lang.String" itemvalue="Application.RotatedArray" />
-      <item index="39" class="java.lang.String" itemvalue="Application.Sample" />
-      <item index="40" class="java.lang.String" itemvalue="Application.Search" />
-      <item index="41" class="java.lang.String" itemvalue="Application.Single_Number_II" />
-      <item index="42" class="java.lang.String" itemvalue="Application.SingleNumber" />
-      <item index="43" class="java.lang.String" itemvalue="Application.SquareRoot" />
-      <item index="44" class="java.lang.String" itemvalue="Application.Stairs" />
-      <item index="45" class="java.lang.String" itemvalue="Application.Trailing_Zeros_in_a_factorial" />
-      <item index="46" class="java.lang.String" itemvalue="Application.ValidBst" />
-      <item index="47" class="java.lang.String" itemvalue="Application.Ways_to_decode" />
-      <item index="48" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="49" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="12" class="java.lang.String" itemvalue="Application.factors" />
+      <item index="13" class="java.lang.String" itemvalue="Application.Gas_Station" />
+      <item index="14" class="java.lang.String" itemvalue="Application.GCD" />
+      <item index="15" class="java.lang.String" itemvalue="Application.GridUniquePath" />
+      <item index="16" class="java.lang.String" itemvalue="Application.HammingDistance" />
+      <item index="17" class="java.lang.String" itemvalue="Application.Highest_Product" />
+      <item index="18" class="java.lang.String" itemvalue="Application.Increasing_Common_Subsequence" />
+      <item index="19" class="java.lang.String" itemvalue="Application.index_Search_For_A_Range" />
+      <item index="20" class="java.lang.String" itemvalue="Application.Integer_to_roman" />
+      <item index="21" class="java.lang.String" itemvalue="Application.InterviewBit" />
+      <item index="22" class="java.lang.String" itemvalue="Application.Jump_Game_Array" />
+      <item index="23" class="java.lang.String" itemvalue="Application.LongestPalindromicSequence" />
+      <item index="24" class="java.lang.String" itemvalue="Application.main" />
+      <item index="25" class="java.lang.String" itemvalue="Application.Majority_Element" />
+      <item index="26" class="java.lang.String" itemvalue="Application.Merge_Two_Sorted_List" />
+      <item index="27" class="java.lang.String" itemvalue="Application.Min_XOR_Value" />
+      <item index="28" class="java.lang.String" itemvalue="Application.Palindrome_String" />
+      <item index="29" class="java.lang.String" itemvalue="Application.PalindromeInteger" />
+      <item index="30" class="java.lang.String" itemvalue="Application.PalindromeList" />
+      <item index="31" class="java.lang.String" itemvalue="Application.Points_on_the_straight_line" />
+      <item index="32" class="java.lang.String" itemvalue="Application.Power" />
+      <item index="33" class="java.lang.String" itemvalue="Application.Prime_Numbers" />
+      <item index="34" class="java.lang.String" itemvalue="Application.ProfitSort" />
+      <item index="35" class="java.lang.String" itemvalue="Application.Remove_Duplicates" />
+      <item index="36" class="java.lang.String" itemvalue="Application.Remove_Duplicates_From_Array_2" />
+      <item index="37" class="java.lang.String" itemvalue="Application.Reverse_Link_list_II" />
+      <item index="38" class="java.lang.String" itemvalue="Application.ReverseTheString" />
+      <item index="39" class="java.lang.String" itemvalue="Application.Roman_To_Integer" />
+      <item index="40" class="java.lang.String" itemvalue="Application.RotatedArray" />
+      <item index="41" class="java.lang.String" itemvalue="Application.Sample" />
+      <item index="42" class="java.lang.String" itemvalue="Application.Search" />
+      <item index="43" class="java.lang.String" itemvalue="Application.Single_Number_II" />
+      <item index="44" class="java.lang.String" itemvalue="Application.SingleNumber" />
+      <item index="45" class="java.lang.String" itemvalue="Application.SquareRoot" />
+      <item index="46" class="java.lang.String" itemvalue="Application.Stairs" />
+      <item index="47" class="java.lang.String" itemvalue="Application.Trailing_Zeros_in_a_factorial" />
+      <item index="48" class="java.lang.String" itemvalue="Application.ValidBst" />
+      <item index="49" class="java.lang.String" itemvalue="Application.Verify_Prime" />
+      <item index="50" class="java.lang.String" itemvalue="Application.Ways_to_decode" />
+      <item index="51" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="52" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="53" class="java.lang.String" itemvalue="Python.Trailing_zeroes" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.Trailing_zeroes" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -832,7 +899,7 @@
       <workItem from="1499671531709" duration="60569000" />
       <workItem from="1500304237069" duration="77495000" />
       <workItem from="1501464221189" duration="499000" />
-      <workItem from="1501473962890" duration="22711000" />
+      <workItem from="1501473962890" duration="24927000" />
     </task>
     <task id="LOCAL-00001" summary="Rotated Array.cpp">
       <created>1499170375378</created>
@@ -1030,11 +1097,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501691983676</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Bulbs.cpp">
+      <created>1501692446452</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1501692446453</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241026000" />
+    <option name="totallyTimeSpent" value="243242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="6" />
@@ -1042,10 +1116,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23888889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32249323" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32249323" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30081302" sideWeight="0.49722221" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30081302" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26693767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26693767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1123,9 +1197,10 @@
     <MESSAGE value="ProfitSort.cpp" />
     <MESSAGE value="EvenNumber(Morgan Stanley).cpp" />
     <MESSAGE value="GasStation.cpp" />
-    <MESSAGE value="Bulbs.cpp" />
     <MESSAGE value="Sieve.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sieve.cpp" />
+    <MESSAGE value="Bulbs.cpp" />
+    <MESSAGE value="Basic Math.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Math.cpp" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1477,36 +1552,17 @@
           <line>101</line>
           <option name="timeStamp" value="278" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Level 2 Math/HammingDistance.cpp</url>
+          <line>44</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="279" />
+      <option name="time" value="281" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Level 2 Math/GridUniquePath.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level 2 Math/Reverse Integer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/RotatedArray.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#616#635#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Level 3/Binary Search/Search.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-20">
@@ -1678,13 +1734,6 @@
         <state relative-caret-position="400">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level 2 Math/HammingDistance.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1872,18 +1921,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2 Math/HammingDistance.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="44" column="41" lean-forward="true" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="102" column="13" lean-forward="false" selection-start-line="102" selection-start-column="10" selection-end-line="102" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1501608121000" expanded="false" signature="9:36" ph="..." />
+            <marker date="1501608121000" expanded="true" signature="4840:4965" ph="{...}" />
+            <marker date="1501608121000" expanded="true" signature="5039:5292" ph="{...}" />
+            <marker date="1501608121000" expanded="true" signature="5341:5507" ph="{...}" />
+            <marker date="1501608121000" expanded="true" signature="5578:5882" ph="{...}" />
+            <marker date="1501608121000" expanded="true" signature="5916:6672" ph="{...}" />
+            <marker date="1501608121000" expanded="true" signature="6700:9909" ph="{...}" />
+            <marker date="1501608121000" expanded="true" signature="9940:14857" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Level 2 Math/Prime_Numbers.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="410">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#221#240#0" expanded="true" />
           </folding>
@@ -1892,8 +1958,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Level 2 Math/Trailing_Zeros_in_a_factorial.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2 Math/Verify_Prime.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#193#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2 Math/factors.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#142#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level 2 Math/Trailing_zeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>

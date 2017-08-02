@@ -28,6 +28,6 @@ int trailingZeroes(int A) {
 }
 
 int main() {
-    cout << trailingZeroes(5);
+    cout << trailingZeroes(10000);
 
 }

@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/factors.dir/DependInfo.cmake"
+  "CMakeFiles/HammingDistance.dir/DependInfo.cmake"
   "CMakeFiles/Trailing_Zeros_in_a_factorial.dir/DependInfo.cmake"
   "CMakeFiles/Distribute_candy.dir/DependInfo.cmake"
   "CMakeFiles/Even_Number_Morgan_Stanley.dir/DependInfo.cmake"
@@ -66,6 +68,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Jump_Game_Array.dir/DependInfo.cmake"
   "CMakeFiles/PalindromeList.dir/DependInfo.cmake"
   "CMakeFiles/3_sum.dir/DependInfo.cmake"
+  "CMakeFiles/Verify_Prime.dir/DependInfo.cmake"
   "CMakeFiles/ARRAY_3_POINTERS.dir/DependInfo.cmake"
   "CMakeFiles/Points_on_the_straight_line.dir/DependInfo.cmake"
   "CMakeFiles/Merge_Two_Sorted_List.dir/DependInfo.cmake"

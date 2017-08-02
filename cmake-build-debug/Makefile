@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named factors
+
+# Build rule for target.
+factors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 factors
+.PHONY : factors
+
+# fast build rule for target.
+factors/fast:
+	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/build
+.PHONY : factors/fast
+
+#=============================================================================
+# Target rules for targets named HammingDistance
+
+# Build rule for target.
+HammingDistance: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HammingDistance
+.PHONY : HammingDistance
+
+# fast build rule for target.
+HammingDistance/fast:
+	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/build
+.PHONY : HammingDistance/fast
+
+#=============================================================================
 # Target rules for targets named Trailing_Zeros_in_a_factorial
 
 # Build rule for target.
@@ -343,6 +369,19 @@ PalindromeList/fast:
 3_sum/fast:
 	$(MAKE) -f CMakeFiles/3_sum.dir/build.make CMakeFiles/3_sum.dir/build
 .PHONY : 3_sum/fast
+
+#=============================================================================
+# Target rules for targets named Verify_Prime
+
+# Build rule for target.
+Verify_Prime: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Verify_Prime
+.PHONY : Verify_Prime
+
+# fast build rule for target.
+Verify_Prime/fast:
+	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/build
+.PHONY : Verify_Prime/fast
 
 #=============================================================================
 # Target rules for targets named ARRAY_3_POINTERS
@@ -869,6 +908,33 @@ Level_2_Math/GridUniquePath.cpp.s:
 	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/Level_2_Math/GridUniquePath.cpp.s
 .PHONY : Level_2_Math/GridUniquePath.cpp.s
 
+Level_2_Math/HammingDistance.o: Level_2_Math/HammingDistance.cpp.o
+
+.PHONY : Level_2_Math/HammingDistance.o
+
+# target to build an object file
+Level_2_Math/HammingDistance.cpp.o:
+	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/Level_2_Math/HammingDistance.cpp.o
+.PHONY : Level_2_Math/HammingDistance.cpp.o
+
+Level_2_Math/HammingDistance.i: Level_2_Math/HammingDistance.cpp.i
+
+.PHONY : Level_2_Math/HammingDistance.i
+
+# target to preprocess a source file
+Level_2_Math/HammingDistance.cpp.i:
+	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/Level_2_Math/HammingDistance.cpp.i
+.PHONY : Level_2_Math/HammingDistance.cpp.i
+
+Level_2_Math/HammingDistance.s: Level_2_Math/HammingDistance.cpp.s
+
+.PHONY : Level_2_Math/HammingDistance.s
+
+# target to generate assembly for a file
+Level_2_Math/HammingDistance.cpp.s:
+	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/Level_2_Math/HammingDistance.cpp.s
+.PHONY : Level_2_Math/HammingDistance.cpp.s
+
 Level_2_Math/PalindromeInteger.o: Level_2_Math/PalindromeInteger.cpp.o
 
 .PHONY : Level_2_Math/PalindromeInteger.o
@@ -949,6 +1015,60 @@ Level_2_Math/Trailing_Zeros_in_a_factorial.s: Level_2_Math/Trailing_Zeros_in_a_f
 Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s:
 	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
 .PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
+
+Level_2_Math/Verify_Prime.o: Level_2_Math/Verify_Prime.cpp.o
+
+.PHONY : Level_2_Math/Verify_Prime.o
+
+# target to build an object file
+Level_2_Math/Verify_Prime.cpp.o:
+	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/Level_2_Math/Verify_Prime.cpp.o
+.PHONY : Level_2_Math/Verify_Prime.cpp.o
+
+Level_2_Math/Verify_Prime.i: Level_2_Math/Verify_Prime.cpp.i
+
+.PHONY : Level_2_Math/Verify_Prime.i
+
+# target to preprocess a source file
+Level_2_Math/Verify_Prime.cpp.i:
+	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/Level_2_Math/Verify_Prime.cpp.i
+.PHONY : Level_2_Math/Verify_Prime.cpp.i
+
+Level_2_Math/Verify_Prime.s: Level_2_Math/Verify_Prime.cpp.s
+
+.PHONY : Level_2_Math/Verify_Prime.s
+
+# target to generate assembly for a file
+Level_2_Math/Verify_Prime.cpp.s:
+	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/Level_2_Math/Verify_Prime.cpp.s
+.PHONY : Level_2_Math/Verify_Prime.cpp.s
+
+Level_2_Math/factors.o: Level_2_Math/factors.cpp.o
+
+.PHONY : Level_2_Math/factors.o
+
+# target to build an object file
+Level_2_Math/factors.cpp.o:
+	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/Level_2_Math/factors.cpp.o
+.PHONY : Level_2_Math/factors.cpp.o
+
+Level_2_Math/factors.i: Level_2_Math/factors.cpp.i
+
+.PHONY : Level_2_Math/factors.i
+
+# target to preprocess a source file
+Level_2_Math/factors.cpp.i:
+	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/Level_2_Math/factors.cpp.i
+.PHONY : Level_2_Math/factors.cpp.i
+
+Level_2_Math/factors.s: Level_2_Math/factors.cpp.s
+
+.PHONY : Level_2_Math/factors.s
+
+# target to generate assembly for a file
+Level_2_Math/factors.cpp.s:
+	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/Level_2_Math/factors.cpp.s
+.PHONY : Level_2_Math/factors.cpp.s
 
 Level_3/Binary_Search/Power.o: Level_3/Binary_Search/Power.cpp.o
 
@@ -2013,6 +2133,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... factors"
+	@echo "... HammingDistance"
 	@echo "... Trailing_Zeros_in_a_factorial"
 	@echo "... Distribute_candy"
 	@echo "... Even_Number_Morgan_Stanley"
@@ -2031,6 +2153,7 @@ help:
 	@echo "... Jump_Game_Array"
 	@echo "... PalindromeList"
 	@echo "... 3_sum"
+	@echo "... Verify_Prime"
 	@echo "... ARRAY_3_POINTERS"
 	@echo "... Points_on_the_straight_line"
 	@echo "... Merge_Two_Sorted_List"
@@ -2077,6 +2200,9 @@ help:
 	@echo "... Level_2_Math/GridUniquePath.o"
 	@echo "... Level_2_Math/GridUniquePath.i"
 	@echo "... Level_2_Math/GridUniquePath.s"
+	@echo "... Level_2_Math/HammingDistance.o"
+	@echo "... Level_2_Math/HammingDistance.i"
+	@echo "... Level_2_Math/HammingDistance.s"
 	@echo "... Level_2_Math/PalindromeInteger.o"
 	@echo "... Level_2_Math/PalindromeInteger.i"
 	@echo "... Level_2_Math/PalindromeInteger.s"
@@ -2086,6 +2212,12 @@ help:
 	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.o"
 	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.i"
 	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.s"
+	@echo "... Level_2_Math/Verify_Prime.o"
+	@echo "... Level_2_Math/Verify_Prime.i"
+	@echo "... Level_2_Math/Verify_Prime.s"
+	@echo "... Level_2_Math/factors.o"
+	@echo "... Level_2_Math/factors.i"
+	@echo "... Level_2_Math/factors.s"
 	@echo "... Level_3/Binary_Search/Power.o"
 	@echo "... Level_3/Binary_Search/Power.i"
 	@echo "... Level_3/Binary_Search/Power.s"
