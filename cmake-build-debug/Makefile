@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Prime_Sum
+
+# Build rule for target.
+Prime_Sum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Prime_Sum
+.PHONY : Prime_Sum
+
+# fast build rule for target.
+Prime_Sum/fast:
+	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/build
+.PHONY : Prime_Sum/fast
+
+#=============================================================================
 # Target rules for targets named factors
 
 # Build rule for target.
@@ -988,6 +1001,33 @@ Level_2_Math/Prime_Numbers.s: Level_2_Math/Prime_Numbers.cpp.s
 Level_2_Math/Prime_Numbers.cpp.s:
 	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2_Math/Prime_Numbers.cpp.s
 .PHONY : Level_2_Math/Prime_Numbers.cpp.s
+
+Level_2_Math/Prime_Sum.o: Level_2_Math/Prime_Sum.cpp.o
+
+.PHONY : Level_2_Math/Prime_Sum.o
+
+# target to build an object file
+Level_2_Math/Prime_Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/Level_2_Math/Prime_Sum.cpp.o
+.PHONY : Level_2_Math/Prime_Sum.cpp.o
+
+Level_2_Math/Prime_Sum.i: Level_2_Math/Prime_Sum.cpp.i
+
+.PHONY : Level_2_Math/Prime_Sum.i
+
+# target to preprocess a source file
+Level_2_Math/Prime_Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/Level_2_Math/Prime_Sum.cpp.i
+.PHONY : Level_2_Math/Prime_Sum.cpp.i
+
+Level_2_Math/Prime_Sum.s: Level_2_Math/Prime_Sum.cpp.s
+
+.PHONY : Level_2_Math/Prime_Sum.s
+
+# target to generate assembly for a file
+Level_2_Math/Prime_Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/Level_2_Math/Prime_Sum.cpp.s
+.PHONY : Level_2_Math/Prime_Sum.cpp.s
 
 Level_2_Math/Trailing_Zeros_in_a_factorial.o: Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
 
@@ -2133,6 +2173,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Prime_Sum"
 	@echo "... factors"
 	@echo "... HammingDistance"
 	@echo "... Trailing_Zeros_in_a_factorial"
@@ -2209,6 +2250,9 @@ help:
 	@echo "... Level_2_Math/Prime_Numbers.o"
 	@echo "... Level_2_Math/Prime_Numbers.i"
 	@echo "... Level_2_Math/Prime_Numbers.s"
+	@echo "... Level_2_Math/Prime_Sum.o"
+	@echo "... Level_2_Math/Prime_Sum.i"
+	@echo "... Level_2_Math/Prime_Sum.s"
 	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.o"
 	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.i"
 	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.s"

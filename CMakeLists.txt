@@ -65,3 +65,4 @@ add_executable(Trailing_Zeros_in_a_factorial "Level 2 Math/Trailing_Zeros_in_a_f
 add_executable(HammingDistance "Level 2 Math/HammingDistance.cpp")
 add_executable(Verify_Prime "Level 2 Math/Verify_Prime.cpp")
 add_executable(factors "Level 2 Math/factors.cpp")
+add_executable(Prime_Sum "Level 2 Math/Prime_Sum.cpp")
