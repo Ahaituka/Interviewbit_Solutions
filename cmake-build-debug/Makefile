@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Best_Time_To_Buy_And_Sell_Stocks_I
+
+# Build rule for target.
+Best_Time_To_Buy_And_Sell_Stocks_I: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Best_Time_To_Buy_And_Sell_Stocks_I
+.PHONY : Best_Time_To_Buy_And_Sell_Stocks_I
+
+# fast build rule for target.
+Best_Time_To_Buy_And_Sell_Stocks_I/fast:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_I.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_I.dir/build
+.PHONY : Best_Time_To_Buy_And_Sell_Stocks_I/fast
+
+#=============================================================================
 # Target rules for targets named Prime_Sum
 
 # Build rule for target.
@@ -1758,6 +1771,33 @@ Level_6/Trees/ValidBst.cpp.s:
 	$(MAKE) -f CMakeFiles/ValidBst.dir/build.make CMakeFiles/ValidBst.dir/Level_6/Trees/ValidBst.cpp.s
 .PHONY : Level_6/Trees/ValidBst.cpp.s
 
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.o: Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.o
+
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.o
+
+# target to build an object file
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.o:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_I.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_I.dir/Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.o
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.o
+
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.i: Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.i
+
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.i
+
+# target to preprocess a source file
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.i:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_I.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_I.dir/Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.i
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.i
+
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.s: Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.s
+
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.s
+
+# target to generate assembly for a file
+Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.s:
+	$(MAKE) -f CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_I.dir/build.make CMakeFiles/Best_Time_To_Buy_And_Sell_Stocks_I.dir/Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.s
+.PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp.s
+
 Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o: Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.cpp.o
 
 .PHONY : Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o
@@ -2173,6 +2213,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Best_Time_To_Buy_And_Sell_Stocks_I"
 	@echo "... Prime_Sum"
 	@echo "... factors"
 	@echo "... HammingDistance"
@@ -2334,6 +2375,9 @@ help:
 	@echo "... Level_6/Trees/ValidBst.o"
 	@echo "... Level_6/Trees/ValidBst.i"
 	@echo "... Level_6/Trees/ValidBst.s"
+	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.o"
+	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.i"
+	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_I.s"
 	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.o"
 	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.i"
 	@echo "... Level_7/Dynamic_Programming/Best_Time_To_Buy_And_Sell_Stocks_II.s"
