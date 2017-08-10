@@ -27,6 +27,48 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Length_of_last_word">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Length_of_last_word" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Length_of_last_word"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Length_of_last_word/fast">
+				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Length_of_last_word" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Length_of_last_word/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Best_Time_To_Buy_And_Sell_Stocks_I">
 				<Option output="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/Best_Time_To_Buy_And_Sell_Stocks_I" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug"/>
@@ -2329,6 +2371,9 @@
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 3/Strings/Integer_to_roman.cpp">
 			<Option target="Integer_to_roman"/>
+		</Unit>
+		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 3/Strings/Length_of_last_word.cpp">
+			<Option target="Length_of_last_word"/>
 		</Unit>
 		<Unit filename="/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 3/Strings/LongestPalindromicSequence.cpp">
 			<Option target="LongestPalindromicSequence"/>
