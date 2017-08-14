@@ -57,38 +57,38 @@ include CMakeFiles/GCD.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GCD.dir/flags.make
 
-CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o: CMakeFiles/GCD.dir/flags.make
-CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o: ../Level\ 2\ Math/GCD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o -c "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2 Math/GCD.cpp"
+CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o: CMakeFiles/GCD.dir/flags.make
+CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o: ../Level\ 2/Level\ 2\ Math/GCD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o -c "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2/Level 2 Math/GCD.cpp"
 
-CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2 Math/GCD.cpp" > CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.i
+CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2/Level 2 Math/GCD.cpp" > CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.i
 
-CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2 Math/GCD.cpp" -o CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.s
+CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2/Level 2 Math/GCD.cpp" -o CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.s
 
-CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o.requires:
+CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o.requires:
 
-.PHONY : CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o.requires
+.PHONY : CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o.requires
 
-CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o.provides: CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o.requires
-	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o.provides.build
-.PHONY : CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o.provides
+CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o.provides: CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o.requires
+	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o.provides.build
+.PHONY : CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o.provides
 
-CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o.provides.build: CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o
+CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o.provides.build: CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o
 
 
 # Object files for target GCD
 GCD_OBJECTS = \
-"CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o"
+"CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o"
 
 # External object files for target GCD
 GCD_EXTERNAL_OBJECTS =
 
-GCD: CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o
+GCD: CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o
 GCD: CMakeFiles/GCD.dir/build.make
 GCD: CMakeFiles/GCD.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GCD"
@@ -99,7 +99,7 @@ CMakeFiles/GCD.dir/build: GCD
 
 .PHONY : CMakeFiles/GCD.dir/build
 
-CMakeFiles/GCD.dir/requires: CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o.requires
+CMakeFiles/GCD.dir/requires: CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o.requires
 
 .PHONY : CMakeFiles/GCD.dir/requires
 

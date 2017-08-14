@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Coverpoint.dir/Level_2_Array/Coverpoint.cpp.o"
+  "CMakeFiles/Coverpoint.dir/Level_2/Level_2_Array/Coverpoint.cpp.o"
   "Coverpoint.pdb"
   "Coverpoint"
 )

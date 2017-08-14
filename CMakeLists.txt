@@ -5,14 +5,14 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES main.cpp)
 add_executable(InterviewBit ${SOURCE_FILES})
-add_executable(Coverpoint "Level 2 Array/Coverpoint.cpp")
-add_executable(GCD "Level 2 Math/GCD.cpp")
+add_executable(Coverpoint "Level 2/Level 2 Array/Coverpoint.cpp")
+add_executable(GCD "Level 2/Level 2 Math/GCD.cpp")
 
-add_executable(ExcelColumnNumber "Level 2 Math/ExcelColumnNumber.cpp")
+add_executable(ExcelColumnNumber "Level 2/Level 2 Math/ExcelColumnNumber.cpp")
 
-add_executable(ExcelColumnTitle "Level 2 Math/ExcelColumnTitle.cpp")
-add_executable(GridUniquePath "Level 2 Math/GridUniquePath.cpp")
-add_executable(PalindromeInteger "Level 2 Math/PalindromeInteger.cpp")
+add_executable(ExcelColumnTitle "Level 2/Level 2 Math/ExcelColumnTitle.cpp")
+add_executable(GridUniquePath "Level 2/Level 2 Math/GridUniquePath.cpp")
+add_executable(PalindromeInteger "Level 2/Level 2 Math/PalindromeInteger.cpp")
 add_executable(RotatedArray "Level 3/Binary Search/RotatedArray.cpp")
 
 
@@ -60,11 +60,16 @@ add_executable(Highest_Product "Level 7/Greedy/Highest_Product.cpp")
 add_executable(Bulbs "Level 7/Greedy/Bulbs.cpp")
 add_executable(Distribute_candy "Level 7/Greedy/Distribute_candy.cpp")
 
-add_executable(Prime_Numbers "Level 2 Math/Prime_Numbers.cpp")
-add_executable(Trailing_Zeros_in_a_factorial "Level 2 Math/Trailing_Zeros_in_a_factorial.cpp")
-add_executable(HammingDistance "Level 2 Math/HammingDistance.cpp")
-add_executable(Verify_Prime "Level 2 Math/Verify_Prime.cpp")
-add_executable(factors "Level 2 Math/factors.cpp")
-add_executable(Prime_Sum "Level 2 Math/Prime_Sum.cpp")
+add_executable(Prime_Numbers "Level 2/Level 2 Math/Prime_Numbers.cpp")
+add_executable(Trailing_Zeros_in_a_factorial "Level 2/Level 2 Math/Trailing_Zeros_in_a_factorial.cpp")
+add_executable(HammingDistance "Level 2/Level 2 Math/HammingDistance.cpp")
+add_executable(Verify_Prime "Level 2/Level 2 Math/Verify_Prime.cpp")
+add_executable(factors "Level 2/Level 2 Math/factors.cpp")
+add_executable(Prime_Sum "Level 2/Level 2 Math/Prime_Sum.cpp")
 add_executable(Best_Time_To_Buy_And_Sell_Stocks_I "Level 7/Dynamic Programming/Best_Time_To_Buy_And_Sell_Stocks_I.cpp")
 add_executable(Length_of_last_word "Level 3/Strings/Length_of_last_word.cpp")
+
+
+add_executable(Bms_Hamming_DistanceYetAgain "Coding Challenges/Bms_Hamming_DistanceYetAgain.cpp")
+add_executable(Cube "Coding Challenges/Cube.cpp")
+add_executable(PrettyPrint "Level 2 Checkpoint/PrettyPrint.cpp")

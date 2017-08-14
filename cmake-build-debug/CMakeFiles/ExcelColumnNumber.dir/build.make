@@ -57,38 +57,38 @@ include CMakeFiles/ExcelColumnNumber.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ExcelColumnNumber.dir/flags.make
 
-CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o: CMakeFiles/ExcelColumnNumber.dir/flags.make
-CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o: ../Level\ 2\ Math/ExcelColumnNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o -c "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2 Math/ExcelColumnNumber.cpp"
+CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o: CMakeFiles/ExcelColumnNumber.dir/flags.make
+CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o: ../Level\ 2/Level\ 2\ Math/ExcelColumnNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o -c "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2/Level 2 Math/ExcelColumnNumber.cpp"
 
-CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2 Math/ExcelColumnNumber.cpp" > CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.i
+CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2/Level 2 Math/ExcelColumnNumber.cpp" > CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.i
 
-CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2 Math/ExcelColumnNumber.cpp" -o CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.s
+CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/Level 2/Level 2 Math/ExcelColumnNumber.cpp" -o CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.s
 
-CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o.requires:
+CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o.requires:
 
-.PHONY : CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o.requires
+.PHONY : CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o.requires
 
-CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o.provides: CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o.provides.build
-.PHONY : CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o.provides
+CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o.provides: CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o.provides.build
+.PHONY : CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o.provides
 
-CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o.provides.build: CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o
+CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o.provides.build: CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o
 
 
 # Object files for target ExcelColumnNumber
 ExcelColumnNumber_OBJECTS = \
-"CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o"
+"CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o"
 
 # External object files for target ExcelColumnNumber
 ExcelColumnNumber_EXTERNAL_OBJECTS =
 
-ExcelColumnNumber: CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o
+ExcelColumnNumber: CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o
 ExcelColumnNumber: CMakeFiles/ExcelColumnNumber.dir/build.make
 ExcelColumnNumber: CMakeFiles/ExcelColumnNumber.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bitloks/Documents/GitHub/Interviewbit_Solutions_2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ExcelColumnNumber"
@@ -99,7 +99,7 @@ CMakeFiles/ExcelColumnNumber.dir/build: ExcelColumnNumber
 
 .PHONY : CMakeFiles/ExcelColumnNumber.dir/build
 
-CMakeFiles/ExcelColumnNumber.dir/requires: CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o.requires
+CMakeFiles/ExcelColumnNumber.dir/requires: CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o.requires
 
 .PHONY : CMakeFiles/ExcelColumnNumber.dir/requires
 

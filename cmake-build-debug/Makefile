@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Cube
+
+# Build rule for target.
+Cube: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cube
+.PHONY : Cube
+
+# fast build rule for target.
+Cube/fast:
+	$(MAKE) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/build
+.PHONY : Cube/fast
+
+#=============================================================================
 # Target rules for targets named Length_of_last_word
 
 # Build rule for target.
@@ -161,6 +174,19 @@ factors: cmake_check_build_system
 factors/fast:
 	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/build
 .PHONY : factors/fast
+
+#=============================================================================
+# Target rules for targets named Bms_Hamming_DistanceYetAgain
+
+# Build rule for target.
+Bms_Hamming_DistanceYetAgain: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Bms_Hamming_DistanceYetAgain
+.PHONY : Bms_Hamming_DistanceYetAgain
+
+# fast build rule for target.
+Bms_Hamming_DistanceYetAgain/fast:
+	$(MAKE) -f CMakeFiles/Bms_Hamming_DistanceYetAgain.dir/build.make CMakeFiles/Bms_Hamming_DistanceYetAgain.dir/build
+.PHONY : Bms_Hamming_DistanceYetAgain/fast
 
 #=============================================================================
 # Target rules for targets named HammingDistance
@@ -291,6 +317,19 @@ ProfitSort: cmake_check_build_system
 ProfitSort/fast:
 	$(MAKE) -f CMakeFiles/ProfitSort.dir/build.make CMakeFiles/ProfitSort.dir/build
 .PHONY : ProfitSort/fast
+
+#=============================================================================
+# Target rules for targets named PrettyPrint
+
+# Build rule for target.
+PrettyPrint: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PrettyPrint
+.PHONY : PrettyPrint
+
+# fast build rule for target.
+PrettyPrint/fast:
+	$(MAKE) -f CMakeFiles/PrettyPrint.dir/build.make CMakeFiles/PrettyPrint.dir/build
+.PHONY : PrettyPrint/fast
 
 #=============================================================================
 # Target rules for targets named ValidBst
@@ -812,329 +851,410 @@ ExcelColumnTitle/fast:
 	$(MAKE) -f CMakeFiles/ExcelColumnTitle.dir/build.make CMakeFiles/ExcelColumnTitle.dir/build
 .PHONY : ExcelColumnTitle/fast
 
-Level_2_Array/Coverpoint.o: Level_2_Array/Coverpoint.cpp.o
+Coding_Challenges/Bms_Hamming_DistanceYetAgain.o: Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.o
 
-.PHONY : Level_2_Array/Coverpoint.o
-
-# target to build an object file
-Level_2_Array/Coverpoint.cpp.o:
-	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/Level_2_Array/Coverpoint.cpp.o
-.PHONY : Level_2_Array/Coverpoint.cpp.o
-
-Level_2_Array/Coverpoint.i: Level_2_Array/Coverpoint.cpp.i
-
-.PHONY : Level_2_Array/Coverpoint.i
-
-# target to preprocess a source file
-Level_2_Array/Coverpoint.cpp.i:
-	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/Level_2_Array/Coverpoint.cpp.i
-.PHONY : Level_2_Array/Coverpoint.cpp.i
-
-Level_2_Array/Coverpoint.s: Level_2_Array/Coverpoint.cpp.s
-
-.PHONY : Level_2_Array/Coverpoint.s
-
-# target to generate assembly for a file
-Level_2_Array/Coverpoint.cpp.s:
-	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/Level_2_Array/Coverpoint.cpp.s
-.PHONY : Level_2_Array/Coverpoint.cpp.s
-
-Level_2_Math/ExcelColumnNumber.o: Level_2_Math/ExcelColumnNumber.cpp.o
-
-.PHONY : Level_2_Math/ExcelColumnNumber.o
+.PHONY : Coding_Challenges/Bms_Hamming_DistanceYetAgain.o
 
 # target to build an object file
-Level_2_Math/ExcelColumnNumber.cpp.o:
-	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.o
-.PHONY : Level_2_Math/ExcelColumnNumber.cpp.o
+Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.o:
+	$(MAKE) -f CMakeFiles/Bms_Hamming_DistanceYetAgain.dir/build.make CMakeFiles/Bms_Hamming_DistanceYetAgain.dir/Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.o
+.PHONY : Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.o
 
-Level_2_Math/ExcelColumnNumber.i: Level_2_Math/ExcelColumnNumber.cpp.i
+Coding_Challenges/Bms_Hamming_DistanceYetAgain.i: Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.i
 
-.PHONY : Level_2_Math/ExcelColumnNumber.i
+.PHONY : Coding_Challenges/Bms_Hamming_DistanceYetAgain.i
 
 # target to preprocess a source file
-Level_2_Math/ExcelColumnNumber.cpp.i:
-	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.i
-.PHONY : Level_2_Math/ExcelColumnNumber.cpp.i
+Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.i:
+	$(MAKE) -f CMakeFiles/Bms_Hamming_DistanceYetAgain.dir/build.make CMakeFiles/Bms_Hamming_DistanceYetAgain.dir/Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.i
+.PHONY : Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.i
 
-Level_2_Math/ExcelColumnNumber.s: Level_2_Math/ExcelColumnNumber.cpp.s
+Coding_Challenges/Bms_Hamming_DistanceYetAgain.s: Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.s
 
-.PHONY : Level_2_Math/ExcelColumnNumber.s
+.PHONY : Coding_Challenges/Bms_Hamming_DistanceYetAgain.s
 
 # target to generate assembly for a file
-Level_2_Math/ExcelColumnNumber.cpp.s:
-	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/Level_2_Math/ExcelColumnNumber.cpp.s
-.PHONY : Level_2_Math/ExcelColumnNumber.cpp.s
+Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.s:
+	$(MAKE) -f CMakeFiles/Bms_Hamming_DistanceYetAgain.dir/build.make CMakeFiles/Bms_Hamming_DistanceYetAgain.dir/Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.s
+.PHONY : Coding_Challenges/Bms_Hamming_DistanceYetAgain.cpp.s
 
-Level_2_Math/ExcelColumnTitle.o: Level_2_Math/ExcelColumnTitle.cpp.o
+Coding_Challenges/Cube.o: Coding_Challenges/Cube.cpp.o
 
-.PHONY : Level_2_Math/ExcelColumnTitle.o
+.PHONY : Coding_Challenges/Cube.o
 
 # target to build an object file
-Level_2_Math/ExcelColumnTitle.cpp.o:
-	$(MAKE) -f CMakeFiles/ExcelColumnTitle.dir/build.make CMakeFiles/ExcelColumnTitle.dir/Level_2_Math/ExcelColumnTitle.cpp.o
-.PHONY : Level_2_Math/ExcelColumnTitle.cpp.o
+Coding_Challenges/Cube.cpp.o:
+	$(MAKE) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/Coding_Challenges/Cube.cpp.o
+.PHONY : Coding_Challenges/Cube.cpp.o
 
-Level_2_Math/ExcelColumnTitle.i: Level_2_Math/ExcelColumnTitle.cpp.i
+Coding_Challenges/Cube.i: Coding_Challenges/Cube.cpp.i
 
-.PHONY : Level_2_Math/ExcelColumnTitle.i
+.PHONY : Coding_Challenges/Cube.i
 
 # target to preprocess a source file
-Level_2_Math/ExcelColumnTitle.cpp.i:
-	$(MAKE) -f CMakeFiles/ExcelColumnTitle.dir/build.make CMakeFiles/ExcelColumnTitle.dir/Level_2_Math/ExcelColumnTitle.cpp.i
-.PHONY : Level_2_Math/ExcelColumnTitle.cpp.i
+Coding_Challenges/Cube.cpp.i:
+	$(MAKE) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/Coding_Challenges/Cube.cpp.i
+.PHONY : Coding_Challenges/Cube.cpp.i
 
-Level_2_Math/ExcelColumnTitle.s: Level_2_Math/ExcelColumnTitle.cpp.s
+Coding_Challenges/Cube.s: Coding_Challenges/Cube.cpp.s
 
-.PHONY : Level_2_Math/ExcelColumnTitle.s
+.PHONY : Coding_Challenges/Cube.s
 
 # target to generate assembly for a file
-Level_2_Math/ExcelColumnTitle.cpp.s:
-	$(MAKE) -f CMakeFiles/ExcelColumnTitle.dir/build.make CMakeFiles/ExcelColumnTitle.dir/Level_2_Math/ExcelColumnTitle.cpp.s
-.PHONY : Level_2_Math/ExcelColumnTitle.cpp.s
+Coding_Challenges/Cube.cpp.s:
+	$(MAKE) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/Coding_Challenges/Cube.cpp.s
+.PHONY : Coding_Challenges/Cube.cpp.s
 
-Level_2_Math/GCD.o: Level_2_Math/GCD.cpp.o
+Level_2/Level_2_Array/Coverpoint.o: Level_2/Level_2_Array/Coverpoint.cpp.o
 
-.PHONY : Level_2_Math/GCD.o
+.PHONY : Level_2/Level_2_Array/Coverpoint.o
 
 # target to build an object file
-Level_2_Math/GCD.cpp.o:
-	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.o
-.PHONY : Level_2_Math/GCD.cpp.o
+Level_2/Level_2_Array/Coverpoint.cpp.o:
+	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/Level_2/Level_2_Array/Coverpoint.cpp.o
+.PHONY : Level_2/Level_2_Array/Coverpoint.cpp.o
 
-Level_2_Math/GCD.i: Level_2_Math/GCD.cpp.i
+Level_2/Level_2_Array/Coverpoint.i: Level_2/Level_2_Array/Coverpoint.cpp.i
 
-.PHONY : Level_2_Math/GCD.i
+.PHONY : Level_2/Level_2_Array/Coverpoint.i
 
 # target to preprocess a source file
-Level_2_Math/GCD.cpp.i:
-	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.i
-.PHONY : Level_2_Math/GCD.cpp.i
+Level_2/Level_2_Array/Coverpoint.cpp.i:
+	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/Level_2/Level_2_Array/Coverpoint.cpp.i
+.PHONY : Level_2/Level_2_Array/Coverpoint.cpp.i
 
-Level_2_Math/GCD.s: Level_2_Math/GCD.cpp.s
+Level_2/Level_2_Array/Coverpoint.s: Level_2/Level_2_Array/Coverpoint.cpp.s
 
-.PHONY : Level_2_Math/GCD.s
+.PHONY : Level_2/Level_2_Array/Coverpoint.s
 
 # target to generate assembly for a file
-Level_2_Math/GCD.cpp.s:
-	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/Level_2_Math/GCD.cpp.s
-.PHONY : Level_2_Math/GCD.cpp.s
+Level_2/Level_2_Array/Coverpoint.cpp.s:
+	$(MAKE) -f CMakeFiles/Coverpoint.dir/build.make CMakeFiles/Coverpoint.dir/Level_2/Level_2_Array/Coverpoint.cpp.s
+.PHONY : Level_2/Level_2_Array/Coverpoint.cpp.s
 
-Level_2_Math/GridUniquePath.o: Level_2_Math/GridUniquePath.cpp.o
+Level_2/Level_2_Math/ExcelColumnNumber.o: Level_2/Level_2_Math/ExcelColumnNumber.cpp.o
 
-.PHONY : Level_2_Math/GridUniquePath.o
+.PHONY : Level_2/Level_2_Math/ExcelColumnNumber.o
 
 # target to build an object file
-Level_2_Math/GridUniquePath.cpp.o:
-	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/Level_2_Math/GridUniquePath.cpp.o
-.PHONY : Level_2_Math/GridUniquePath.cpp.o
+Level_2/Level_2_Math/ExcelColumnNumber.cpp.o:
+	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.o
+.PHONY : Level_2/Level_2_Math/ExcelColumnNumber.cpp.o
 
-Level_2_Math/GridUniquePath.i: Level_2_Math/GridUniquePath.cpp.i
+Level_2/Level_2_Math/ExcelColumnNumber.i: Level_2/Level_2_Math/ExcelColumnNumber.cpp.i
 
-.PHONY : Level_2_Math/GridUniquePath.i
+.PHONY : Level_2/Level_2_Math/ExcelColumnNumber.i
 
 # target to preprocess a source file
-Level_2_Math/GridUniquePath.cpp.i:
-	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/Level_2_Math/GridUniquePath.cpp.i
-.PHONY : Level_2_Math/GridUniquePath.cpp.i
+Level_2/Level_2_Math/ExcelColumnNumber.cpp.i:
+	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.i
+.PHONY : Level_2/Level_2_Math/ExcelColumnNumber.cpp.i
 
-Level_2_Math/GridUniquePath.s: Level_2_Math/GridUniquePath.cpp.s
+Level_2/Level_2_Math/ExcelColumnNumber.s: Level_2/Level_2_Math/ExcelColumnNumber.cpp.s
 
-.PHONY : Level_2_Math/GridUniquePath.s
+.PHONY : Level_2/Level_2_Math/ExcelColumnNumber.s
 
 # target to generate assembly for a file
-Level_2_Math/GridUniquePath.cpp.s:
-	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/Level_2_Math/GridUniquePath.cpp.s
-.PHONY : Level_2_Math/GridUniquePath.cpp.s
+Level_2/Level_2_Math/ExcelColumnNumber.cpp.s:
+	$(MAKE) -f CMakeFiles/ExcelColumnNumber.dir/build.make CMakeFiles/ExcelColumnNumber.dir/Level_2/Level_2_Math/ExcelColumnNumber.cpp.s
+.PHONY : Level_2/Level_2_Math/ExcelColumnNumber.cpp.s
 
-Level_2_Math/HammingDistance.o: Level_2_Math/HammingDistance.cpp.o
+Level_2/Level_2_Math/ExcelColumnTitle.o: Level_2/Level_2_Math/ExcelColumnTitle.cpp.o
 
-.PHONY : Level_2_Math/HammingDistance.o
+.PHONY : Level_2/Level_2_Math/ExcelColumnTitle.o
 
 # target to build an object file
-Level_2_Math/HammingDistance.cpp.o:
-	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/Level_2_Math/HammingDistance.cpp.o
-.PHONY : Level_2_Math/HammingDistance.cpp.o
+Level_2/Level_2_Math/ExcelColumnTitle.cpp.o:
+	$(MAKE) -f CMakeFiles/ExcelColumnTitle.dir/build.make CMakeFiles/ExcelColumnTitle.dir/Level_2/Level_2_Math/ExcelColumnTitle.cpp.o
+.PHONY : Level_2/Level_2_Math/ExcelColumnTitle.cpp.o
 
-Level_2_Math/HammingDistance.i: Level_2_Math/HammingDistance.cpp.i
+Level_2/Level_2_Math/ExcelColumnTitle.i: Level_2/Level_2_Math/ExcelColumnTitle.cpp.i
 
-.PHONY : Level_2_Math/HammingDistance.i
+.PHONY : Level_2/Level_2_Math/ExcelColumnTitle.i
 
 # target to preprocess a source file
-Level_2_Math/HammingDistance.cpp.i:
-	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/Level_2_Math/HammingDistance.cpp.i
-.PHONY : Level_2_Math/HammingDistance.cpp.i
+Level_2/Level_2_Math/ExcelColumnTitle.cpp.i:
+	$(MAKE) -f CMakeFiles/ExcelColumnTitle.dir/build.make CMakeFiles/ExcelColumnTitle.dir/Level_2/Level_2_Math/ExcelColumnTitle.cpp.i
+.PHONY : Level_2/Level_2_Math/ExcelColumnTitle.cpp.i
 
-Level_2_Math/HammingDistance.s: Level_2_Math/HammingDistance.cpp.s
+Level_2/Level_2_Math/ExcelColumnTitle.s: Level_2/Level_2_Math/ExcelColumnTitle.cpp.s
 
-.PHONY : Level_2_Math/HammingDistance.s
+.PHONY : Level_2/Level_2_Math/ExcelColumnTitle.s
 
 # target to generate assembly for a file
-Level_2_Math/HammingDistance.cpp.s:
-	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/Level_2_Math/HammingDistance.cpp.s
-.PHONY : Level_2_Math/HammingDistance.cpp.s
+Level_2/Level_2_Math/ExcelColumnTitle.cpp.s:
+	$(MAKE) -f CMakeFiles/ExcelColumnTitle.dir/build.make CMakeFiles/ExcelColumnTitle.dir/Level_2/Level_2_Math/ExcelColumnTitle.cpp.s
+.PHONY : Level_2/Level_2_Math/ExcelColumnTitle.cpp.s
 
-Level_2_Math/PalindromeInteger.o: Level_2_Math/PalindromeInteger.cpp.o
+Level_2/Level_2_Math/GCD.o: Level_2/Level_2_Math/GCD.cpp.o
 
-.PHONY : Level_2_Math/PalindromeInteger.o
+.PHONY : Level_2/Level_2_Math/GCD.o
 
 # target to build an object file
-Level_2_Math/PalindromeInteger.cpp.o:
-	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/Level_2_Math/PalindromeInteger.cpp.o
-.PHONY : Level_2_Math/PalindromeInteger.cpp.o
+Level_2/Level_2_Math/GCD.cpp.o:
+	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.o
+.PHONY : Level_2/Level_2_Math/GCD.cpp.o
 
-Level_2_Math/PalindromeInteger.i: Level_2_Math/PalindromeInteger.cpp.i
+Level_2/Level_2_Math/GCD.i: Level_2/Level_2_Math/GCD.cpp.i
 
-.PHONY : Level_2_Math/PalindromeInteger.i
+.PHONY : Level_2/Level_2_Math/GCD.i
 
 # target to preprocess a source file
-Level_2_Math/PalindromeInteger.cpp.i:
-	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/Level_2_Math/PalindromeInteger.cpp.i
-.PHONY : Level_2_Math/PalindromeInteger.cpp.i
+Level_2/Level_2_Math/GCD.cpp.i:
+	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.i
+.PHONY : Level_2/Level_2_Math/GCD.cpp.i
 
-Level_2_Math/PalindromeInteger.s: Level_2_Math/PalindromeInteger.cpp.s
+Level_2/Level_2_Math/GCD.s: Level_2/Level_2_Math/GCD.cpp.s
 
-.PHONY : Level_2_Math/PalindromeInteger.s
+.PHONY : Level_2/Level_2_Math/GCD.s
 
 # target to generate assembly for a file
-Level_2_Math/PalindromeInteger.cpp.s:
-	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/Level_2_Math/PalindromeInteger.cpp.s
-.PHONY : Level_2_Math/PalindromeInteger.cpp.s
+Level_2/Level_2_Math/GCD.cpp.s:
+	$(MAKE) -f CMakeFiles/GCD.dir/build.make CMakeFiles/GCD.dir/Level_2/Level_2_Math/GCD.cpp.s
+.PHONY : Level_2/Level_2_Math/GCD.cpp.s
 
-Level_2_Math/Prime_Numbers.o: Level_2_Math/Prime_Numbers.cpp.o
+Level_2/Level_2_Math/GridUniquePath.o: Level_2/Level_2_Math/GridUniquePath.cpp.o
 
-.PHONY : Level_2_Math/Prime_Numbers.o
+.PHONY : Level_2/Level_2_Math/GridUniquePath.o
 
 # target to build an object file
-Level_2_Math/Prime_Numbers.cpp.o:
-	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2_Math/Prime_Numbers.cpp.o
-.PHONY : Level_2_Math/Prime_Numbers.cpp.o
+Level_2/Level_2_Math/GridUniquePath.cpp.o:
+	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/Level_2/Level_2_Math/GridUniquePath.cpp.o
+.PHONY : Level_2/Level_2_Math/GridUniquePath.cpp.o
 
-Level_2_Math/Prime_Numbers.i: Level_2_Math/Prime_Numbers.cpp.i
+Level_2/Level_2_Math/GridUniquePath.i: Level_2/Level_2_Math/GridUniquePath.cpp.i
 
-.PHONY : Level_2_Math/Prime_Numbers.i
+.PHONY : Level_2/Level_2_Math/GridUniquePath.i
 
 # target to preprocess a source file
-Level_2_Math/Prime_Numbers.cpp.i:
-	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2_Math/Prime_Numbers.cpp.i
-.PHONY : Level_2_Math/Prime_Numbers.cpp.i
+Level_2/Level_2_Math/GridUniquePath.cpp.i:
+	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/Level_2/Level_2_Math/GridUniquePath.cpp.i
+.PHONY : Level_2/Level_2_Math/GridUniquePath.cpp.i
 
-Level_2_Math/Prime_Numbers.s: Level_2_Math/Prime_Numbers.cpp.s
+Level_2/Level_2_Math/GridUniquePath.s: Level_2/Level_2_Math/GridUniquePath.cpp.s
 
-.PHONY : Level_2_Math/Prime_Numbers.s
+.PHONY : Level_2/Level_2_Math/GridUniquePath.s
 
 # target to generate assembly for a file
-Level_2_Math/Prime_Numbers.cpp.s:
-	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2_Math/Prime_Numbers.cpp.s
-.PHONY : Level_2_Math/Prime_Numbers.cpp.s
+Level_2/Level_2_Math/GridUniquePath.cpp.s:
+	$(MAKE) -f CMakeFiles/GridUniquePath.dir/build.make CMakeFiles/GridUniquePath.dir/Level_2/Level_2_Math/GridUniquePath.cpp.s
+.PHONY : Level_2/Level_2_Math/GridUniquePath.cpp.s
 
-Level_2_Math/Prime_Sum.o: Level_2_Math/Prime_Sum.cpp.o
+Level_2/Level_2_Math/HammingDistance.o: Level_2/Level_2_Math/HammingDistance.cpp.o
 
-.PHONY : Level_2_Math/Prime_Sum.o
+.PHONY : Level_2/Level_2_Math/HammingDistance.o
 
 # target to build an object file
-Level_2_Math/Prime_Sum.cpp.o:
-	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/Level_2_Math/Prime_Sum.cpp.o
-.PHONY : Level_2_Math/Prime_Sum.cpp.o
+Level_2/Level_2_Math/HammingDistance.cpp.o:
+	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/Level_2/Level_2_Math/HammingDistance.cpp.o
+.PHONY : Level_2/Level_2_Math/HammingDistance.cpp.o
 
-Level_2_Math/Prime_Sum.i: Level_2_Math/Prime_Sum.cpp.i
+Level_2/Level_2_Math/HammingDistance.i: Level_2/Level_2_Math/HammingDistance.cpp.i
 
-.PHONY : Level_2_Math/Prime_Sum.i
+.PHONY : Level_2/Level_2_Math/HammingDistance.i
 
 # target to preprocess a source file
-Level_2_Math/Prime_Sum.cpp.i:
-	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/Level_2_Math/Prime_Sum.cpp.i
-.PHONY : Level_2_Math/Prime_Sum.cpp.i
+Level_2/Level_2_Math/HammingDistance.cpp.i:
+	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/Level_2/Level_2_Math/HammingDistance.cpp.i
+.PHONY : Level_2/Level_2_Math/HammingDistance.cpp.i
 
-Level_2_Math/Prime_Sum.s: Level_2_Math/Prime_Sum.cpp.s
+Level_2/Level_2_Math/HammingDistance.s: Level_2/Level_2_Math/HammingDistance.cpp.s
 
-.PHONY : Level_2_Math/Prime_Sum.s
+.PHONY : Level_2/Level_2_Math/HammingDistance.s
 
 # target to generate assembly for a file
-Level_2_Math/Prime_Sum.cpp.s:
-	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/Level_2_Math/Prime_Sum.cpp.s
-.PHONY : Level_2_Math/Prime_Sum.cpp.s
+Level_2/Level_2_Math/HammingDistance.cpp.s:
+	$(MAKE) -f CMakeFiles/HammingDistance.dir/build.make CMakeFiles/HammingDistance.dir/Level_2/Level_2_Math/HammingDistance.cpp.s
+.PHONY : Level_2/Level_2_Math/HammingDistance.cpp.s
 
-Level_2_Math/Trailing_Zeros_in_a_factorial.o: Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
+Level_2/Level_2_Math/PalindromeInteger.o: Level_2/Level_2_Math/PalindromeInteger.cpp.o
 
-.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.o
+.PHONY : Level_2/Level_2_Math/PalindromeInteger.o
 
 # target to build an object file
-Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o:
-	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
-.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
+Level_2/Level_2_Math/PalindromeInteger.cpp.o:
+	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/Level_2/Level_2_Math/PalindromeInteger.cpp.o
+.PHONY : Level_2/Level_2_Math/PalindromeInteger.cpp.o
 
-Level_2_Math/Trailing_Zeros_in_a_factorial.i: Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i
+Level_2/Level_2_Math/PalindromeInteger.i: Level_2/Level_2_Math/PalindromeInteger.cpp.i
 
-.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.i
+.PHONY : Level_2/Level_2_Math/PalindromeInteger.i
 
 # target to preprocess a source file
-Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i:
-	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i
-.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i
+Level_2/Level_2_Math/PalindromeInteger.cpp.i:
+	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/Level_2/Level_2_Math/PalindromeInteger.cpp.i
+.PHONY : Level_2/Level_2_Math/PalindromeInteger.cpp.i
 
-Level_2_Math/Trailing_Zeros_in_a_factorial.s: Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
+Level_2/Level_2_Math/PalindromeInteger.s: Level_2/Level_2_Math/PalindromeInteger.cpp.s
 
-.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.s
+.PHONY : Level_2/Level_2_Math/PalindromeInteger.s
 
 # target to generate assembly for a file
-Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s:
-	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
-.PHONY : Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
+Level_2/Level_2_Math/PalindromeInteger.cpp.s:
+	$(MAKE) -f CMakeFiles/PalindromeInteger.dir/build.make CMakeFiles/PalindromeInteger.dir/Level_2/Level_2_Math/PalindromeInteger.cpp.s
+.PHONY : Level_2/Level_2_Math/PalindromeInteger.cpp.s
 
-Level_2_Math/Verify_Prime.o: Level_2_Math/Verify_Prime.cpp.o
+Level_2/Level_2_Math/Prime_Numbers.o: Level_2/Level_2_Math/Prime_Numbers.cpp.o
 
-.PHONY : Level_2_Math/Verify_Prime.o
+.PHONY : Level_2/Level_2_Math/Prime_Numbers.o
 
 # target to build an object file
-Level_2_Math/Verify_Prime.cpp.o:
-	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/Level_2_Math/Verify_Prime.cpp.o
-.PHONY : Level_2_Math/Verify_Prime.cpp.o
+Level_2/Level_2_Math/Prime_Numbers.cpp.o:
+	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2/Level_2_Math/Prime_Numbers.cpp.o
+.PHONY : Level_2/Level_2_Math/Prime_Numbers.cpp.o
 
-Level_2_Math/Verify_Prime.i: Level_2_Math/Verify_Prime.cpp.i
+Level_2/Level_2_Math/Prime_Numbers.i: Level_2/Level_2_Math/Prime_Numbers.cpp.i
 
-.PHONY : Level_2_Math/Verify_Prime.i
+.PHONY : Level_2/Level_2_Math/Prime_Numbers.i
 
 # target to preprocess a source file
-Level_2_Math/Verify_Prime.cpp.i:
-	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/Level_2_Math/Verify_Prime.cpp.i
-.PHONY : Level_2_Math/Verify_Prime.cpp.i
+Level_2/Level_2_Math/Prime_Numbers.cpp.i:
+	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2/Level_2_Math/Prime_Numbers.cpp.i
+.PHONY : Level_2/Level_2_Math/Prime_Numbers.cpp.i
 
-Level_2_Math/Verify_Prime.s: Level_2_Math/Verify_Prime.cpp.s
+Level_2/Level_2_Math/Prime_Numbers.s: Level_2/Level_2_Math/Prime_Numbers.cpp.s
 
-.PHONY : Level_2_Math/Verify_Prime.s
+.PHONY : Level_2/Level_2_Math/Prime_Numbers.s
 
 # target to generate assembly for a file
-Level_2_Math/Verify_Prime.cpp.s:
-	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/Level_2_Math/Verify_Prime.cpp.s
-.PHONY : Level_2_Math/Verify_Prime.cpp.s
+Level_2/Level_2_Math/Prime_Numbers.cpp.s:
+	$(MAKE) -f CMakeFiles/Prime_Numbers.dir/build.make CMakeFiles/Prime_Numbers.dir/Level_2/Level_2_Math/Prime_Numbers.cpp.s
+.PHONY : Level_2/Level_2_Math/Prime_Numbers.cpp.s
 
-Level_2_Math/factors.o: Level_2_Math/factors.cpp.o
+Level_2/Level_2_Math/Prime_Sum.o: Level_2/Level_2_Math/Prime_Sum.cpp.o
 
-.PHONY : Level_2_Math/factors.o
+.PHONY : Level_2/Level_2_Math/Prime_Sum.o
 
 # target to build an object file
-Level_2_Math/factors.cpp.o:
-	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/Level_2_Math/factors.cpp.o
-.PHONY : Level_2_Math/factors.cpp.o
+Level_2/Level_2_Math/Prime_Sum.cpp.o:
+	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/Level_2/Level_2_Math/Prime_Sum.cpp.o
+.PHONY : Level_2/Level_2_Math/Prime_Sum.cpp.o
 
-Level_2_Math/factors.i: Level_2_Math/factors.cpp.i
+Level_2/Level_2_Math/Prime_Sum.i: Level_2/Level_2_Math/Prime_Sum.cpp.i
 
-.PHONY : Level_2_Math/factors.i
+.PHONY : Level_2/Level_2_Math/Prime_Sum.i
 
 # target to preprocess a source file
-Level_2_Math/factors.cpp.i:
-	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/Level_2_Math/factors.cpp.i
-.PHONY : Level_2_Math/factors.cpp.i
+Level_2/Level_2_Math/Prime_Sum.cpp.i:
+	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/Level_2/Level_2_Math/Prime_Sum.cpp.i
+.PHONY : Level_2/Level_2_Math/Prime_Sum.cpp.i
 
-Level_2_Math/factors.s: Level_2_Math/factors.cpp.s
+Level_2/Level_2_Math/Prime_Sum.s: Level_2/Level_2_Math/Prime_Sum.cpp.s
 
-.PHONY : Level_2_Math/factors.s
+.PHONY : Level_2/Level_2_Math/Prime_Sum.s
 
 # target to generate assembly for a file
-Level_2_Math/factors.cpp.s:
-	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/Level_2_Math/factors.cpp.s
-.PHONY : Level_2_Math/factors.cpp.s
+Level_2/Level_2_Math/Prime_Sum.cpp.s:
+	$(MAKE) -f CMakeFiles/Prime_Sum.dir/build.make CMakeFiles/Prime_Sum.dir/Level_2/Level_2_Math/Prime_Sum.cpp.s
+.PHONY : Level_2/Level_2_Math/Prime_Sum.cpp.s
+
+Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.o: Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
+
+.PHONY : Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.o
+
+# target to build an object file
+Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o:
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
+.PHONY : Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.o
+
+Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.i: Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i
+
+.PHONY : Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.i
+
+# target to preprocess a source file
+Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i:
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i
+.PHONY : Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.i
+
+Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.s: Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
+
+.PHONY : Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.s
+
+# target to generate assembly for a file
+Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s:
+	$(MAKE) -f CMakeFiles/Trailing_Zeros_in_a_factorial.dir/build.make CMakeFiles/Trailing_Zeros_in_a_factorial.dir/Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
+.PHONY : Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.cpp.s
+
+Level_2/Level_2_Math/Verify_Prime.o: Level_2/Level_2_Math/Verify_Prime.cpp.o
+
+.PHONY : Level_2/Level_2_Math/Verify_Prime.o
+
+# target to build an object file
+Level_2/Level_2_Math/Verify_Prime.cpp.o:
+	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/Level_2/Level_2_Math/Verify_Prime.cpp.o
+.PHONY : Level_2/Level_2_Math/Verify_Prime.cpp.o
+
+Level_2/Level_2_Math/Verify_Prime.i: Level_2/Level_2_Math/Verify_Prime.cpp.i
+
+.PHONY : Level_2/Level_2_Math/Verify_Prime.i
+
+# target to preprocess a source file
+Level_2/Level_2_Math/Verify_Prime.cpp.i:
+	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/Level_2/Level_2_Math/Verify_Prime.cpp.i
+.PHONY : Level_2/Level_2_Math/Verify_Prime.cpp.i
+
+Level_2/Level_2_Math/Verify_Prime.s: Level_2/Level_2_Math/Verify_Prime.cpp.s
+
+.PHONY : Level_2/Level_2_Math/Verify_Prime.s
+
+# target to generate assembly for a file
+Level_2/Level_2_Math/Verify_Prime.cpp.s:
+	$(MAKE) -f CMakeFiles/Verify_Prime.dir/build.make CMakeFiles/Verify_Prime.dir/Level_2/Level_2_Math/Verify_Prime.cpp.s
+.PHONY : Level_2/Level_2_Math/Verify_Prime.cpp.s
+
+Level_2/Level_2_Math/factors.o: Level_2/Level_2_Math/factors.cpp.o
+
+.PHONY : Level_2/Level_2_Math/factors.o
+
+# target to build an object file
+Level_2/Level_2_Math/factors.cpp.o:
+	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/Level_2/Level_2_Math/factors.cpp.o
+.PHONY : Level_2/Level_2_Math/factors.cpp.o
+
+Level_2/Level_2_Math/factors.i: Level_2/Level_2_Math/factors.cpp.i
+
+.PHONY : Level_2/Level_2_Math/factors.i
+
+# target to preprocess a source file
+Level_2/Level_2_Math/factors.cpp.i:
+	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/Level_2/Level_2_Math/factors.cpp.i
+.PHONY : Level_2/Level_2_Math/factors.cpp.i
+
+Level_2/Level_2_Math/factors.s: Level_2/Level_2_Math/factors.cpp.s
+
+.PHONY : Level_2/Level_2_Math/factors.s
+
+# target to generate assembly for a file
+Level_2/Level_2_Math/factors.cpp.s:
+	$(MAKE) -f CMakeFiles/factors.dir/build.make CMakeFiles/factors.dir/Level_2/Level_2_Math/factors.cpp.s
+.PHONY : Level_2/Level_2_Math/factors.cpp.s
+
+Level_2_Checkpoint/PrettyPrint.o: Level_2_Checkpoint/PrettyPrint.cpp.o
+
+.PHONY : Level_2_Checkpoint/PrettyPrint.o
+
+# target to build an object file
+Level_2_Checkpoint/PrettyPrint.cpp.o:
+	$(MAKE) -f CMakeFiles/PrettyPrint.dir/build.make CMakeFiles/PrettyPrint.dir/Level_2_Checkpoint/PrettyPrint.cpp.o
+.PHONY : Level_2_Checkpoint/PrettyPrint.cpp.o
+
+Level_2_Checkpoint/PrettyPrint.i: Level_2_Checkpoint/PrettyPrint.cpp.i
+
+.PHONY : Level_2_Checkpoint/PrettyPrint.i
+
+# target to preprocess a source file
+Level_2_Checkpoint/PrettyPrint.cpp.i:
+	$(MAKE) -f CMakeFiles/PrettyPrint.dir/build.make CMakeFiles/PrettyPrint.dir/Level_2_Checkpoint/PrettyPrint.cpp.i
+.PHONY : Level_2_Checkpoint/PrettyPrint.cpp.i
+
+Level_2_Checkpoint/PrettyPrint.s: Level_2_Checkpoint/PrettyPrint.cpp.s
+
+.PHONY : Level_2_Checkpoint/PrettyPrint.s
+
+# target to generate assembly for a file
+Level_2_Checkpoint/PrettyPrint.cpp.s:
+	$(MAKE) -f CMakeFiles/PrettyPrint.dir/build.make CMakeFiles/PrettyPrint.dir/Level_2_Checkpoint/PrettyPrint.cpp.s
+.PHONY : Level_2_Checkpoint/PrettyPrint.cpp.s
 
 Level_3/Binary_Search/Power.o: Level_3/Binary_Search/Power.cpp.o
 
@@ -2253,10 +2373,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Cube"
 	@echo "... Length_of_last_word"
 	@echo "... Best_Time_To_Buy_And_Sell_Stocks_I"
 	@echo "... Prime_Sum"
 	@echo "... factors"
+	@echo "... Bms_Hamming_DistanceYetAgain"
 	@echo "... HammingDistance"
 	@echo "... Trailing_Zeros_in_a_factorial"
 	@echo "... Distribute_candy"
@@ -2267,6 +2389,7 @@ help:
 	@echo "... PalindromeInteger"
 	@echo "... Stairs"
 	@echo "... ProfitSort"
+	@echo "... PrettyPrint"
 	@echo "... ValidBst"
 	@echo "... Reverse_Link_list_II"
 	@echo "... Increasing_Common_Subsequence"
@@ -2308,42 +2431,51 @@ help:
 	@echo "... InterviewBit"
 	@echo "... Add_Two_Numbers_As_Lists"
 	@echo "... ExcelColumnTitle"
-	@echo "... Level_2_Array/Coverpoint.o"
-	@echo "... Level_2_Array/Coverpoint.i"
-	@echo "... Level_2_Array/Coverpoint.s"
-	@echo "... Level_2_Math/ExcelColumnNumber.o"
-	@echo "... Level_2_Math/ExcelColumnNumber.i"
-	@echo "... Level_2_Math/ExcelColumnNumber.s"
-	@echo "... Level_2_Math/ExcelColumnTitle.o"
-	@echo "... Level_2_Math/ExcelColumnTitle.i"
-	@echo "... Level_2_Math/ExcelColumnTitle.s"
-	@echo "... Level_2_Math/GCD.o"
-	@echo "... Level_2_Math/GCD.i"
-	@echo "... Level_2_Math/GCD.s"
-	@echo "... Level_2_Math/GridUniquePath.o"
-	@echo "... Level_2_Math/GridUniquePath.i"
-	@echo "... Level_2_Math/GridUniquePath.s"
-	@echo "... Level_2_Math/HammingDistance.o"
-	@echo "... Level_2_Math/HammingDistance.i"
-	@echo "... Level_2_Math/HammingDistance.s"
-	@echo "... Level_2_Math/PalindromeInteger.o"
-	@echo "... Level_2_Math/PalindromeInteger.i"
-	@echo "... Level_2_Math/PalindromeInteger.s"
-	@echo "... Level_2_Math/Prime_Numbers.o"
-	@echo "... Level_2_Math/Prime_Numbers.i"
-	@echo "... Level_2_Math/Prime_Numbers.s"
-	@echo "... Level_2_Math/Prime_Sum.o"
-	@echo "... Level_2_Math/Prime_Sum.i"
-	@echo "... Level_2_Math/Prime_Sum.s"
-	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.o"
-	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.i"
-	@echo "... Level_2_Math/Trailing_Zeros_in_a_factorial.s"
-	@echo "... Level_2_Math/Verify_Prime.o"
-	@echo "... Level_2_Math/Verify_Prime.i"
-	@echo "... Level_2_Math/Verify_Prime.s"
-	@echo "... Level_2_Math/factors.o"
-	@echo "... Level_2_Math/factors.i"
-	@echo "... Level_2_Math/factors.s"
+	@echo "... Coding_Challenges/Bms_Hamming_DistanceYetAgain.o"
+	@echo "... Coding_Challenges/Bms_Hamming_DistanceYetAgain.i"
+	@echo "... Coding_Challenges/Bms_Hamming_DistanceYetAgain.s"
+	@echo "... Coding_Challenges/Cube.o"
+	@echo "... Coding_Challenges/Cube.i"
+	@echo "... Coding_Challenges/Cube.s"
+	@echo "... Level_2/Level_2_Array/Coverpoint.o"
+	@echo "... Level_2/Level_2_Array/Coverpoint.i"
+	@echo "... Level_2/Level_2_Array/Coverpoint.s"
+	@echo "... Level_2/Level_2_Math/ExcelColumnNumber.o"
+	@echo "... Level_2/Level_2_Math/ExcelColumnNumber.i"
+	@echo "... Level_2/Level_2_Math/ExcelColumnNumber.s"
+	@echo "... Level_2/Level_2_Math/ExcelColumnTitle.o"
+	@echo "... Level_2/Level_2_Math/ExcelColumnTitle.i"
+	@echo "... Level_2/Level_2_Math/ExcelColumnTitle.s"
+	@echo "... Level_2/Level_2_Math/GCD.o"
+	@echo "... Level_2/Level_2_Math/GCD.i"
+	@echo "... Level_2/Level_2_Math/GCD.s"
+	@echo "... Level_2/Level_2_Math/GridUniquePath.o"
+	@echo "... Level_2/Level_2_Math/GridUniquePath.i"
+	@echo "... Level_2/Level_2_Math/GridUniquePath.s"
+	@echo "... Level_2/Level_2_Math/HammingDistance.o"
+	@echo "... Level_2/Level_2_Math/HammingDistance.i"
+	@echo "... Level_2/Level_2_Math/HammingDistance.s"
+	@echo "... Level_2/Level_2_Math/PalindromeInteger.o"
+	@echo "... Level_2/Level_2_Math/PalindromeInteger.i"
+	@echo "... Level_2/Level_2_Math/PalindromeInteger.s"
+	@echo "... Level_2/Level_2_Math/Prime_Numbers.o"
+	@echo "... Level_2/Level_2_Math/Prime_Numbers.i"
+	@echo "... Level_2/Level_2_Math/Prime_Numbers.s"
+	@echo "... Level_2/Level_2_Math/Prime_Sum.o"
+	@echo "... Level_2/Level_2_Math/Prime_Sum.i"
+	@echo "... Level_2/Level_2_Math/Prime_Sum.s"
+	@echo "... Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.o"
+	@echo "... Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.i"
+	@echo "... Level_2/Level_2_Math/Trailing_Zeros_in_a_factorial.s"
+	@echo "... Level_2/Level_2_Math/Verify_Prime.o"
+	@echo "... Level_2/Level_2_Math/Verify_Prime.i"
+	@echo "... Level_2/Level_2_Math/Verify_Prime.s"
+	@echo "... Level_2/Level_2_Math/factors.o"
+	@echo "... Level_2/Level_2_Math/factors.i"
+	@echo "... Level_2/Level_2_Math/factors.s"
+	@echo "... Level_2_Checkpoint/PrettyPrint.o"
+	@echo "... Level_2_Checkpoint/PrettyPrint.i"
+	@echo "... Level_2_Checkpoint/PrettyPrint.s"
 	@echo "... Level_3/Binary_Search/Power.o"
 	@echo "... Level_3/Binary_Search/Power.i"
 	@echo "... Level_3/Binary_Search/Power.s"
