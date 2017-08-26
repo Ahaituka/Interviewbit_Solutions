@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Sachin_Sweets
+
+# Build rule for target.
+Sachin_Sweets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Sachin_Sweets
+.PHONY : Sachin_Sweets
+
+# fast build rule for target.
+Sachin_Sweets/fast:
+	$(MAKE) -f CMakeFiles/Sachin_Sweets.dir/build.make CMakeFiles/Sachin_Sweets.dir/build
+.PHONY : Sachin_Sweets/fast
+
+#=============================================================================
+# Target rules for targets named Bank_Accounts
+
+# Build rule for target.
+Bank_Accounts: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Bank_Accounts
+.PHONY : Bank_Accounts
+
+# fast build rule for target.
+Bank_Accounts/fast:
+	$(MAKE) -f CMakeFiles/Bank_Accounts.dir/build.make CMakeFiles/Bank_Accounts.dir/build
+.PHONY : Bank_Accounts/fast
+
+#=============================================================================
 # Target rules for targets named Cube
 
 # Build rule for target.
@@ -904,6 +930,60 @@ Coding_Challenges/Cube.s: Coding_Challenges/Cube.cpp.s
 Coding_Challenges/Cube.cpp.s:
 	$(MAKE) -f CMakeFiles/Cube.dir/build.make CMakeFiles/Cube.dir/Coding_Challenges/Cube.cpp.s
 .PHONY : Coding_Challenges/Cube.cpp.s
+
+Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.o: Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.o
+
+.PHONY : Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.o
+
+# target to build an object file
+Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.o:
+	$(MAKE) -f CMakeFiles/Bank_Accounts.dir/build.make CMakeFiles/Bank_Accounts.dir/Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.o
+.PHONY : Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.o
+
+Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.i: Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.i
+
+.PHONY : Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.i
+
+# target to preprocess a source file
+Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.i:
+	$(MAKE) -f CMakeFiles/Bank_Accounts.dir/build.make CMakeFiles/Bank_Accounts.dir/Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.i
+.PHONY : Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.i
+
+Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.s: Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.s
+
+.PHONY : Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.s
+
+# target to generate assembly for a file
+Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.s:
+	$(MAKE) -f CMakeFiles/Bank_Accounts.dir/build.make CMakeFiles/Bank_Accounts.dir/Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.s
+.PHONY : Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.cpp.s
+
+Coding_Challenges/TechGig_VCL/Sachin_Sweets.o: Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.o
+
+.PHONY : Coding_Challenges/TechGig_VCL/Sachin_Sweets.o
+
+# target to build an object file
+Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.o:
+	$(MAKE) -f CMakeFiles/Sachin_Sweets.dir/build.make CMakeFiles/Sachin_Sweets.dir/Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.o
+.PHONY : Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.o
+
+Coding_Challenges/TechGig_VCL/Sachin_Sweets.i: Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.i
+
+.PHONY : Coding_Challenges/TechGig_VCL/Sachin_Sweets.i
+
+# target to preprocess a source file
+Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.i:
+	$(MAKE) -f CMakeFiles/Sachin_Sweets.dir/build.make CMakeFiles/Sachin_Sweets.dir/Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.i
+.PHONY : Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.i
+
+Coding_Challenges/TechGig_VCL/Sachin_Sweets.s: Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.s
+
+.PHONY : Coding_Challenges/TechGig_VCL/Sachin_Sweets.s
+
+# target to generate assembly for a file
+Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.s:
+	$(MAKE) -f CMakeFiles/Sachin_Sweets.dir/build.make CMakeFiles/Sachin_Sweets.dir/Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.s
+.PHONY : Coding_Challenges/TechGig_VCL/Sachin_Sweets.cpp.s
 
 Level_2/Level_2_Array/Coverpoint.o: Level_2/Level_2_Array/Coverpoint.cpp.o
 
@@ -2373,6 +2453,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Sachin_Sweets"
+	@echo "... Bank_Accounts"
 	@echo "... Cube"
 	@echo "... Length_of_last_word"
 	@echo "... Best_Time_To_Buy_And_Sell_Stocks_I"
@@ -2437,6 +2519,12 @@ help:
 	@echo "... Coding_Challenges/Cube.o"
 	@echo "... Coding_Challenges/Cube.i"
 	@echo "... Coding_Challenges/Cube.s"
+	@echo "... Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.o"
+	@echo "... Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.i"
+	@echo "... Coding_Challenges/Goldman_Sachs_CodeSprint/Bank_Accounts.s"
+	@echo "... Coding_Challenges/TechGig_VCL/Sachin_Sweets.o"
+	@echo "... Coding_Challenges/TechGig_VCL/Sachin_Sweets.i"
+	@echo "... Coding_Challenges/TechGig_VCL/Sachin_Sweets.s"
 	@echo "... Level_2/Level_2_Array/Coverpoint.o"
 	@echo "... Level_2/Level_2_Array/Coverpoint.i"
 	@echo "... Level_2/Level_2_Array/Coverpoint.s"

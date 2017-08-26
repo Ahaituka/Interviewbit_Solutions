@@ -29,7 +29,6 @@ Using 2 swaps (1,2) and (3,4) on the second string we get 1010, thus distance(â€
 
 #include <cstdio>
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
@@ -54,8 +53,8 @@ int main() {
             yone++;
 
     }
-    //if(xzero==yzero and xone==yone)
-    // cout<<(abs(xzero-yzero)+abs(xone-yone));
-    cout << pow(2, 3);
+    if (xzero == yzero and xone == yone)
+        cout << (abs(xzero - yzero) + abs(xone - yone));
+
     return 0;
 }
